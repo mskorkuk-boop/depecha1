@@ -1,0 +1,972 @@
+{
+ "date": "2026-11-06",
+ "number": 1,
+ "format": 2,
+ "stories": [
+  {
+   "id": "midterms",
+   "rubric": "politics",
+   "developing": false,
+   "event": {
+    "ru": "Промежуточные выборы в США",
+    "fr": "Élections de mi-mandat aux États-Unis",
+    "en": "US midterm elections",
+    "de": "US-Zwischenwahlen",
+    "sk": "Voľby do Kongresu USA",
+    "ro": "Alegerile intermediare din SUA",
+    "el": "Ενδιάμεσες εκλογές στις ΗΠΑ",
+    "ja": "米中間選挙"
+   },
+   "t": {
+    "ru": {
+     "h": "В США демократы, по прогнозам, получают контроль над Конгрессом",
+     "s": "Голосование завершилось во всех штатах, последними закрылись участки на Аляске. По прогнозу NBC News, демократы займут 53 места из 100 в Сенате и 255 мест в Палате представителей при минимальных 218 для большинства.",
+     "src": [
+      {
+       "n": "Интерфакс",
+       "u": "https://www.interfax.ru/world/1126940",
+       "d": "2026-11-04"
+      }
+     ]
+    },
+    "fr": {
+     "h": "Élections : Trump se plaint du cas de l'Alaska, les démocrates en ordre de marche",
+     "s": "Au lendemain d'une « déroute cinglante » du camp républicain, Donald Trump conteste l'issue encore incertaine en Alaska, où la démocrate Mary Peltola devance Dan Sullivan d'environ 600 voix. Au Sénat, sept sièges républicains ont déjà basculé, dont le Texas, et les démocrates tiennent désormais les deux chambres.",
+     "src": [
+      {
+       "n": "AFP via Bourse Direct",
+       "u": "https://www.boursedirect.fr/fr/actualites/categorie/a-la-une/elections-trump-se-plaint-du-cas-de-l-alaska-les-democrates-en-ordre-de-marche-afp-0bbf29f7dd51cce1e101c3209339c0e576aca118",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "en": {
+     "h": "'Seismic shift': World reacts to US midterm election results",
+     "s": "Democrats took both chambers of Congress, and Vice President JD Vance blamed the Iran war for the Republican defeat. Iran's chief negotiator said Americans had \"said NO TO WAR\", the Kremlin hoped Trump would keep up his peace efforts, and EU foreign policy chief Kaja Kallas looked for more support for Ukraine.",
+     "src": [
+      {
+       "n": "Al Jazeera",
+       "u": "https://www.aljazeera.com/news/2026/11/4/seismic-shift-world-reacts-to-us-midterm-election-results",
+       "d": "2026-11-04"
+      },
+      {
+       "n": "CBS News",
+       "u": "https://www.cbsnews.com/news/us-midterm-election-results-2026-foreign-reaction/",
+       "d": "2026-11-04"
+      }
+     ]
+    },
+    "de": {
+     "h": "„Jeder weiß, warum wir verloren haben“: JD Vance distanziert sich von Trump – dieser verteidigt den Iran-Krieg",
+     "s": "US-Vizepräsident Vance macht den Iran-Krieg für die Niederlage der Republikaner bei den Kongresswahlen verantwortlich und grenzt sich damit öffentlich von Trump ab. Trump hält am Krieg fest, sieht die Ursache vor allem in den gestiegenen Spritpreisen und weist persönliche Verantwortung zurück.",
+     "src": [
+      {
+       "n": "Tagesspiegel",
+       "u": "https://tagesspiegel.de/internationales/jeder-weiss-warum-wir-verloren-haben-jd-vance-distanziert-sich-von-trumps-iran-krieg-16243067.html",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "sk": {
+     "h": "Demokrati získali kontrolu nad Kongresom USA",
+     "s": "Podľa projekcií NBC News demokrati ovládli Snemovňu reprezentantov aj Senát; víťazstvá v Iowe a Kansase im zabezpečili najmenej 51 zo 100 kresiel v Senáte. Voľby sú tradične hodnotením prezidenta a Trump pre New York Times vyhlásil, že výsledky akceptuje.",
+     "src": [
+      {
+       "n": "TASR",
+       "u": "https://www.teraz.sk/zahranicie/demokrati-ziskali-kontrolu-nad-kongreso/1004979-clanok.html",
+       "d": "2026-11-04"
+      }
+     ]
+    },
+    "ro": {
+     "h": "„Nu aveți pe cine să dați vina decât pe voi înșivă”. Trump, reacție furioasă la adresa democraților și a electoratului",
+     "s": "Trump i-a numit pe democrați „Tâmpocraţi” pe Truth Social, apoi a dat vina pe alegători, refuzând în continuare să-și asume înfrângerea republicanilor de la alegerile din 3 noiembrie. Reacția a venit după una dintre cele mai severe prăbușiri ale burselor americane din ultimii ani.",
+     "src": [
+      {
+       "n": "Mediafax",
+       "u": "https://www.mediafax.ro/externe/nu-aveti-pe-cine-sa-dati-vina-decat-pe-voi-insiva-trump-reactie-furioasa-la-adresa-democratilor-si-a-electoratului-dupa-prabusirea-pietei-bursiere-23838647",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "el": {
+     "h": "Οι Δημοκρατικοί πήραν τον έλεγχο σε Βουλή και Γερουσία σε μία ιστορική νίκη – Συντριβή για τους Ρεπουμπλικάνους του Τραμπ",
+     "s": "Η ψήφος αποτιμά το πολιτικό κόστος της πρώτης διετίας Τραμπ, καθώς η δυσαρέσκεια για την ακρίβεια και τον πόλεμο στο Ιράν έγινε κοινοβουλευτική πλειοψηφία. Ιστορικές ανατροπές σε Τέξας, Καρολίνες και Κάνσας· ο Τραμπ συνεχάρη τους αντιπάλους του και έριξε ευθύνες στο Fox News.",
+     "src": [
+      {
+       "n": "Ναυτεμπορική",
+       "u": "https://www.naftemporiki.gr/kosmos/2184087/live-endiameses-ekloges-ipa-ta-apotelesmata-kai-to-neo-topio-se-voyli-kai-geroysia-pros-istoriki-niki-oi-dimokratikoi/",
+       "d": "2026-11-04"
+      }
+     ]
+    },
+    "ja": {
+     "h": "米民主党、下院で250議席超を獲得へ　上院はアラスカなど2州で大接戦",
+     "s": "CNNの予測では、民主党は下院で250議席を超え、2008年以来の最多議席となる見通し。上院では54議席を確保し、アラスカ州とミシシッピ州の結果次第で55～56議席に伸びる。共和党内では惨敗の原因としてイラン戦争が挙げられている。",
+     "src": [
+      {
+       "n": "CNN.co.jp",
+       "u": "https://www.cnn.co.jp/usa/35254468.html",
+       "d": "2026-11-06"
+      }
+     ]
+    }
+   },
+   "thread": "us-politics",
+   "region": "north-america"
+  },
+  {
+   "id": "boe",
+   "rubric": "economy",
+   "developing": false,
+   "event": {
+    "ru": "Банк Англии повысил ставку",
+    "fr": "La Banque d'Angleterre relève son taux",
+    "en": "Bank of England raises rates",
+    "de": "Bank of England erhöht den Leitzins",
+    "sk": "Bank of England zvýšila sadzby",
+    "ro": "Banca Angliei majorează dobânda",
+    "el": "Η Τράπεζα της Αγγλίας αυξάνει τα επιτόκια",
+    "ja": "英中銀が利上げ"
+   },
+   "t": {
+    "ru": {
+     "h": "Банк Англии ожидаемо повысил ключевую ставку на 25 б.п., до 4% годовых",
+     "s": "За повышение проголосовали восемь из девяти членов комитета, один предлагал шаг в 50 б.п. Регулятор объясняет ужесточение затянувшимся конфликтом на Ближнем Востоке и дорожающими энергоносителями. Инфляция, составлявшая в сентябре 3,5%, к середине следующего года «приблизится к 5%».",
+     "src": [
+      {
+       "n": "Интерфакс",
+       "u": "https://www.interfax.ru/business/1127188",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "en": {
+     "h": "Bank of England raises interest rates",
+     "s": "The MPC raised Bank Rate by a quarter point to 4% in an 8–1 vote, its first rise in three years, with one member wanting a half-point move. It expects CPI inflation, 3.5% in September, to reach about 5% by mid-2027 on Middle East energy prices. A £250,000 tracker mortgage costs about £37 a month more.",
+     "src": [
+      {
+       "n": "MoneyWeek",
+       "u": "https://moneyweek.com/economy/news/live/uk-interest-rates-november-bank-of-england",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "sk": {
+     "h": "BoE zvýšila kľúčovú úrokovú sadzbu o 25 bázických bodov na 4 %",
+     "s": "Ide o prvé sprísnenie menovej politiky od začiatku vojny s Iránom; rozhodnutie padlo pomerom 8:1. Dôvodom je rast cien energií v dôsledku konfliktu na Blízkom východe, inflácia by do polovice budúceho roka mala vzrásť približne na 5 %.",
+     "src": [
+      {
+       "n": "TASR",
+       "u": "https://www.teraz.sk/ekonomika/boe-zvysila-klucovu-urokovu-sadz/1005393-clanok.html",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "el": {
+     "h": "Τράπεζα της Αγγλίας: Πρώτη αύξηση επιτοκίων μετά από 3 χρόνια – Πρόβλεψη για πληθωρισμό 5% το 2027",
+     "s": "Το βασικό επιτόκιο αυξήθηκε κατά 25 μονάδες βάσης στο 4%, σε ένα κύμα αυξήσεων από Fed, ΕΚΤ και Τράπεζα της Ιαπωνίας λόγω της ακριβής ενέργειας από τον πόλεμο στο Ιράν. Ο Άντριου Μπέιλι είπε ότι δεν είναι η αρχή μακράς σειράς αυξήσεων, αλλά αν δεν λυθεί η σύγκρουση, μάλλον δεν θα είναι η τελευταία.",
+     "src": [
+      {
+       "n": "Ναυτεμπορική",
+       "u": "https://www.naftemporiki.gr/finance/world/2184956/trapeza-tis-agglias-proti-ayxisi-epitokion-meta-apo-3-chronia-provlepsi-gia-plithorismo-5-to-2027/",
+       "d": "2026-11-05"
+      }
+     ]
+    }
+   },
+   "thread": "boe-rates",
+   "region": "europe"
+  },
+  {
+   "id": "france",
+   "rubric": "social",
+   "developing": true,
+   "event": {
+    "ru": "Всеобщая забастовка во Франции",
+    "fr": "Grève interprofessionnelle du 5 novembre",
+    "en": "France's general strike",
+    "de": "Generalstreik in Frankreich",
+    "sk": "Generálny štrajk vo Francúzsku",
+    "ro": "Greva generală din Franța",
+    "el": "Γενική απεργία στη Γαλλία",
+    "ja": "フランスの全国スト"
+   },
+   "t": {
+    "ru": {
+     "h": "Более 570 тыс. человек участвовали в акциях всеобщей забастовки во Франции",
+     "s": "По данным МВД, на улицы вышли 575 тыс. человек, по подсчётам ВКТ около 1,6 млн. Участники, к которым присоединились «жёлтые жилеты» и студенты, требовали защитить «заработные платы, рабочие места и промышленность». Задержаны 448 человек, пострадали 53 сотрудника правоохранительных органов.",
+     "src": [
+      {
+       "n": "Интерфакс",
+       "u": "https://www.interfax.ru/world/1127294",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "fr": {
+     "h": "Manifestations du 5 novembre : 1,57 million de personnes selon la CGT, 448 interpellations",
+     "s": "La CGT revendique 1 573 000 manifestants dans 207 villes, dont 350 000 à Paris ; le ministère de l'Intérieur en compte 575 000. Heurts à Toulouse et à Lyon, 53 policiers et gendarmes blessés. Sébastien Lecornu réunit syndicats et patronat à Matignon lundi 9 novembre sur les salaires et le pouvoir d'achat.",
+     "src": [
+      {
+       "n": "Politique Matin",
+       "u": "https://www.politiquematin.fr/manifestations-5-novembre-2026-bilan-cgt-interpellations",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "en": {
+     "h": "France prepares for a general strike this Thursday, November 5",
+     "s": "A united union front called a nationwide strike across public and private sectors, driven by inflation and economic insecurity and fed by a youth protest movement growing since early October. Unions demand higher wages and pensions and more money for public services and social security.",
+     "src": [
+      {
+       "n": "NSS Magazine",
+       "u": "https://www.nssmag.com/en/lifestyle/47510/november-5-strike-convergence-high-schoolers-macro-protests",
+       "d": "2026-11-04"
+      }
+     ]
+    },
+    "sk": {
+     "h": "Do protestov vo Francúzsku sa zapojilo 600.000 ľudí",
+     "s": "Odbory žiadajú vyššie mzdy a podporujú protestné hnutie na stredných školách, pretože krajina je podľa nich na pokraji recesie. Väčšina zhromaždení prebehla pokojne, no došlo aj k potýčkam; minister vnútra nasadil 70-tisíc policajtov.",
+     "src": [
+      {
+       "n": "TASR",
+       "u": "https://www.teraz.sk/zahranicie/do-protestov-vo-francuzsku-sa-zapojilo/1005498-clanok.html",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "ja": {
+     "h": "フランス全土で大規模デモ、最多の57万人超が参加　警察と衝突も",
+     "s": "政府推計で約57万5000人が参加し、9月から続く抗議活動で最多となった。学生の学校環境改善要求に始まった運動は、労組や「黄色いベスト」も加わり、生活費の上昇や格差への批判へと広がっている。内務省によると448人が拘束された。",
+     "src": [
+      {
+       "n": "CNN.co.jp",
+       "u": "https://www.cnn.co.jp/world/35254473.html",
+       "d": "2026-11-06"
+      }
+     ]
+    }
+   },
+   "thread": "france-protests",
+   "region": "europe"
+  },
+  {
+   "id": "iran",
+   "rubric": "milpol",
+   "developing": true,
+   "event": {
+    "ru": "США и Иран: решение Трампа",
+    "fr": "Iran : la décision de Trump",
+    "en": "Iran: Trump's decision",
+    "de": "Iran: Trumps Entscheidung",
+    "sk": "Irán: Trumpovo rozhodnutie",
+    "ro": "Iran: decizia lui Trump",
+    "el": "Ιράν: η απόφαση Τραμπ",
+    "ja": "イラン：トランプ氏の判断"
+   },
+   "t": {
+    "ru": {
+     "h": "Трамп провёл первое после выборов совещание по Ирану со своей командой",
+     "s": "Трамп выбирает между новыми ударами, сохранением экономического нажима и соглашением; после встречи он сказал: «Теперь мы примем решение». CENTCOM завершает подготовку к возможному возобновлению крупных операций, авианосная группа «Теодор Рузвельт» прибудет на Ближний Восток не раньше середины ноября.",
+     "src": [
+      {
+       "n": "Интерфакс",
+       "u": "https://www.interfax.ru/world/1127322",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "fr": {
+     "h": "Incertitude quant à la suite pour Trump en Iran après la défaite républicaine",
+     "s": "Trump doit décider comment gérer une guerre jugée impopulaire, entamée il y a huit mois, et assure que les revers électoraux ne changent pas ses calculs. Des responsables du Moyen-Orient craignent des frappes, des médiateurs y voient une ouverture diplomatique ; Benyamin Nétanyahou aurait réclamé de nouvelles frappes sans engagement ferme de Trump.",
+     "src": [
+      {
+       "n": "Noovo Info",
+       "u": "https://www.noovo.info/nouvelles/international/etats-unis/article/incertitude-quant-a-la-suite-pour-trump-en-iran-apres-la-defaite-republicaine/",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "en": {
+     "h": "Trump says Iran war decision coming soon",
+     "s": "After his first Iran meeting since the midterms, Trump said: \"Now we will make a decision.\" Qatari mediators are discussing a phased draft: lifting the US blockade and releasing some frozen funds, then reopening the Strait of Hormuz and starting nuclear talks. Gulf News stresses that no deal or date for direct talks is confirmed.",
+     "src": [
+      {
+       "n": "Egyptian Gazette",
+       "u": "https://egyptian-gazette.com/world/trump-says-iran-war-decision-coming-soon/",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "Gulf News",
+       "u": "https://gulfnews.com/world/mena/usisrael-iran-standoff-what-uae-residents-should-know-this-evening-1.500737389",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "de": {
+     "h": "Die Folgen der Midterms für den Iran-Krieg: „Trump hat keine überzeugende Theorie des Sieges“",
+     "s": "Der Experte Peter Neumann meint, Trump wolle nicht als offensichtlicher Verlierer dastehen und könnte einen neuen Anlauf nehmen. Parallel zu den Verhandlungen in Katar baue er militärischen Druck auf, um Zugeständnisse zu erzwingen; Neumann bezweifelt den Erfolg und rechnet eher mit erneuter Konfrontation.",
+     "src": [
+      {
+       "n": "Tagesspiegel",
+       "u": "https://tagesspiegel.de/internationales/die-folgen-der-midterms-fur-den-iran-krieg-trump-hat-keine-uberzeugende-theorie-des-sieges-16248747.html",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "sk": {
+     "h": "Trump: USA budú musieť v istom bode na Irán tvrdo udrieť",
+     "s": "Na predvolebnom zhromaždení v Iowe Trump pohrozil Iránu ďalšími krokmi, ak Teherán nepristúpi na dohodu, a označil ho za najväčšieho podporovateľa terorizmu. Netanjahu podľa Axiosu nalieha na obnovenie útokov po voľbách, Trump zatiaľ uprednostňuje rokovania.",
+     "src": [
+      {
+       "n": "TASR",
+       "u": "https://www.teraz.sk/zahranicie/trump-usa-budu-musiet-v-istom-bode-na/1004423-clanok.html",
+       "d": "2026-11-02"
+      }
+     ]
+    },
+    "el": {
+     "h": "Σενάρια για ένα αποκαλυπτικό πυρηνικό πλήγμα στο Ιράν – Ένας απεγνωσμένος Τραμπ απέναντι στο αμερικανικό «όχι» στον πόλεμο",
+     "s": "Το δημοσίευμα, βασισμένο στην Independent, μεταφέρει τον ισχυρισμό του Τάκερ Κάρλσον ότι η κυβέρνηση ίσως απέχει λίγα 24ωρα από πυρηνικό πλήγμα, τονίζοντας ότι η πληροφορία χρειάζεται σκεπτικισμό. Υπενθυμίζει ότι ο Τραμπ αποκλείει πυρηνική χρήση, αλλά η ασυνέπεια και η πίεση μετά τις εκλογές κάνουν την εξέλιξη απρόβλεπτη.",
+     "src": [
+      {
+       "n": "Ναυτεμπορική",
+       "u": "https://www.naftemporiki.gr/society/2185085/senaria-gia-ena-apokalyptiko-pyriniko-pligma-sto-iran-enas-apegonsmenos-tramp-apenanti-sto-amerikaniko-ochi-ston-polemo/",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "ja": {
+     "h": "イラン攻撃再開判断「急がず」　米大統領、中間選挙後が焦点",
+     "s": "トランプ大統領はアクシオスの電話インタビューで、攻撃再開の判断を「急いでいない」と語り、イランに経済的打撃を与えた米国が優位にあると主張した。仲介国カタールは直接交渉の再開を目指す合意案を作成し、両国の回答を待っている。",
+     "src": [
+      {
+       "n": "共同通信（熊本日日新聞）",
+       "u": "https://kumanichi.com/articles/2053599",
+       "d": "2026-11-03"
+      }
+     ]
+    }
+   },
+   "thread": "us-iran",
+   "region": "middle-east"
+  },
+  {
+   "id": "ukraine",
+   "rubric": "milpol",
+   "developing": true,
+   "event": {
+    "ru": "Россия и Украина в Белом доме",
+    "fr": "Russes et Ukrainiens à la Maison-Blanche",
+    "en": "Russia and Ukraine at the White House",
+    "de": "Russland und Ukraine im Weißen Haus",
+    "sk": "Rusko a Ukrajina v Bielom dome",
+    "ro": "Rusia și Ucraina la Casa Albă",
+    "el": "Ρωσία και Ουκρανία στον Λευκό Οίκο",
+    "ja": "ホワイトハウスにロシアとウクライナ"
+   },
+   "t": {
+    "ru": {
+     "h": "Дмитриев отметил ключевую роль Мелании Трамп в успехе операции в Алешках",
+     "s": "Спецпредставитель президента РФ заявил, что первая леди сыграла «определяющую роль» в гуманитарной операции в Алешках и продолжит заниматься воссоединением семей и защитой детей. Мелания Трамп выразила готовность выступить посредником для прекращения огня в Алешках и Херсонской области.",
+     "src": [
+      {
+       "n": "Интерфакс",
+       "u": "https://www.interfax.ru/russia/1127273",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "en": {
+     "h": "Melania Trump calls for peace at meeting with Russia, Ukraine officials",
+     "s": "Kirill Dmitriev and Yana Lantratova attended for Russia, David Arakhamia and Dmytro Lubinets for Ukraine. The first lady urged them to build on the six-day truce in Oleshky, which let nearly 800 people leave. Three-way talks follow in Abu Dhabi on November 10–11.",
+     "src": [
+      {
+       "n": "Al Jazeera",
+       "u": "https://www.aljazeera.com/news/2026/11/5/melania-trump-calls-for-peace-at-meeting-with-russia-ukraine-officials",
+       "d": "2026-11-05"
+      },
+      {
+       "n": "RFE/RL",
+       "u": "https://www.rferl.org/a/us-russia-ukraine-peace-talks-abu-dhabi-ceasefire/33889451.html",
+       "d": "2026-11-03"
+      }
+     ]
+    },
+    "de": {
+     "h": "Ukraine-Krieg: Kremlunterhändler Dmitrijew spricht im Weißen Haus",
+     "s": "Dmitrijew dankte im Namen Putins für Melania Trumps „herausragende humanitäre Rolle“ bei der Waffenruhe im russisch besetzten Oleschky; es war offenbar das erste persönliche Treffen beider Seiten im Weißen Haus. Der Beitrag betont, dass die First Lady einem Putin-Vertrauten eine besondere Bühne bietet, während ein Durchbruch weiter ausbleibt.",
+     "src": [
+      {
+       "n": "Tagesspiegel / dpa",
+       "u": "https://www.tagesspiegel.de/internationales/dpa-ukraine-krieg-kremlunterhandler-dmitrijew-spricht-im-weissen-haus-16247596.html",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "sk": {
+     "h": "Trumpová hostila predstaviteľov Ukrajiny a Ruska, vyzvala na prímerie",
+     "s": "Prvá dáma vyzvala na „trvalejšie“ prímerie a pripomenula dohodu o zastavení bojov v okupovanom meste Olešky, ktorá umožnila odmínovanie ciest a evakuáciu civilistov. Dmitrijev jej angažovanosť ocenil a Zelenskyj jej udelil ukrajinské štátne vyznamenanie.",
+     "src": [
+      {
+       "n": "TASR",
+       "u": "https://www.teraz.sk/zahranicie/trumpova-hostila-predstavitelov-ukraji/1005503-clanok.html",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "ro": {
+     "h": "Jared Kushner propune cinci obiective pentru securitatea Europei, înaintea discuțiilor de pace dintre Ucraina și Rusia",
+     "s": "Înaintea discuțiilor de la Abu Dhabi, Kushner propune consultări regulate, linii de comunicare pentru crize, transparență militară, pași de dezescaladare și un cadru de securitate pe termen lung. Planul nu cere Ucrainei să renunțe la NATO: „nicio țară nu va avea drept de veto asupra alegerilor suverane ale alteia”.",
+     "src": [
+      {
+       "n": "Mediafax",
+       "u": "https://www.mediafax.ro/externe/jared-kushner-propune-cinci-obiective-pentru-securitatea-europei-inaintea-discutiilor-de-pace-dintre-ucraina-si-rusia-23838527",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "el": {
+     "h": "Μελάνια Τραμπ: Ζητά την επίτευξη «πιο μόνιμης» εκεχειρίας στην Ουκρανία",
+     "s": "Υποδεχόμενη αντιπροσωπείες από Μόσχα και Κίεβο, η Πρώτη Κυρία αναφέρθηκε στην προσωρινή εκεχειρία στο Ολέσκι, πόλη υπό ρωσική κατοχή. «Μαζί, μπορούμε να δημιουργήσουμε κάτι πιο σταθερό και διαρκές», είπε.",
+     "src": [
+      {
+       "n": "Ναυτεμπορική",
+       "u": "https://www.naftemporiki.gr/kosmos/2185121/melania-tramp-zita-tin-epiteyxi-pio-monimis-ekecheirias-stin-oykrania/",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "ja": {
+     "h": "メラニア氏、ロシアとウクライナの代表をホワイトハウスに招待へ",
+     "s": "メラニア氏の事務所はこれを「米大統領夫人による前例のない外交的取り組み」と位置づけた。招かれたのはウクライナのルビネツ人権オンブズマンとロシアのラントラトワ氏で、メラニア氏は先月、南部オレシュキでの停戦実現を発表していた。",
+     "src": [
+      {
+       "n": "CNN.co.jp",
+       "u": "https://www.cnn.co.jp/world/35254406.html",
+       "d": "2026-11-05"
+      }
+     ]
+    }
+   },
+   "thread": "ukraine-peace",
+   "region": "russia-ukraine"
+  },
+  {
+   "id": "nato-cuas",
+   "rubric": "miltech",
+   "developing": false,
+   "event": {
+    "ru": "Площадка НАТО для закупок средств ПБЛА",
+    "fr": "La plateforme anti-drones de l'OTAN",
+    "en": "NATO's counter-drone marketplace",
+    "de": "NATO-Plattform für Drohnenabwehr",
+    "sk": "Platforma NATO na protidronovú obranu",
+    "ro": "Platforma antidrone a NATO",
+    "el": "Η πλατφόρμα αντι-drone του ΝΑΤΟ",
+    "ja": "NATOの対ドローン調達基盤"
+   },
+   "t": {
+    "en": {
+     "h": "NATO accelerates procurement for counter-drone technologies",
+     "s": "NATO's C-UAS marketplace lets Allies buy selected systems from a catalogue without a new tender: 16 solutions from Alta Ares, Axon, Northrop Grumman, OSL UK and Quantum Systems. It sits within Drone Edge and the Allies' pledge of over $40bn for counter-drone capabilities over five years.",
+     "src": [
+      {
+       "n": "Eurasia Review",
+       "u": "https://www.eurasiareview.com/05112026-nato-accelerates-procurement-for-counter-drone-technologies/",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "sk": {
+     "h": "NATO spustila platformu na nákup protidronovej obrany členskými štátmi",
+     "s": "Claudio Palestini z NATO opísal platformu ako „veľmi jednoduchý systém“ podobný internetovému obchodu; techniku z Británie, Francúzska, Nemecka a USA možno kúpiť alebo prenajať za najviac 28 miliónov dolárov. Ide o elektronické rušenie aj stíhacie drony, ktoré majú nahradiť drahé zostreľovanie lacných dronov raketami.",
+     "src": [
+      {
+       "n": "TASR",
+       "u": "https://www.teraz.sk/zahranicie/nato-spustila-platformu-na-nakup-protid/1005512-clanok.html",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "ro": {
+     "h": "NATO lansează o platformă online pentru achiziția de echipamente antidrone. Cât costă sistemele disponibile statelor membre",
+     "s": "Platforma, construită pe modelul unui magazin online, răspunde incidentelor cu drone din Europa, care au afectat și România. Alianța a semnat 16 contracte cu cinci companii, la prețuri între 1,6 și 25 de milioane de euro per sistem.",
+     "src": [
+      {
+       "n": "Mediafax",
+       "u": "https://www.mediafax.ro/externe/nato-lanseaza-o-platforma-online-pentru-achizitia-de-echipamente-antidrone-cat-costa-sistemele-disponibile-statelor-membre-23838634",
+       "d": "2026-11-06"
+      }
+     ]
+    }
+   },
+   "thread": "nato-drones",
+   "region": "europe"
+  },
+  {
+   "id": "de-arms",
+   "rubric": "milecon",
+   "developing": false,
+   "event": {
+    "ru": "Германия и отказ от американского оружия",
+    "fr": "L'Allemagne et les armes américaines",
+    "en": "Germany and US-made weapons",
+    "de": "Deutschland und US-Rüstungsgüter",
+    "sk": "Nemecko a americké zbrane",
+    "ro": "Germania și armamentul american",
+    "el": "Η Γερμανία και τα αμερικανικά όπλα",
+    "ja": "ドイツと米国製兵器"
+   },
+   "t": {
+    "ro": {
+     "h": "Germania se teme că îndepărtarea de armamentul american ar putea afecta relația cu Washingtonul",
+     "s": "Documente interne arată că Ministerul Apărării consideră că Berlinul nu poate schimba brusc direcția fără a pune în pericol parteneriatul. SUA au asigurat 37% din importurile majore de armament ale Germaniei în 2021–2025, inclusiv F-35, CH-47 Chinook și Patriot, iar Comisia Europeană vrea ca până în 2030 jumătate din achiziții să fie europene, față de circa 15% acum.",
+     "src": [
+      {
+       "n": "Mediafax",
+       "u": "https://www.mediafax.ro/externe/germania-se-teme-ca-indepartarea-de-armamentul-american-ar-putea-afecta-relatia-cu-washingtonul-23838564",
+       "d": "2026-11-06"
+      }
+     ]
+    }
+   },
+   "thread": "germany-arms",
+   "region": "europe"
+  },
+  {
+   "id": "analysis",
+   "rubric": "analysis",
+   "developing": false,
+   "event": {
+    "ru": "Что меняют выборы в США",
+    "fr": "Ce que changent les midterms",
+    "en": "What the midterms change",
+    "de": "Was die Midterms verändern",
+    "sk": "Čo menia voľby v USA",
+    "ro": "Ce schimbă alegerile din SUA",
+    "el": "Τι αλλάζουν οι εκλογές στις ΗΠΑ",
+    "ja": "中間選挙が変えるもの"
+   },
+   "t": {
+    "ru": {
+     "h": "Провал республиканцев на промежуточных выборах в США: президентство Трампа закончилось?",
+     "s": "Виктория Журавлёва (ИМЭМО) видит в итогах тяжёлый удар по Трампу: рейтинг ниже 40%, инфляция и подорожание топлива ударили по фермерам и рабочим. По её оценке, раздельный контроль заблокирует повестки обеих партий, а Конгресс получит рычаги, чтобы ограничивать военные кампании и влиять на поддержку Украины.",
+     "src": [
+      {
+       "n": "Интерфакс",
+       "u": "https://www.interfax.ru/world/1126972",
+       "d": "2026-11-04"
+      }
+     ]
+    },
+    "fr": {
+     "h": "Midterms 2026 : la déroute républicaine rebat les cartes pour la succession de Donald Trump",
+     "s": "Pour Ludivine Gilli (Fondation Jean-Jaurès), la défaite tient aussi à une inflation de 3,7 % et aux promesses de pouvoir d'achat non tenues. Maxime Chervaux voit Marco Rubio renforcé, tandis que Lauric Henneton prévoit que la question « Trump est-il devenu toxique ? » reviendra dans la primaire.",
+     "src": [
+      {
+       "n": "Public Sénat",
+       "u": "https://www.publicsenat.fr/actualites/international/midterms-2026-la-deroute-republicaine-rebat-les-cartes-pour-la-succession-de-donald-trump",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "en": {
+     "h": "Iran, Gaza, Ukraine: What will US midterm results mean for these conflicts?",
+     "s": "The Democratic sweep falls short of the two-thirds needed to override a veto, so analysts doubt Congress can rein in the Iran war, estimated to have cost $47bn. Progressive newcomers are expected to press harder on Gaza and the West Bank, while Kyiv hopes a Democratic Congress restores US support.",
+     "src": [
+      {
+       "n": "Al Jazeera",
+       "u": "https://www.aljazeera.com/news/2026/11/5/iran-gaza-ukraine-what-will-us-midterm-results-mean-for-these-conflicts",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "de": {
+     "h": "Trumps Niederlage bei den Midterms: Ein Hoffnungszeichen für den Kampf gegen das Autoritäre",
+     "s": "Christian Böhme sieht darin ein Zeichen, dass sich Populisten schlagen lassen, und zieht Linien zu Brasilien, Serbien, Ungarn und Polen. Zugleich mahnt er: Le Pen, Meloni und die AfD seien keineswegs geschlagen, Demokratie verlange Mut und Ausdauer.",
+     "src": [
+      {
+       "n": "Tagesspiegel (Kommentar)",
+       "u": "https://www.tagesspiegel.de/internationales/trumps-niederlage-bei-den-midterms-ein-hoffnungszeichen-fur-den-kampf-gegen-das-autoritare-16240377.html",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "sk": {
+     "h": "Amerikanista: Porážka republikánov nemusí znamenať koniec hnutia MAGA",
+     "s": "Richard Johnson z Queen Mary University pripomína, že podobné predpovede zazneli už v roku 2022. Budúci kandidát by mohol kritizovať Trumpa, Vancea a Rubia za Irán a drahotu a voliči by skôr zvolili radikálnejšiu možnosť; „je možné, že tentoraz je MAGA naozaj na konci“.",
+     "src": [
+      {
+       "n": "TASR",
+       "u": "https://www.teraz.sk/zahranicie/amerikanista-porazka-republikanov-ne/1005431-clanok.html",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "ro": {
+     "h": "„Nu paria totul pe democrați!”. Avertismentul unui fost oficial britanic după alegerile din SUA",
+     "s": "Ed Roman, fost director de comunicare al Ambasadei Marii Britanii la Washington, avertizează că ambasadele întârzie dacă abia acum își construiesc relații cu noii parlamentari democrați, într-o competiție în care francezii, germanii și coreenii sunt deja activi. Discreția contează mai mult decât vizibilitatea.",
+     "src": [
+      {
+       "n": "Mediafax",
+       "u": "https://www.mediafax.ro/externe/nu-paria-totul-pe-democrati-avertismentul-unui-fost-oficial-britanic-dupa-alegerile-din-sua-23838524",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "el": {
+     "h": "Ενδιάμεσες εκλογές ΗΠΑ: Οι Δημοκρατικοί τώρα θα πρέπει να αποδείξουν ότι μπορούν...",
+     "s": "Η νίκη είναι έντονη αποδοκιμασία για τον Τραμπ, που είχε μετατρέψει την αναμέτρηση σε προσωπικό δημοψήφισμα, με φόντο ακρίβεια, Ιράν και δασμούς. Οι Δημοκρατικοί πρέπει να μετατρέψουν τη νίκη σε απτά αποτελέσματα στο κόστος ζωής· μένει ανοιχτό αν πρόκειται για βαθύτερη αλλαγή.",
+     "src": [
+      {
+       "n": "Ναυτεμπορική",
+       "u": "https://www.naftemporiki.gr/kosmos/2184481/endiameses-ipa-oi-dimokratikoi-tora-tha-prepei-na-apodeixoyn-oti-mporoyn/",
+       "d": "2026-11-04"
+      }
+     ]
+    },
+    "ja": {
+     "h": "関税や台湾問題で中国に好機と課題、米中間選挙での民主党圧勝",
+     "s": "専門家は、民主党が議会両院を握ったことで中国製品への関税の多用を制限でき、来年1月の休戦期限に向けトランプ政権が関税カードを使いにくくなる可能性を指摘する。一方、関税は労組や中小企業に支持されており、民主党は慎重な対応を迫られる。",
+     "src": [
+      {
+       "n": "AFPBB News",
+       "u": "https://www.afpbb.com/articles/-/3661054",
+       "d": "2026-11-05"
+      }
+     ]
+    }
+   },
+   "thread": "us-politics",
+   "region": "north-america"
+  },
+  {
+   "id": "selloff",
+   "rubric": "business",
+   "developing": false,
+   "event": {
+    "ru": "Обвал на Уолл-стрит 5 ноября",
+    "fr": "Le krach de l'IA à Wall Street",
+    "en": "Wall Street's AI sell-off",
+    "de": "KI-Ausverkauf an der Wall Street",
+    "sk": "Prepad technologických akcií v USA",
+    "ro": "Prăbușirea burselor americane",
+    "el": "Το κραχ της Wall Street",
+    "ja": "米株急落"
+   },
+   "t": {
+    "ru": {
+     "h": "Уолл-стрит резко снизилась, Nasdaq показал максимальное падение за полтора года",
+     "s": "Dow Jones упал на 3,44%, S&P 500 на 4,36%, Nasdaq Composite на 5,52%. Инвесторы опасаются, что демократы ужесточат регулирование ИИ-отрасли; по оценке UBS, около трети новых ЦОД, запланированных на 2028 год, может столкнуться с приостановкой. Sandisk подешевела на 22%, Micron на 17,5%.",
+     "src": [
+      {
+       "n": "Интерфакс",
+       "u": "https://www.interfax.ru/world/1127328",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "fr": {
+     "h": "Wall Street clôture en très forte baisse, vent de panique sur l'IA",
+     "s": "Un « véritable bain de sang » : le Nasdaq perd 5,52 %, son pire recul depuis 18 mois, et entre en correction. Les investisseurs redoutent un ralentissement des centres de données après la victoire démocrate ; Micron −17,77 %, AMD −17,39 %, Nvidia −8,91 %.",
+     "src": [
+      {
+       "n": "AFP via Bourse Direct",
+       "u": "https://www.boursedirect.fr/fr/actualites/categorie/economie/wall-street-cloture-en-tres-forte-baisse-vent-de-panique-sur-l-ia-afp-fd2a92acffd4361debf52312662e4cc6247a7b04",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "en": {
+     "h": "Trading Day: A November 5 market bonfire",
+     "s": "The Nasdaq fell 5.5% into correction, the S&P 500 4.4% and the Dow 3.4%; the Philadelphia chip index dropped 12%, its second-biggest fall on record. Investors reassessed the AI trade, worried the Democratic sweep could slow the data centre build-out, and about $2 trillion was wiped off the Nasdaq.",
+     "src": [
+      {
+       "n": "Reuters via Global Banking & Finance",
+       "u": "https://www.globalbankingandfinance.com/trading-day-november-5-market-bonfire/",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "de": {
+     "h": "„KI-Blutbad“ an US-Börsen: Was hinter dem historischen Kurssturz steckt",
+     "s": "Zwei Tage nach der Zwischenwahl brechen die US-Börsen breit ein; die Sorge vor schärferer KI-Regulierung löste den Ausverkauf aus. Barron's spricht von einem „KI-Blutbad“, der Kobeissi Letter von „absolutem Wahnsinn“.",
+     "src": [
+      {
+       "n": "Tagesspiegel",
+       "u": "https://www.tagesspiegel.de/wirtschaft/finanzen/einer-der-schnellsten-verluste-an-marktkapitalisierung-in-der-borsengeschichte-was-hinter-dem-historischen-kurssturz-an-den-us-borsen-steckt-16248194.html",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "sk": {
+     "h": "Akcie technologických spoločností v USA zaznamenali prudký prepad",
+     "s": "Obavy z prísnejšej regulácie umelej inteligencie vyvolali výpredaj dva dni po voľbách. TASR uvádza pokles technologického indexu Nasdaq o 6,36 % a stratu trhovej hodnoty 2,3 bilióna USD; S&P 500 klesol o 4,36 %, najviac od apríla 2025, a investori presúvali kapitál do dlhopisov.",
+     "src": [
+      {
+       "n": "TASR",
+       "u": "https://www.teraz.sk/ekonomika/akcie-technologickych-spolocnosti-v-u/1005594-clanok.html",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "ro": {
+     "h": "Bursele europene, afectate de prăbușirea acțiunilor din SUA. Pierderi masive și în Asia",
+     "s": "Vineri dimineață, Stoxx Europe 600 a pierdut 1,2%, DAX 1,6%, iar CAC 40 și FTSE 100 câte 1,4%. Investitorii se tem că democrații vor restricționa construcția centrelor de date pentru inteligența artificială; potrivit Mediafax, Nikkei 225 și Kospi au închis cu scăderi de 6%.",
+     "src": [
+      {
+       "n": "Mediafax",
+       "u": "https://www.mediafax.ro/economic/bursele-europene-afectate-de-prabusirea-actiunilor-din-sua-pierderi-masive-si-in-asia-23838660",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "el": {
+     "h": "Wall Street: Βουτιά 5,5% για τον Nasdaq – «Εξαϋλώθηκαν» 2,3 τρισ. δολάρια από τις μετοχές τεχνολογίας",
+     "s": "Οι δείκτες έσβησαν τα κέρδη του μετεκλογικού ράλι: Nasdaq −5,52% σε διόρθωση, S&P 500 −4,36%, Dow Jones −3,44%. Ο φόβος ότι οι Δημοκρατικοί θα επιβραδύνουν τα κέντρα δεδομένων έπληξε τα μικροτσίπ (Broadcom −10%, Nvidia −9%).",
+     "src": [
+      {
+       "n": "Ναυτεμπορική",
+       "u": "https://www.naftemporiki.gr/finance/markets/2185250/wall-street-voytia-55-gia-ton-nasdaq-exaylothikan-23-tris-dolaria-apo-tis-metoches-technologias/",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "ja": {
+     "h": "米株式市場で時価総額395兆円消失、ハイテク株が売り込まれる　民主党躍進でAI減速に懸念",
+     "s": "約2兆5000億ドルが消失し、ナスダック総合指数は5.52％安で調整局面入りした。テキサス州知事選で勝った民主党候補がデータセンター建設の一時停止を公約していたことが背景とされる。KOSPIは6日の取引開始時に約9％急落し、20分間売買が停止された。",
+     "src": [
+      {
+       "n": "CNN.co.jp",
+       "u": "https://www.cnn.co.jp/business/35254491.html",
+       "d": "2026-11-06"
+      }
+     ]
+    }
+   },
+   "thread": "ai-selloff",
+   "region": "global"
+  }
+ ],
+ "charts": [
+  {
+   "id": "selloff-chart",
+   "rubric": "infographic",
+   "kind": "bars",
+   "unit": "%",
+   "title": {
+    "ru": "Распродажа 5 ноября: насколько упали индексы и акции",
+    "fr": "Le 5 novembre en chiffres : la chute des indices et des titres",
+    "en": "November 5 in numbers: how far indexes and stocks fell",
+    "de": "Der 5. November in Zahlen: Wie tief Indizes und Aktien fielen",
+    "sk": "5. november v číslach: o koľko klesli indexy a akcie",
+    "ro": "5 noiembrie în cifre: cât au scăzut indicii și acțiunile",
+    "el": "Η 5η Νοεμβρίου σε αριθμούς: πόσο έπεσαν δείκτες και μετοχές",
+    "ja": "11月5日の数字：指数と株価の下落率"
+   },
+   "note": {
+    "ru": "Изменение за торговую сессию 5 ноября, %. Индексы по Интерфаксу, акции по AFP; SanDisk по Reuters.",
+    "fr": "Variation sur la séance du 5 novembre, en %. Indices : Interfax ; titres : AFP ; SanDisk : Reuters.",
+    "en": "Change over the November 5 session, %. Indexes per Interfax, stocks per AFP; SanDisk per Reuters.",
+    "de": "Veränderung in der Sitzung vom 5. November, in %. Indizes laut Interfax, Aktien laut AFP; SanDisk laut Reuters.",
+    "sk": "Zmena počas obchodovania 5. novembra v %. Indexy podľa Interfaxu, akcie podľa AFP; SanDisk podľa Reuters.",
+    "ro": "Variație în ședința din 5 noiembrie, %. Indici: Interfax; acțiuni: AFP; SanDisk: Reuters.",
+    "el": "Μεταβολή στη συνεδρίαση της 5ης Νοεμβρίου, %. Δείκτες: Interfax, μετοχές: AFP· SanDisk: Reuters.",
+    "ja": "11月5日の取引での変化率（%）。指数はインタファクス、個別株はAFP、サンディスクはロイター。"
+   },
+   "rows": [
+    [
+     "Dow Jones",
+     -3.44
+    ],
+    [
+     "S&P 500",
+     -4.36
+    ],
+    [
+     "Nasdaq Composite",
+     -5.52
+    ],
+    [
+     "Nvidia",
+     -8.91
+    ],
+    [
+     "AMD",
+     -17.39
+    ],
+    [
+     "Micron",
+     -17.77
+    ],
+    [
+     "SanDisk",
+     -22
+    ]
+   ],
+   "src": [
+    {
+     "n": "Интерфакс",
+     "u": "https://www.interfax.ru/world/1127328",
+     "d": "2026-11-06"
+    },
+    {
+     "n": "AFP via Bourse Direct",
+     "u": "https://www.boursedirect.fr/fr/actualites/categorie/economie/wall-street-cloture-en-tres-forte-baisse-vent-de-panique-sur-l-ia-afp-fd2a92acffd4361debf52312662e4cc6247a7b04",
+     "d": "2026-11-05"
+    },
+    {
+     "n": "Reuters via GBAF",
+     "u": "https://www.globalbankingandfinance.com/trading-day-november-5-market-bonfire/",
+     "d": "2026-11-05"
+    }
+   ]
+  },
+  {
+   "id": "france-chart",
+   "rubric": "infographic",
+   "kind": "pair",
+   "unit": "k",
+   "title": {
+    "ru": "Сколько людей вышло на улицы Франции 5 ноября: два подсчёта",
+    "fr": "Combien de manifestants le 5 novembre ? Deux comptages",
+    "en": "How many marched in France on November 5? Two counts",
+    "de": "Wie viele demonstrierten am 5. November in Frankreich? Zwei Zählungen",
+    "sk": "Koľko ľudí protestovalo 5. novembra vo Francúzsku? Dva odhady",
+    "ro": "Câți au manifestat în Franța pe 5 noiembrie? Două numărători",
+    "el": "Πόσοι διαδήλωσαν στη Γαλλία στις 5 Νοεμβρίου; Δύο καταμετρήσεις",
+    "ja": "11月5日のフランスのデモ参加者数：二つの集計"
+   },
+   "note": {
+    "ru": "Тысячи участников по всей стране.",
+    "fr": "Milliers de participants, France entière.",
+    "en": "Thousands of participants nationwide.",
+    "de": "Tausend Teilnehmende landesweit.",
+    "sk": "Tisíce účastníkov v celej krajine.",
+    "ro": "Mii de participanți la nivel național.",
+    "el": "Χιλιάδες συμμετέχοντες σε όλη τη χώρα.",
+    "ja": "全国の参加者数（千人）。"
+   },
+   "rows": [
+    [
+     {
+      "ru": "МВД Франции",
+      "fr": "Ministère de l'Intérieur",
+      "en": "Interior ministry",
+      "de": "Innenministerium",
+      "sk": "Ministerstvo vnútra",
+      "ro": "Ministerul de Interne",
+      "el": "Υπουργείο Εσωτερικών",
+      "ja": "内務省"
+     },
+     575
+    ],
+    [
+     {
+      "ru": "Профсоюз ВКТ",
+      "fr": "CGT",
+      "en": "CGT union",
+      "de": "Gewerkschaft CGT",
+      "sk": "Odbory CGT",
+      "ro": "Sindicatul CGT",
+      "el": "Συνδικάτο CGT",
+      "ja": "労組CGT"
+     },
+     1573
+    ]
+   ],
+   "src": [
+    {
+     "n": "Politique Matin",
+     "u": "https://www.politiquematin.fr/manifestations-5-novembre-2026-bilan-cgt-interpellations",
+     "d": "2026-11-05"
+    }
+   ]
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-09",
+   "t": {
+    "ru": "Франция: социальная конференция у премьера Лекорню",
+    "fr": "France : conférence sociale à Matignon",
+    "en": "France: Lecornu's conference with unions and employers",
+    "de": "Frankreich: Lecornus Konferenz mit Sozialpartnern",
+    "sk": "Francúzsko: sociálna konferencia u premiéra Lecornua",
+    "ro": "Franța: conferința socială convocată de Lecornu",
+    "el": "Γαλλία: κοινωνική διάσκεψη στο Ματινιόν",
+    "ja": "仏：ルコルニュ首相が労使会議"
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "end": "2026-11-11",
+   "t": {
+    "ru": "Абу-Даби: переговоры США, России и Украины",
+    "fr": "Abou Dhabi : pourparlers États-Unis, Russie, Ukraine",
+    "en": "Abu Dhabi: US, Russia and Ukraine talks",
+    "de": "Abu Dhabi: Dreiergespräche USA, Russland, Ukraine",
+    "sk": "Abú Zabí: rokovania USA, Ruska a Ukrajiny",
+    "ro": "Abu Dhabi: negocieri SUA–Rusia–Ucraina",
+    "el": "Άμπου Ντάμπι: συνομιλίες ΗΠΑ, Ρωσίας, Ουκρανίας",
+    "ja": "アブダビ：米ロウクライナ協議"
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "t": {
+    "ru": "Встреча Европейского политического сообщества",
+    "fr": "Réunion de la Communauté politique européenne",
+    "en": "European Political Community meeting",
+    "de": "Treffen der Europäischen Politischen Gemeinschaft",
+    "sk": "Stretnutie Európskeho politického spoločenstva",
+    "ro": "Reuniunea Comunității Politice Europene",
+    "el": "Σύνοδος της Ευρωπαϊκής Πολιτικής Κοινότητας",
+    "ja": "欧州政治共同体の会合"
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "t": {
+    "ru": "Неформальный саммит лидеров ЕС",
+    "fr": "Sommet informel des dirigeants de l'UE",
+    "en": "Informal summit of EU leaders",
+    "de": "Informeller EU-Gipfel",
+    "sk": "Neformálny samit lídrov EÚ",
+    "ro": "Summit informal al liderilor UE",
+    "el": "Άτυπη σύνοδος ηγετών της ΕΕ",
+    "ja": "EU非公式首脳会議"
+   }
+  },
+  {
+   "date": "2026-11-18",
+   "end": "2026-11-19",
+   "t": {
+    "ru": "Шэньчжэнь: саммит АТЭС",
+    "fr": "Shenzhen : sommet de l'APEC",
+    "en": "Shenzhen: APEC summit",
+    "de": "Shenzhen: APEC-Gipfel",
+    "sk": "Šen-čen: samit APEC",
+    "ro": "Shenzhen: summitul APEC",
+    "el": "Σεντζέν: σύνοδος APEC",
+    "ja": "深圳：APEC首脳会議"
+   }
+  },
+  {
+   "date": "2026-11-29",
+   "t": {
+    "ru": "Испания: досрочные выборы",
+    "fr": "Espagne : élections anticipées",
+    "en": "Spain: snap election",
+    "de": "Spanien: vorgezogene Wahl",
+    "sk": "Španielsko: predčasné voľby",
+    "ro": "Spania: alegeri anticipate",
+    "el": "Ισπανία: πρόωρες εκλογές",
+    "ja": "スペイン：前倒し総選挙"
+   }
+  }
+ ]
+}

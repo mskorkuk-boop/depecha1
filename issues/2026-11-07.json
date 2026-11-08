@@ -1,0 +1,2530 @@
+{
+ "date": "2026-11-07",
+ "number": 2,
+ "format": 2,
+ "stories": [
+  {
+   "id": "miller",
+   "rubric": "politics",
+   "developing": false,
+   "event": {
+    "ru": "Новый глава аппарата Белого дома",
+    "fr": "Nouveau chef de cabinet de la Maison Blanche",
+    "en": "New White House chief of staff",
+    "de": "Neuer Stabschef im Weißen Haus",
+    "sk": "Nový šéf personálu Bieleho domu",
+    "ro": "Noul șef de cabinet al Casei Albe",
+    "el": "Νέος προσωπάρχης του Λευκού Οίκου",
+    "ja": "ホワイトハウス新首席補佐官"
+   },
+   "t": {
+    "ru": {
+     "h": "Трамп объявил о назначении Стивена Миллера главой аппарата Белого дома",
+     "s": "Трамп сообщил, что заместитель главы администрации Стивен Миллер, «один из моих самых верных советников», с 9 ноября возглавит аппарат Белого дома вместо Сьюзи Уайлс, которую президент поблагодарил за «выдающуюся работу»; Миллер известен жесткой позицией по иммиграции. Параллельно «Медуза» со ссылкой на Bloomberg пишет, что после провала республиканцев на выборах госсекретарь Марко Рубио задумался об уходе, хотя сам он и Белый дом это опровергают.",
+     "src": [
+      {
+       "n": "Интерфакс",
+       "u": "https://www.interfax.ru/world/1127509",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "Медуза",
+       "u": "https://meduza.io/news/2026/11/06/bloomberg-posle-provala-respublikantsev-na-vyborah-marko-rubio-zadumalsya-ob-uhode-s-posta-gossekretarya-ssha",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "fr": {
+     "h": "\"Un xénophobe dangereux\" : Donald Trump, jusqu'au-boutiste, remplace sa cheffe de cabinet par un loyaliste extrémiste",
+     "s": "Quelques jours après la défaite républicaine aux élections de mi-mandat, Donald Trump remplace sa fidèle cheffe de cabinet Susie Wiles par Stephen Miller, figure de la droite identitaire et architecte de la politique migratoire musclée de son administration. La Libre y voit un « geste de défi » envers des électeurs qui ont notamment sanctionné les violences de la police de l'immigration (ICE). Le démocrate Hakeem Jeffries qualifie Miller de « xénophobe dangereux » et Robert Garcia annonce une enquête sur son rôle ; le poste n'est pas soumis à l'approbation du Sénat.",
+     "src": [
+      {
+       "n": "La Libre",
+       "u": "https://www.lalibre.be/international/amerique/elections-us/2026/11/06/un-xenophobe-dangereux-donald-trump-jusquau-boutiste-remplace-sa-cheffe-de-cabinet-par-un-loyaliste-extremiste-3U77TGQG2VFSDP2A6OMHUSQZ6Y/",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "RTBF",
+       "u": "https://www.rtbf.be/article/trump-donne-le-ton-apres-les-midterms-il-designe-un-representant-de-la-droite-dure-comme-chef-de-cabinet-11812100",
+       "d": "2026-11-06"
+      }
+     ],
+     "q": [
+      "date"
+     ]
+    },
+    "en": {
+     "h": "Trump says making adviser Stephen Miller White House chief of staff",
+     "s": "President Donald Trump announced on Truth Social on Friday that Stephen Miller, \"one of my most trusted advisors\", becomes White House chief of staff from Monday, replacing Susie Wiles, who moves to the Trump Political Operation. Al Jazeera describes Miller as the main architect of Trump's hardline border and deportation policies; CBS News calls the shake-up the most significant change to Trump's team since the Republican midterm losses, framing it as \"doubling down on his approach to governing\". Democrats are widely expected to investigate Miller once they control the House and Senate in January.",
+     "src": [
+      {
+       "n": "Al Jazeera",
+       "u": "https://www.aljazeera.com/news/2026/11/6/trump-says-making-adviser-stephen-miller-white-house-chief-of-staff",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "CBS News",
+       "u": "https://www.cbsnews.com/news/stephen-miller-trump-chief-of-staff-susie-wiles/",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "de": {
+     "h": "Miller ersetzt Trumps Stabschefin Wiles",
+     "s": "Nach der Wahlniederlage der Republikaner entlässt US-Präsident Donald Trump seine Stabschefin Susie Wiles; auf Truth Social bedankte er sich bei der 69-Jährigen für ihre „großartige Arbeit“. Ab Montag übernimmt der bisherige Vizestabschef Stephen Miller die Leitung im Weißen Haus.",
+     "src": [
+      {
+       "n": "ORF",
+       "u": "https://orf.at/stories/3447464",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "sk": {
+     "h": "Písal mu prejavy, navrhol tvrdé opatrenia voči migrantom. Trump vymenoval Millera za šéfa kancelárie Bieleho domu",
+     "s": "Prezident Donald Trump vymenoval Stephena Millera za nového šéfa kancelárie Bieleho domu, od pondelka 9. novembra nahradí Susie Wilesovú. Miller, doterajší zástupca Wilesovej a jeden z Trumpových najbližších spojencov, je spájaný najmä s tvrdými protiimigračnými opatreniami. Wilesová odchádza po porážke republikánov v kongresových voľbách a prejde do Trump Political Operation, kde bude získavať peniaze od darcov.",
+     "src": [
+      {
+       "n": "Pravda",
+       "u": "https://www.pravda.sk/spravy/svet/clanok/2074157-trump-vymenoval-stephena-millera-za-sefa-kancelarie-bieleho-domu",
+       "d": "2026-11-06"
+      }
+     ],
+     "q": [
+      "date"
+     ]
+    },
+    "ro": {
+     "h": "Stephen Miller va deveni noul șef de cabinet al lui Donald Trump la Casa Albă",
+     "s": "Stephen Miller, figură apropiată de președintele Donald Trump și implicat în elaborarea politicii restrictive privind imigrația, urmează să preia funcția de șef de cabinet al Casei Albe, în locul lui Susie Wiles, prima femeie care a ocupat această funcție. Miller, până acum șef adjunct de cabinet, a contribuit la politicile privind controalele la frontieră și deportările, criticate de organizațiile pentru drepturile omului. Schimbarea vine după ce republicanii au pierdut controlul asupra Congresului în alegerile intermediare.",
+     "src": [
+      {
+       "n": "Mediafax",
+       "u": "https://www.mediafax.ro/externe/stephen-miller-va-deveni-noul-sef-de-cabinet-al-lui-donald-trump-la-casa-alba-23839029",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "Antena 3 CNN",
+       "u": "https://www.antena3.ro/externe/trump-il-numeste-pe-stephen-miller-strategul-politicilor-anti-imigratie-in-functia-de-sef-de-cabinet-democratii-reactioneaza-furios-810287.html",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "el": {
+     "h": "Ο Τραμπ καρατόμησε τη «σιδηρά κυρία» του Λευκού Οίκου, Σούζι Γουάιλς",
+     "s": "Ο Τραμπ ανακοίνωσε ότι η προσωπάρχης Σούζι Γουάιλς αποχωρεί και μεταφέρεται στον πολιτικό του μηχανισμό, λέγοντας ότι «έχει κάνει εξαιρετική δουλειά». Τη θέση αναλαμβάνει από τη Δευτέρα ο Στίβεν Μίλερ, αναπληρωτής προσωπάρχης γνωστός για την αυστηρή μεταναστευτική πολιτική, λίγες ημέρες μετά τις εκλογικές απώλειες των Ρεπουμπλικανών στις ενδιάμεσες εκλογές. Η Γουάιλς χαρακτήρισε στο X τη συνεργασία «τιμή ζωής».",
+     "src": [
+      {
+       "n": "Ναυτεμπορική",
+       "u": "https://www.naftemporiki.gr/kosmos/2185767/o-tramp-karatomise-ti-sidira-kyria-toy-leykoy-oikoy-soyzi-goyails-o-neos-prosoparchis-toy/",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "ja": {
+     "h": "トランプ氏、移民強硬派ミラー氏を新首席補佐官に指名 中間選挙大敗後に人事刷新",
+     "s": "トランプ米大統領は、共和党が中間選挙で大敗した直後に、移民政策の強硬派として知られる側近のミラー大統領次席補佐官を新たな首席補佐官に起用すると発表した。ミラー氏は9日に就任し、トランプ氏は理由を問われ「変化を起こしたかった」と述べた。上下両院の多数派を民主党に奪われたトランプ氏が、自らの政策を一段と強力に進める姿勢を示した人事と位置づけられている。",
+     "src": [
+      {
+       "n": "AFPBB News",
+       "u": "https://www.afpbb.com/articles/-/3661317",
+       "d": "2026-11-07"
+      }
+     ]
+    }
+   },
+   "thread": "us-politics",
+   "region": "north-america"
+  },
+  {
+   "id": "belgium",
+   "rubric": "politics",
+   "developing": true,
+   "event": {
+    "ru": "Бельгия: отставка премьера отклонена",
+    "fr": "Belgique : démission du Premier ministre refusée",
+    "en": "Belgium: PM's resignation refused",
+    "de": "Belgien: Rücktritt des Premiers abgelehnt",
+    "sk": "Belgicko: demisia premiéra odmietnutá",
+    "ro": "Belgia: demisia premierului respinsă",
+    "el": "Βέλγιο: απορρίφθηκε η παραίτηση του πρωθυπουργού",
+    "ja": "ベルギー首相の辞意、国王が受理せず"
+   },
+   "t": {
+    "ru": {
+     "h": "Король Бельгии не принял отставку премьера Барта де Вевера. Тот хотел уйти из-за провала переговоров о бюджете",
+     "s": "Король Филипп не принял отставку премьера Барта де Вевера, который хотел уйти после срыва переговоров о бюджете на 2027 год, и после консультаций с лидерами пяти партий коалиции поручил ему «незамедлительно возобновить бюджетные переговоры». Де Вевер снова доложит королю 16 ноября. «Медуза» напоминает, что он выступал против изъятия активов российского ЦБ в Euroclear для «репарационного кредита» Украине.",
+     "src": [
+      {
+       "n": "Медуза",
+       "u": "https://meduza.io/news/2026/11/06/korol-belgii-ne-prinyal-otstavku-premiera-barta-de-vevera-tot-hotel-uyti-iz-za-provala-peregovorov-o-byudzhete",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "fr": {
+     "h": "Bart De Wever chez le Roi : démission refusée et nouveau délai pour le Premier ministre",
+     "s": "Reçu plus d'une heure au Palais royal, Bart De Wever a vu le Roi refuser sa démission et lui demander de reprendre sans attendre les négociations budgétaires. Les cinq présidents des partis de la majorité Arizona se sont engagés, selon le Palais, à « faire des concessions pour sortir de l'impasse » afin de s'accorder sur une trajectoire budgétaire pour trois ans. Un nouveau point d'étape est fixé au Palais le lundi 16 novembre, le Roi insistant sur l'équilibre entre cohésion sociale et croissance économique.",
+     "src": [
+      {
+       "n": "RTBF",
+       "u": "https://www.rtbf.be/article/bart-de-wever-chez-le-roi-demission-refusee-et-nouveau-delai-pour-bart-de-wever-11811665",
+       "d": "2026-11-06"
+      }
+     ],
+     "q": [
+      "date"
+     ]
+    },
+    "en": {
+     "h": "Belgian king refuses PM Bart De Wever's resignation and asks him to restart budget talks",
+     "s": "King Philippe rejected the resignation that Flemish conservative Prime Minister Bart De Wever submitted on Monday after his coalition failed to agree a 2027 budget, and told him to resume negotiations. The Royal Palace said the king \"put his decision on hold\" and would meet the leaders of the five majority parties, who committed to concessions. De Wever needs €10 billion by 2029 to close the deficit gap, with a VAT rise opposed by the francophone liberal MR among the sticking points; he is due to report back to the king on 16 November.",
+     "src": [
+      {
+       "n": "Euronews",
+       "u": "https://www.euronews.com/2026/11/06/belgian-king-refuses-pm-bart-de-wevers-resignation-and-asks-him-to-restart-budget-talks",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "de": {
+     "h": "Belgiens König Philippe lehnt Rücktritt von Bart De Wever ab und drängt auf neue Haushaltsgespräche",
+     "s": "Der flämische Konservative Bart De Wever hatte seinen Rücktritt eingereicht, weil sich die Koalitionspartner in der anhaltenden Haushaltskrise nicht auf den Etat 2027 einigen konnten; König Philippe lehnte das Gesuch am Freitag ab und forderte die sofortige Wiederaufnahme der Verhandlungen. Laut Palast sind alle fünf Mehrheitsparteien zu einer raschen Einigung bereit, De Wever soll dem König am 16. November Bericht erstatten. Strittig bleibt, wie das Defizit bis 2029 mit 10 Milliarden Euro geschlossen werden soll – vor allem eine Mehrwertsteuererhöhung, gegen die sich die liberale MR stellt.",
+     "src": [
+      {
+       "n": "Euronews (de)",
+       "u": "https://de.euronews.com/2026/11/06/belgiens-konig-philippe-lehnt-rucktritt-von-bart-de-wever-ab-und-drangt-auf-neue-haushalts",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "sk": {
+     "h": "Belgický premiér podal demisiu, kráľ ju odmietol. Na vyriešenie vládnej krízy dostal ďalších desať dní",
+     "s": "Belgický kráľ Filip I. neprijal demisiu premiéra Barta De Wevera, ktorú podal po neúspešných koaličných rokovaniach o rozpočte na rok 2027, a dal mu čas do 16. novembra na nájdenie kompromisu. Spor sa týka úsporného balíka s cieľom ušetriť približne desať miliárd eur do roku 2029. Pravicové strany N-VA a MR trvajú na škrtoch v zdravotníctve, socialisti a centristi chcú vyššie dane z majetku a napätie prehlbujú aj protesty odborov.",
+     "src": [
+      {
+       "n": "TA3",
+       "u": "https://www.ta3.com/zahranicie/clanok/1081345/belgicky-premier-podal-demisiu-kral-ju-odmietol-na-vyriesenie-vladnej-krizy-dostal-dalsich-desat-dni",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "ro": {
+     "h": "Premierul Belgiei rămâne în funcție după ce regele i-a refuzat demisia",
+     "s": "Premierul belgian Bart De Wever își păstrează funcția după ce regele Philippe a refuzat să îi accepte demisia, prezentată în urma eșecului negocierilor privind bugetul. Potrivit Palatului Regal, monarhul a decis astfel după ce liderii celor cinci partide din coaliție și-au asumat public disponibilitatea de a face concesii pentru un compromis asupra bugetului pe 2027 și a măsurilor de austeritate de circa 10 miliarde de euro până în 2029. De Wever urmează să-l informeze pe rege despre progresele negocierilor pe 16 noiembrie.",
+     "src": [
+      {
+       "n": "Mediafax",
+       "u": "https://www.mediafax.ro/externe/premierul-belgiei-ramane-in-functie-dupa-ce-regele-i-a-refuzat-demisia-23838771",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "el": {
+     "h": "Βέλγιο: Απέρριψε την παραίτηση του πρωθυπουργού ο Βασιλιάς – Τι είναι τα προσωρινά δωδεκατημόρια",
+     "s": "Ο Βασιλιάς Φίλιππος αρνήθηκε να δεχθεί την παραίτηση του Μπαρτ Ντε Βέβερ, που την είχε υποβάλει μετά την αποτυχία συμφωνίας για δημοσιονομική προσαρμογή 10 δισ. ευρώ, και του ζήτησε να συνεχίσει τις διαπραγματεύσεις για τον προϋπολογισμό. Ο πρωθυπουργός επιβεβαίωσε στη Βουλή ότι το νέο έτος θα ξεκινήσει με προσωρινά δωδεκατημόρια και χαρακτήρισε την εξέλιξη οδυνηρή αποτυχία για την κυβέρνηση. Θα ενημερώσει ξανά τον Βασιλιά στις 16 Νοεμβρίου.",
+     "src": [
+      {
+       "n": "Εφημερίδα των Συντακτών",
+       "u": "https://www.efsyn.gr/kosmos/1504623/velgio-aperripse-tin-paraitisi-toy-prothypoyrgoy-o-vasilias-ti-einai-ta-prosorina-dodekatimoria/",
+       "d": "2026-11-06"
+      }
+     ]
+    }
+   },
+   "thread": "belgium-budget",
+   "region": "europe"
+  },
+  {
+   "id": "oil",
+   "rubric": "economy",
+   "developing": false,
+   "event": {
+    "ru": "Падение цен на нефть",
+    "fr": "Recul des cours du pétrole",
+    "en": "Oil prices slide",
+    "de": "Ölpreise fallen",
+    "sk": "Pokles cien ropy",
+    "ro": "Scăderea prețului petrolului",
+    "el": "Πτώση των τιμών του πετρελαίου",
+    "ja": "原油価格の下落"
+   },
+   "t": {
+    "ru": {
+     "h": "Котировки Brent завершают неделю рекордным падением с 2020 года",
+     "s": "К вечеру пятницы январский Brent подешевел до $97,21 за баррель, а с начала недели упал на 16% — максимальным темпом с 2020 года; в денежном выражении падение может стать рекордным как минимум с 1988 года. Рынок реагирует на возможное мирное урегулирование на Ближнем Востоке после победы демократов на выборах в Конгресс США, хотя, по словам аналитика Rystad Янива Шаха, все еще ждет «конкретной сделки по Ирану».",
+     "src": [
+      {
+       "n": "Интерфакс",
+       "u": "https://www.interfax.ru/business/1127473",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "fr": {
+     "h": "Les cours du pétrole restent sous 100 dollars malgré Ormuz",
+     "s": "Vendredi, les cours du pétrole ont peu évolué, les investisseurs restant prudents face aux tensions au Moyen-Orient au terme d'une semaine baissière, le Brent finissant à 98,32 dollars le baril. Les discussions entre Téhéran et Washington sous médiation qatarie ont fait repasser les cours sous la barre des 100 dollars cette semaine. Pour les analystes, la pénurie de brut est en grande partie résorbée, mais le risque d'une nouvelle escalade demeure et les coûts de fret autour d'Ormuz restent élevés.",
+     "src": [
+      {
+       "n": "AFP via Connaissance des Énergies",
+       "u": "https://www.connaissancedesenergies.org/afp/le-petrole-se-stabilise-apres-une-semaine-de-chute-261106",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "en": {
+     "h": "Crude gains on worries about renewed US attacks on Iran",
+     "s": "Oil futures edged higher on Friday as traders weighed the risk of renewed US strikes on Iran, but Brent was still on track for a roughly 17% weekly decline, its steepest weekly percentage fall since the start of the COVID pandemic (and the biggest in absolute terms in LSEG data going back to 1988). Brent settled at $98.32 a barrel and WTI at $90.83, with WTI set for a 13% weekly drop, as oversupply concerns and a strong US jobs report weighed while attacks on Gulf tankers lent some support. A separate Reuters analysis says the tech rout has shifted trader angst from inflation to growth, cutting market odds of December rate hikes by the Fed (to about 70%) and ECB (about 60%).",
+     "src": [
+      {
+       "n": "Reuters via Global Banking & Finance Review",
+       "u": "https://www.globalbankingandfinance.com/oil-set-sharp-weekly-drop-middle-east-supply-concerns/",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "Reuters via Global Banking & Finance Review",
+       "u": "https://www.globalbankingandfinance.com/analysis-trader-angst-pivots-inflation-growth-tech-rout/",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "sk": {
+     "h": "Ceny ropy v piatok ráno vzrástli",
+     "s": "Ceny ropy v piatok ráno mierne stúpli, za celý týždeň však smerujú k výraznému poklesu, približne o 12 percent. Trhy očakávajú, že výsledky amerických parlamentných volieb môžu pomôcť ukončiť konflikt medzi USA a Iránom, ktorý trvá už deviaty mesiac. Hlbší prepad brzdia obavy z narušenia dodávok z Blízkeho východu po sérii útokov na tankery v Hormuzskom prielive.",
+     "src": [
+      {
+       "n": "TASR / teraz.sk",
+       "u": "https://www.teraz.sk/ekonomika/ceny-ropy-v-piatok-rano-vzrastli/1005550-clanok.html",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "ro": {
+     "h": "Petrolul Brent scade cu 8,7% după alegerile din SUA. Ce înseamnă pentru România",
+     "s": "Brent a scăzut cu 8,7% în ședința din 4 noiembrie, după ce democrații au câștigat controlul ambelor camere ale Congresului, pe fondul speranței într-o negociere mai rapidă cu Iranul, ajungând la cel mai scăzut nivel de închidere din 31 august. Autorii subliniază că piețele iau în calcul o detensionare, nu un acord încheiat, iar pentru România ieftinirea energiei nu se traduce automat la pompă.",
+     "src": [
+      {
+       "n": "Economica.net",
+       "u": "https://www.economica.net/petrolul-brent-scade-cu-87-dupa-alegerile-din-sua-ce-inseamna-pentru-romania_993057.html",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "el": {
+     "h": "Πετρέλαιο: Βουτιά άνω του 16% για το Brent σε εβδομαδιαία βάση",
+     "s": "Το Brent έκλεισε την εβδομάδα με απώλειες άνω του 16%, τη μεγαλύτερη εβδομαδιαία πτώση του από την αρχή της πανδημίας. Η αγορά σταθμίζει τον κίνδυνο νέας στρατιωτικής κλιμάκωσης ΗΠΑ-Ιράν μετά τις ενδιάμεσες εκλογές, με τον αναλυτή Μπομπ ΜακΝάλι να δίνει πιθανότητα 80% για επανάληψη των συγκρούσεων και πιθανή άνοδο πάνω από τα 100 δολάρια. Διπλωματικές ενδείξεις συνυπάρχουν με επιθέσεις σε δεξαμενόπλοια στα Στενά του Ορμούζ, διατηρώντας την αβεβαιότητα.",
+     "src": [
+      {
+       "n": "Capital.gr",
+       "u": "https://www.capital.gr/agores/4028379/petrelaio-boutia-ano-tou-16-gia-to-brent-se-ebdomadiaia-basi/",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "ja": {
+     "h": "原油先物4日続落、米中間選挙受けイラン戦争激化リスク後退観測",
+     "s": "5日のアジア時間に原油先物は4日続落した。米中間選挙でトランプ大統領の共和党が敗れたことを受け、米国とイスラエルによる対イラン戦争が一段と激化する危険は小さくなったとの見方が広がった。スパルタ・コモディティーズのジューン・ゴー氏は市場が「戦争終結の可能性の高まりを織り込んでいる」と指摘する一方、外交の道筋は不透明で戦略備蓄も大きく減っており、相場の変動は続くと警告している。",
+     "src": [
+      {
+       "n": "ニューズウィーク日本版（ロイター）",
+       "u": "https://www.newsweekjapan.jp/articles/-/339094",
+       "d": "2026-11-05"
+      }
+     ]
+    }
+   },
+   "thread": "oil-prices",
+   "region": "global",
+   "diff": {
+    "ru": "Величину недельного падения издания называют по-разному: Reuters — около 17%, Интерфакс — 16%, Capital.gr — более 16%, ТАСР утром пятницы — около 12%. Интерфакс связывает его с победой демократов и надеждой на мир на Ближнем Востоке, Capital.gr — с риском новой эскалации между США и Ираном.",
+    "fr": "Les titres chiffrent la baisse hebdomadaire différemment : Reuters environ 17 %, Interfax 16 %, Capital.gr plus de 16 %, la TASR environ 12 % vendredi matin. Interfax l'attribue à la victoire démocrate et aux espoirs de paix au Proche-Orient, Capital.gr au risque d'une nouvelle escalade entre les États-Unis et l'Iran.",
+    "en": "Outlets put the weekly fall differently: Reuters about 17%, Interfax 16%, Capital.gr more than 16%, TASR about 12% on Friday morning. Interfax links it to the Democrats' win and hopes of peace in the Middle East; Capital.gr to the risk of renewed US–Iran escalation.",
+    "de": "Die Medien beziffern den Wochenverlust unterschiedlich: Reuters rund 17 %, Interfax 16 %, Capital.gr über 16 %, TASR am Freitagmorgen etwa 12 %. Interfax führt ihn auf den Sieg der Demokraten und Friedenshoffnungen in Nahost zurück, Capital.gr auf das Risiko einer neuen Eskalation zwischen den USA und Iran.",
+    "sk": "Médiá uvádzajú týždenný pokles rôzne: Reuters zhruba 17 %, Interfax 16 %, Capital.gr viac ako 16 %, TASR v piatok ráno približne 12 %. Interfax ho spája s víťazstvom demokratov a nádejou na mier na Blízkom východe, Capital.gr s rizikom novej eskalácie medzi USA a Iránom.",
+    "ro": "Publicațiile dau cifre diferite pentru scăderea săptămânală: Reuters circa 17%, Interfax 16%, Capital.gr peste 16%, TASR aproximativ 12% vineri dimineață. Interfax o leagă de victoria democraților și de speranțele de pace în Orientul Mijlociu, Capital.gr de riscul unei noi escaladări între SUA și Iran.",
+    "el": "Τα μέσα δίνουν διαφορετικό μέγεθος για την εβδομαδιαία πτώση: Reuters περίπου 17%, Interfax 16%, Capital.gr άνω του 16%, TASR περίπου 12% το πρωί της Παρασκευής. Η Interfax τη συνδέει με τη νίκη των Δημοκρατικών και τις ελπίδες ειρήνης στη Μέση Ανατολή, το Capital.gr με τον κίνδυνο νέας κλιμάκωσης ΗΠΑ–Ιράν.",
+    "ja": "週間の下落率は媒体ごとに異なる。ロイターは約17%、インタファクスは16%、キャピタルは16%超、TASRは金曜朝時点で約12%。インタファクスは民主党の勝利と中東和平への期待を、キャピタルは米国とイランの再衝突リスクを要因に挙げる。"
+   }
+  },
+  {
+   "id": "bombthreats",
+   "rubric": "social",
+   "developing": true,
+   "event": {
+    "ru": "Угрозы о минировании в Европе",
+    "fr": "Alertes à la bombe en Europe",
+    "en": "Bomb threats across Europe",
+    "de": "Bombendrohungen in Europa",
+    "sk": "Bombové hrozby v Európe",
+    "ro": "Amenințări cu bombă în Europa",
+    "el": "Απειλές για βόμβες στην Ευρώπη",
+    "ja": "欧州で相次ぐ爆破予告"
+   },
+   "t": {
+    "ru": {
+     "h": "Европейские телеканалы вслед за авиакомпаниями получили предупреждения о минировании. Угрозы им прислал «Михаил Андропов»",
+     "s": "6 ноября ирландская RTE, британская Sky, болгарская Nova TV и другие европейские телеканалы получили по почте угрозы о минировании, бомб не нашли; RTE три часа транслировала музыку, редакцию Nova TV эвакуировали. Автор писем «Михаил Андропов» утверждал, что стоит и за угрозами авиакомпаниям; по данным Ansa, письма подписаны от имени «бойцов „Мужского государства“», но его основатель Владислав Поздняков отверг причастность.",
+     "src": [
+      {
+       "n": "Медуза",
+       "u": "https://meduza.io/news/2026/11/06/evropeyskie-telekanaly-vsled-za-aviakompaniyami-poluchili-preduprezhdeniya-o-minirovanii-ugrozy-im-prislal-mihail-andropov",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "fr": {
+     "h": "Nouvelle vague de fausses alertes à la bombe contre des avions et des médias agite l'Europe, l'Irlande soupçonne une 'campagne coordonnée'",
+     "s": "Le gouvernement irlandais juge « probable » qu'une série de fausses alertes à la bombe visant l'aviation commerciale et des médias en Europe relève d'une « campagne coordonnée ». Plusieurs rédactions irlandaises ont été évacuées vendredi et des vols liés à Prague, Sofia, Lisbonne et plusieurs aéroports français ont été visés, sans qu'aucun explosif ne soit découvert. Des experts y voient des « opérations hybrides » peu coûteuses et difficiles à attribuer, tandis que le chef de la police londonienne appelle à ne pas surréagir à chaque menace en ligne.",
+     "src": [
+      {
+       "n": "RTBF",
+       "u": "https://www.rtbf.be/article/nouvelle-vague-de-fausses-alertes-a-la-bombe-contre-des-avions-et-des-medias-agite-l-europe-l-irlande-soupconne-une-campagne-coordonnee-11811840",
+       "d": "2026-11-06"
+      }
+     ],
+     "q": [
+      "date"
+     ]
+    },
+    "en": {
+     "h": "Hoax or bomb threats? What we know about flight disruptions across Europe",
+     "s": "Bomb threats forced flights from 16 countries, including Ireland, the UK, Spain, Denmark, Poland, Italy and Bulgaria, to divert, turn back or undergo extra checks, some escorted by fighter jets, at airports from Warsaw and Rome to Lisbon, Cork, Heathrow and Charleroi. No explosives have been found; the UK government called them \"malicious hoax threats\", the EU transport commissioner said it was too early to say who is responsible, Moscow denies involvement, and Al Jazeera notes there is no evidence linking Russia, Iran or their proxies. In Dublin, RTÉ and the Irish Independent evacuated staff after bomb threats on Friday, which Irish MEP Barry Andrews called hybrid attacks meant to sow disruption and distrust.",
+     "src": [
+      {
+       "n": "Al Jazeera",
+       "u": "https://www.aljazeera.com/news/2026/11/6/hoax-or-bomb-threats-what-we-know-about-flight-disruptions-across-europe",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "Euronews",
+       "u": "https://www.euronews.com/2026/11/06/irish-media-outlets-evacuate-staff-in-dublin-following-bomb-threats",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "de": {
+     "h": "Verdacht fällt auf Russland: Neue Welle von Bombendrohungen gegen Flüge in Europa",
+     "s": "Die Serie von Bombendrohungen gegen europäische Fluglinien setzte sich am Freitag fort, betroffen waren mindestens neun Flüge von und nach Prag sowie Verbindungen nach Sofia und Rom; vier Maschinen landeten außerplanmäßig in Frankreich, ein Sprengsatz wurde nirgends gefunden. Die Flughäfen Rom und Sofia erhielten Bekennerschreiben einer rechtsextremen russischen Gruppierung, ein Zusammenhang ist aber nicht belegt. Das polnische Magazin „Polityka“ sieht Russland als Hauptverdächtigen, Moskau weist alle Vorwürfe zurück; EU-Verkehrskommissar Tzitzikostas hält es für „zu früh“, einen Zusammenhang zu ziehen.",
+     "src": [
+      {
+       "n": "Tagesspiegel",
+       "u": "https://www.tagesspiegel.de/internationales/verdacht-fallt-auf-russland-neue-welle-von-bombendrohungen-gegen-fluge-in-europa-16250406.html",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "sk": {
+     "h": "Bombové poplachy opäť narušili leteckú dopravu v Európe",
+     "s": "Séria bombových poplachov opäť narušila leteckú dopravu v Európe. Lietadlo Aer Lingus na linke Dublin – Rím núdzovo pristálo na vojenskej základni pri francúzskom Évreux a hrozby zasiahli aj lety smerujúce do Sofie, Ríma a Viedne, niektoré letiská dočasne uzavreli dráhy. Podobné hlásenia prišli už v utorok, no úrady v doterajších prípadoch nepotvrdili nájdenie podozrivých predmetov.",
+     "src": [
+      {
+       "n": "TASR / teraz.sk",
+       "u": "https://www.teraz.sk/zahranicie/bombove-poplachy-opat-narusili-letec/1005356-clanok.html",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "ro": {
+     "h": "Haos deasupra Europei. Alertă cu bombe la 11 avioane vineri – Ce s-a întâmplat în România",
+     "s": "Un nou val de amenințări cu bombă a vizat vineri 11 zboruri cu legătură cu Praga sau Sofia, după alertele false din debutul săptămânii; autoritățile din Cehia și Bulgaria au precizat că aparatele au aterizat fără incidente și că nu s-a găsit niciun dispozitiv. În România, SRI a semnalat o amenințare „nespecifică, fără măsuri în teren” la zborul Tarom ROT226 Praga–București, iar Aeroportul Henri Coandă și-a menținut activitatea normală.",
+     "src": [
+      {
+       "n": "Economica.net",
+       "u": "https://www.economica.net/haos-deasupra-europei-alerta-cu-bombe-la-11-avioane-vineri-ce-s-a-intamplat-in-romania_993003.html",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "el": {
+     "h": "Γιατί δεκάδες πτήσεις στην Ευρώπη έγιναν στόχος απειλών για βόμβα αυτή την εβδομάδα",
+     "s": "Από τις 2 Νοεμβρίου έχουν επηρεαστεί τουλάχιστον 33 πτήσεις και την Πέμπτη καταγράφηκαν τουλάχιστον 25 νέες απειλές για βόμβα σε ευρωπαϊκά αεροδρόμια, όλες μέχρι στιγμής ψευδείς συναγερμοί. Οι υπηρεσίες πληροφοριών δεν έχουν συνδέσει τις απειλές με συγκεκριμένη οργάνωση ή κράτος, αν και ορισμένα μηνύματα φέρουν, κατά πηγές και ΜΜΕ, την υπογραφή της ρωσικής εξτρεμιστικής ομάδας «Μαχητές του Ανδρικού Κράτους» – πληροφορία που η τσεχική αστυνομία θεωρεί χαμηλής αξιοπιστίας. Ο Ευρωπαίος επίτροπος Μεταφορών λέει ότι είναι νωρίς για συμπεράσματα.",
+     "src": [
+      {
+       "n": "News247",
+       "u": "https://www.news247.gr/kosmos/giati-dekades-ptiseis-stin-evropi-eginan-stoxos-apeilon-gia-vomva/",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "ja": {
+     "h": "欧州で偽の爆破予告相次ぐ 約20便に影響",
+     "s": "11月5日、欧州各地の民間航空便約20便に偽の爆破予告が届き、イタリア、フランス、ブルガリアでは戦闘機が緊急発進した。標的は主に格安航空会社の便やブルガリア・チェコ・イタリア発着便で、爆発物は見つからず全機が無事着陸したが、3便は目的地変更を余儀なくされた。犯行声明は出ていないが、イタリアとブルガリアの空港に送られた脅迫文には女性への嫌悪を示す内容があり、送り主は「男性国家の戦士」を名乗っていた。",
+     "src": [
+      {
+       "n": "AFPBB News",
+       "u": "https://www.afpbb.com/articles/-/3661136",
+       "d": "2026-11-06"
+      }
+     ]
+    }
+   },
+   "thread": "europe-bomb-threats",
+   "region": "europe",
+   "diff": {
+    "ru": "Подписи под угрозами издания приводят разные: «Михаил Андропов» у «Медузы», «воины „Мужского государства“» у AFP в японской версии. Немецкий Tagesspiegel выносит в заголовок подозрения против России, греческий News247 пишет, что спецслужбы не связали угрозы с конкретными исполнителями, а ирландское правительство, по данным RTBF, считает вероятной «скоординированную кампанию».",
+    "fr": "Les signatures citées diffèrent : « Mikhaïl Andropov » chez Meduza, « guerriers de l'État masculin » chez l'AFP dans la version japonaise. Le Tagesspiegel allemand met en titre les soupçons visant la Russie, le grec News247 écrit que les services n'ont relié les menaces à aucun auteur précis, et selon la RTBF le gouvernement irlandais juge « probable » une campagne coordonnée.",
+    "en": "The signatures quoted differ: 'Mikhail Andropov' in Meduza, 'warriors of the Male State' in AFP's Japanese report. Germany's Tagesspiegel puts suspicion of Russia in its headline, Greece's News247 says intelligence services have not tied the threats to anyone, and per RTBF the Irish government thinks a 'coordinated campaign' likely.",
+    "de": "Die zitierten Absender unterscheiden sich: „Michail Andropow“ bei Meduza, „Krieger des Männerstaats“ bei AFP in der japanischen Fassung. Der Tagesspiegel stellt den Verdacht gegen Russland in die Schlagzeile, das griechische News247 schreibt, die Dienste hätten die Drohungen niemandem zugeordnet, und laut RTBF hält die irische Regierung eine „koordinierte Kampagne“ für wahrscheinlich.",
+    "sk": "Uvádzané podpisy sa líšia: „Michail Andropov“ v Meduze, „bojovníci Mužského štátu“ v AFP v japonskej verzii. Nemecký Tagesspiegel dáva podozrenie voči Rusku do titulku, grécky News247 píše, že tajné služby hrozby nikomu nepripísali, a podľa RTBF írska vláda považuje „koordinovanú kampaň“ za pravdepodobnú.",
+    "ro": "Semnăturile citate diferă: „Mihail Andropov” la Meduza, „războinicii Statului Masculin” la AFP în versiunea japoneză. Germanul Tagesspiegel pune în titlu suspiciunile față de Rusia, grecul News247 scrie că serviciile nu au legat amenințările de nimeni anume, iar potrivit RTBF guvernul irlandez consideră probabilă o „campanie coordonată”.",
+    "el": "Οι υπογραφές που αναφέρονται διαφέρουν: «Μιχαήλ Αντρόποφ» στη Meduza, «πολεμιστές του Ανδρικού Κράτους» στο AFP της ιαπωνικής εκδοχής. Το γερμανικό Tagesspiegel βάζει στον τίτλο τις υποψίες για τη Ρωσία, το News247 γράφει ότι οι υπηρεσίες δεν έχουν συνδέσει τις απειλές με κάποιον, και κατά το RTBF η ιρλανδική κυβέρνηση θεωρεί πιθανή μια «συντονισμένη εκστρατεία».",
+    "ja": "脅迫文の署名は媒体で異なる。メドゥーザは「ミハイル・アンドロポフ」、AFP（日本語版）は「男性国家の戦士」。独ターゲスシュピーゲルはロシアへの疑いを見出しに掲げ、ギリシャのNews247は情報機関が特定の実行者と結びつけていないと伝え、RTBFによればアイルランド政府は「組織的な作戦」の可能性が高いとみている。"
+   }
+  },
+  {
+   "id": "ukraine",
+   "rubric": "milpol",
+   "developing": true,
+   "event": {
+    "ru": "Переговоры об урегулировании на Украине",
+    "fr": "Négociations de paix sur l'Ukraine",
+    "en": "Ukraine peace diplomacy",
+    "de": "Friedensdiplomatie zur Ukraine",
+    "sk": "Mierové rokovania o Ukrajine",
+    "ro": "Negocierile de pace pentru Ucraina",
+    "el": "Ειρηνευτικές διαπραγματεύσεις για την Ουκρανία",
+    "ja": "ウクライナ和平外交"
+   },
+   "t": {
+    "ru": {
+     "h": "«Все будут просто в восторге». Трамп пообещал «большую прекрасную сделку» по Украине",
+     "s": "Трамп анонсировал «большую прекрасную сделку» по Украине, которая затронет и значительную часть Европы, после встречи российской и украинской делегаций с Меланией Трамп и отдельной закрытой встречи с посланником Путина Кириллом Дмитриевым; по словам Трампа, США «очень близки» к урегулированию. Обозреватель «Ъ FM» Дмитрий Дризе отмечает, что Мелания Трамп передала личные послания Путину и Зеленскому по итогам гуманитарной операции в Алешках, а Зеленский консультировался с Уиткоффом и Кушнером перед трехсторонними переговорами в Абу-Даби; в Кремле призвали не делать преждевременных выводов.",
+     "src": [
+      {
+       "n": "Медуза",
+       "u": "https://meduza.io/news/2026/11/06/vse-budut-prosto-v-vostorge-tramp-poobeschal-bolshuyu-prekrasnuyu-sdelku-po-ukraine",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "Коммерсантъ",
+       "u": "https://www.kommersant.ru/doc/9091484",
+       "d": "2026-11-06"
+      }
+     ],
+     "q": [
+      "date"
+     ]
+    },
+    "fr": {
+     "h": "Ukraine : la Pologne appelle à ne pas négocier avec la Russie sans inclure l'Europe de l'Est",
+     "s": "La Pologne met en garde ses alliés contre des négociations avec Moscou qui ignoreraient la sécurité de l'Europe de l'Est, Radosław Sikorski refusant que « l'Europe occidentale traite avec la Russie par-dessus la tête des Européens de l'Est », après l'entretien de 90 minutes du président finlandais Alexander Stubb et du Premier ministre norvégien Jonas Gahr Støre avec Vladimir Poutine. Donald Tusk appelle à la prudence face aux intentions de Poutine et au processus diplomatique mené par Washington, qui propose des accords économiques à Moscou. Des discussions trilatérales techniques Ukraine-Russie-États-Unis doivent reprendre la semaine prochaine à Abou Dhabi ; en amont, Melania Trump recevait jeudi à la Maison Blanche des représentants russes et ukrainiens pour évoquer les conséquences humanitaires de l'invasion russe, selon la RTBF.",
+     "src": [
+      {
+       "n": "Euronews",
+       "u": "https://fr.euronews.com/2026/11/06/ukraine-la-pologne-appelle-a-ne-pas-negocier-avec-la-russie-sans-inclure-leurope-de-lest",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "RTBF",
+       "u": "https://www.rtbf.be/article/melania-trump-reunit-des-representants-russes-et-ukrainiens-a-washington-11810973",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "en": {
+     "h": "Trump says Russia-Ukraine deal is near after meeting Putin's envoy",
+     "s": "Trump said a Russia-Ukraine deal could be close (\"It's going to be a big agreement\") after meeting Putin's special envoy Kirill Dmitriev at the White House, following a gathering hosted by First Lady Melania Trump that brought Russian and Ukrainian officials together to build on a localised truce in Oleshky; he gave no details. EU foreign policy chief Kaja Kallas rejected any 'big beautiful' US-Russia security arrangement covering Europe shaped without Europeans, saying \"Putin does not have a veto over European security\". US-mediated talks between Ukrainian and Russian negotiators are set for Abu Dhabi on 10-11 November, while Italy's Meloni has criticised the EU's fragmented approach ahead of an informal EU leaders' meeting in Dublin.",
+     "src": [
+      {
+       "n": "Al Jazeera",
+       "u": "https://www.aljazeera.com/news/2026/11/6/trump-met-russian-envoy-after-he-appeared-with-melania-trump-and-ukrainians",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "Euronews",
+       "u": "https://www.euronews.com/2026/11/06/eu-rejects-trumps-big-beautiful-security-deal-with-russia-and-all-of-europe",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "Euronews",
+       "u": "https://www.euronews.com/2026/11/06/cracks-emerge-over-europes-fragmented-approach-to-ukraine-peace-talks",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "Euronews",
+       "u": "https://www.euronews.com/2026/11/05/italian-pm-slams-eus-fragmented-approach-to-ukraine-peace-talks",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "de": {
+     "h": "Deal könnte „ganz Europa“ betreffen: Trump verspricht „großes Abkommen“ zur Ukraine – kein Kommentar aus dem Kreml",
+     "s": "Kurz nach der republikanischen Wahlniederlage kündigte Trump einen „sehr großen“ Deal mit Russland an, der „ganz Europa“ betreffen könnte, nannte aber keine Details; der Kreml kommentierte nicht, Außenminister Wadephul pochte darauf, dass über Europas Sicherheit nicht ohne Europa entschieden werden dürfe. Für die kommende Woche ist in Abu Dhabi ein Dreiertreffen von Vertretern aus Kyjiw, Moskau und Washington geplant – ohne europäische Beteiligung. Der Tagesspiegel bleibt skeptisch: Trump habe seit Amtsantritt mindestens achtmal eine baldige Einigung angekündigt, die Positionen lägen weiter weit auseinander.",
+     "src": [
+      {
+       "n": "Tagesspiegel",
+       "u": "https://www.tagesspiegel.de/internationales/deal-konnte-ganz-europa-betreffen-trump-verspricht-grosses-abkommen-zur-ukraine--kein-kommentar-aus-dem-kreml-16248307.html",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "sk": {
+     "h": "ONLINE Trump: Dohoda o konci vojny sa blíži, bude veľká a krásna. Mohla by sa týkať celej Európy",
+     "s": "Americký prezident Donald Trump vo štvrtok po stretnutí s Putinovým vyslancom Dmitrijevom označil dohodu o konci vojny na Ukrajine za blízku a povedal, že by mohla zasiahnuť celú Európu; obsah stretnutia odmietol prezradiť a AFP jeho vyjadrenie nazvala „záhadným“. Melania Trumpová, ktorá pomohla sprostredkovať prímerie v okupovaných Oleškách, 5. novembra hostila v Bielom dome predstaviteľov Ruska a Ukrajiny a vyzvala na dlhodobejšie prímerie. Ďalšie mierové rokovania sú naplánované v Abú Zabí na 10. a 11. novembra; Pravda pripomína aj telefonát lídrov Fínska a Nórska s Putinom, ktorý kritizovala Meloniová ako prejav nejednotnej európskej diplomacie.",
+     "src": [
+      {
+       "n": "Pravda",
+       "u": "https://www.pravda.sk/spravy/svet/clanok/2073557-svedi-chcu-zastavit-ruske-hybridne-utoky-robia-opatrenia",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "TASR / teraz.sk",
+       "u": "https://www.teraz.sk/zahranicie/trumpova-hostila-predstavitelov-ukraji/1005503-clanok.html",
+       "d": "2026-11-05"
+      }
+     ],
+     "q": [
+      "date"
+     ]
+    },
+    "ro": {
+     "h": "Trump spune că el și Putin sunt aproape de un acord privind Ucraina și „întreaga Europă”: „Va fi un acord mare și frumos”",
+     "s": "Donald Trump a afirmat la Casa Albă că el și Putin sunt aproape de o înțelegere majoră privind Ucraina, care ar putea influența întreaga Europă, după o întâlnire cu Kirill Dmitriev, șeful Fondului Rus de Investiții Directe. Melania Trump a găzduit o discuție cu Dmitriev și David Arakhamia despre operațiunea umanitară de la Oleshky. Runda de negocieri de la Abu Dhabi este programată pentru 10-11 noiembrie, cu delegația rusă condusă de Vladimir Medinski, descris drept „intransigent”.",
+     "src": [
+      {
+       "n": "Antena 3 CNN",
+       "u": "https://www.antena3.ro/externe/trump-spune-ca-el-si-putin-sunt-aproape-de-un-acord-privind-ucraina-si-intreaga-europa-va-fi-un-acord-mare-si-frumos-810161.html",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "Adevărul",
+       "u": "https://adevarul.ro/stiri-externe/sua/trump-anunta-un-acord-important-dupa-intalnirea-2569359.html",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "el": {
+     "h": "Τραμπ: Κοντά στο τέλος ο πόλεμος με την Ουκρανία – Η συμφωνία μπορεί να αφορά όλη την Ευρώπη",
+     "s": "Ο Τραμπ δηλώνει ότι ΗΠΑ και Ρωσία πλησιάζουν σε ευρύτερη συμφωνία που ενδέχεται να καλύπτει και την Ευρώπη («Θα υπάρξει συμφωνία»), ενώ στον Λευκό Οίκο συναντήθηκε κατ' ιδίαν μόνο με τον Ρώσο απεσταλμένο Κίριλ Ντμίτριεφ, αφήνοντας εκτός τους Ουκρανούς διαπραγματευτές – γεγονός που προκάλεσε ανησυχία σε Κίεβο και Ευρώπη. Οι επαφές συνδέονται με την ανθρωπιστική πρωτοβουλία της Μελάνια Τραμπ για διαδρόμους εκκένωσης και με τον νέο γύρο ειρηνευτικών διαπραγματεύσεων στο Άμπου Ντάμπι, ενώ συνεχίζονται οι επιθέσεις και οι ενεργειακές ελλείψεις στην Ουκρανία.",
+     "src": [
+      {
+       "n": "Το Βήμα",
+       "u": "https://www.tovima.gr/2026/11/06/world/tramp-konta-sto-telos-o-polemos-me-tin-oukrania-i-symfonia-mporei-na-afora-oli-tin-eyropi/",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "ja": {
+     "h": "メラニア氏、ロシアとウクライナの代表をホワイトハウスに招待へ",
+     "s": "トランプ米大統領の妻メラニア氏が、交戦中のロシアとウクライナの代表をホワイトハウスに招く計画が報じられた。同氏の事務所はこれを「前例のない外交的取り組み」と位置づけ、限定的な停戦を後押しする狙いを示している。先月発表したウクライナ南部オレシュキでの停戦に続く動きで、ウクライナの人権オンブズマンとロシアの人権担当者が出席する見通しだ。",
+     "src": [
+      {
+       "n": "CNN.co.jp",
+       "u": "https://www.cnn.co.jp/world/35254406.html",
+       "d": "2026-11-05"
+      }
+     ]
+    }
+   },
+   "thread": "ukraine-peace",
+   "region": "russia-ukraine",
+   "diff": {
+    "ru": "Российские издания пишут «Алешки», японский CNN — «オレシュキ» (Олешки). Французская версия начинается с предупреждения Польши не договариваться с Россией через голову Восточной Европы, греческая подчёркивает, что Трамп встречался с Дмитриевым без украинцев, а японская говорит только об инициативе Мелании Трамп.",
+    "fr": "Les médias russes écrivent « Aleshki », CNN en japonais « オレシュキ » (Oleshky). La version française s'ouvre sur l'avertissement de la Pologne contre des négociations avec la Russie par-dessus la tête de l'Europe de l'Est, la grecque souligne que Trump a vu Dmitriev sans les Ukrainiens, la japonaise ne parle que de l'initiative de Melania Trump.",
+    "en": "Russian outlets write 'Aleshki', CNN Japan 'オレシュキ' (Oleshky). The French version leads with Poland's warning against talks with Russia over Eastern Europe's head, the Greek one stresses that Trump met Dmitriev without the Ukrainians, and the Japanese one covers only Melania Trump's initiative.",
+    "de": "Russische Medien schreiben „Aleschki“, CNN Japan „オレシュキ“ (Oleschky). Die französische Fassung beginnt mit Polens Warnung vor Verhandlungen mit Russland über die Köpfe Osteuropas hinweg, die griechische betont, dass Trump Dmitrijew ohne die Ukrainer traf, die japanische berichtet nur über Melania Trumps Initiative.",
+    "sk": "Ruské médiá píšu „Aleški“, japonská CNN „オレシュキ“ (Oleški). Francúzska verzia začína varovaním Poľska pred rokovaniami s Ruskom ponad hlavy východnej Európy, grécka zdôrazňuje, že Trump sa s Dmitrijevom stretol bez Ukrajincov, a japonská hovorí len o iniciatíve Melanie Trumpovej.",
+    "ro": "Presa rusă scrie „Aleșki”, CNN Japonia „オレシュキ” (Oleșki). Versiunea franceză începe cu avertismentul Poloniei împotriva negocierilor cu Rusia peste capul Europei de Est, cea greacă subliniază că Trump l-a văzut pe Dmitriev fără ucraineni, iar cea japoneză vorbește doar despre inițiativa Melaniei Trump.",
+    "el": "Τα ρωσικά μέσα γράφουν «Αλέσκι», το ιαπωνικό CNN «オレシュキ» (Ολέσκι). Η γαλλική εκδοχή ξεκινά με την προειδοποίηση της Πολωνίας κατά διαπραγματεύσεων με τη Ρωσία πάνω από τα κεφάλια της Ανατολικής Ευρώπης, η ελληνική τονίζει ότι ο Τραμπ είδε τον Ντμίτριεφ χωρίς τους Ουκρανούς, η ιαπωνική μιλά μόνο για την πρωτοβουλία της Μελάνια Τραμπ.",
+    "ja": "ロシアの媒体は「アレシキ」、CNN.co.jpは「オレシュキ」と表記。仏語版は東欧の頭越しにロシアと交渉するなというポーランドの警告から始まり、ギリシャ語版はトランプ氏がウクライナ側抜きでドミトリエフ氏と会ったと強調、日本語版はメラニア夫人の取り組みのみを伝える。"
+   }
+  },
+  {
+   "id": "iran",
+   "rubric": "milpol",
+   "developing": true,
+   "event": {
+    "ru": "США и Иран: решение об ударах",
+    "fr": "États-Unis–Iran : la question des frappes",
+    "en": "US and Iran: the strike decision",
+    "de": "USA und Iran: Entscheidung über Angriffe",
+    "sk": "USA a Irán: rozhodnutie o úderoch",
+    "ro": "SUA și Iran: decizia privind loviturile",
+    "el": "ΗΠΑ–Ιράν: η απόφαση για πλήγματα",
+    "ja": "米国とイラン：攻撃再開の判断"
+   },
+   "t": {
+    "ru": {
+     "h": "Трамп провел первое после выборов совещание по Ирану со своей командой",
+     "s": "По данным Axios, Трамп впервые после промежуточных выборов провел совещание по Ирану с командой по нацбезопасности и рассматривает три варианта: новые удары, продолжение экономического давления или сделку. «Теперь мы примем решение», — сказал он, добавив, что предпочел бы не разрушать остальную часть страны, но, возможно, придется, и «вы скоро узнаете». CENTCOM готовится к возможному возобновлению крупных боевых операций, хотя новых указаний не получал.",
+     "src": [
+      {
+       "n": "Интерфакс",
+       "u": "https://www.interfax.ru/world/1127322",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "fr": {
+     "h": "Iran : l'armée assure être \"plus forte\" qu'au début de la guerre",
+     "s": "Le porte-parole de l'armée iranienne, Mohammad Akraminia, cité par l'agence Irna, affirme que les forces armées sont plus puissantes qu'au début de la guerre et promet une riposte « immédiate » et « sans limite géographique » à toute attaque. Alors que les négociations sous médiation qatarie s'intensifient pour éviter une reprise des hostilités, Donald Trump évoque la possibilité de nouveaux bombardements et parle de « frappes mineures », sans préciser s'il s'agit de nouvelles attaques ou de celles du début de semaine. Le guide suprême Mojtaba Khamenei a averti que le conflit s'étendrait si Washington reprenait ses frappes, le contrôle du détroit d'Ormuz restant l'enjeu clé des discussions.",
+     "src": [
+      {
+       "n": "AFP via La Libre",
+       "u": "https://www.lalibre.be/dernieres-depeches/2026/11/07/iran-larmee-assure-etre-plus-forte-quau-debut-de-la-guerre-EY6Z2O3FHFFUHK2JPMFOIB6SGA/",
+       "d": "2026-11-07"
+      }
+     ]
+    },
+    "en": {
+     "h": "Iran War Updates: Trump touts imminent decision on new U.S. strikes, keeping up threats, but also diplomacy",
+     "s": "Trump said in the Oval Office on Thursday that people will soon know his decision on whether to order a new round of US strikes on Iran, adding that Iran would need 25 years to rebuild, that he did not want more destruction but may not have a choice. On Friday the Qatari emir's office said Trump called Sheikh Tamim bin Hamad Al Thani about efforts to end the war. Iran's Revolutionary Guard claimed to have downed a US MQ-1 drone over Qeshm Island and said two tankers hit mines near the Strait of Hormuz; Trump has accused Iran of fabricating such incidents to raise energy prices.",
+     "src": [
+      {
+       "n": "CBS News",
+       "u": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "de": {
+     "h": "Trumps gefährliche Versuchung: Der Iran-Krieg könnte erneut eskalieren",
+     "s": "In einer Analyse sieht t-online-Autor Patrick Diekmann nach der Wahlniederlage der Republikaner die Gefahr, dass Trump den Iran-Krieg durch neue Angriffe ausweitet, um einen sichtbaren Erfolg vorzuweisen, falls sich keine Einigung abzeichnet. Trump hatte kurz vor den Midterms gesagt, es gebe keine unmittelbaren Pläne für weitere Angriffe, zugleich aber die Einsatzbereitschaft der US-Streitkräfte betont – für den Autor ein Zeichen, dass er sich beide Wege offenhält. Vizepräsident Vance kritisierte den Krieg öffentlich als Belastung, Netanjahus abweichendes Kriegsziel verkompliziert die Lage.",
+     "src": [
+      {
+       "n": "t-online",
+       "u": "https://www.t-online.de/nachrichten/ausland/krisen/id_101514460/trumps-gefaehrliche-versuchung-der-iran-krieg-koennte-erneut-eskalieren.html",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "ro": {
+     "h": "Trump spune că „vrem să mergem mai departe” în Iran. SUA vor decide curând daca reiau bombardamentele",
+     "s": "Președintele Donald Trump a declarat că va decide în curând dacă reia războiul împotriva Iranului, lansat de SUA și Israel în februarie cu scopul declarat de a împiedica Teheranul să construiască o armă nucleară: „vrem să mergem mai departe”, dar „aş prefera să nu distrug restul ţării dacă este posibil”. Potrivit Axios, Comandamentul Central al SUA intensifică pregătirile pentru o posibilă reluare a operațiunilor majore, deși nu a primit ordine noi, în timp ce mediatorii au vizitat recent Teheranul.",
+     "src": [
+      {
+       "n": "Defense Romania",
+       "u": "https://www.defenseromania.ro/trump-spune-ca-vrem-sa-mergem-mai-departe-in-iran-sua-vor-decide-curand-daca-reiau-bombardamentele_651801.html",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "el": {
+     "h": "Τραμπ: «Ίσως αναγκαστώ να καταστρέψω και το υπόλοιπο Ιράν» - Οι 3 επιλογές του προέδρου",
+     "s": "Μετά από σύσκεψη με κορυφαία στελέχη εθνικής ασφαλείας, ο Τραμπ είπε ότι θα αποφασίσει «σύντομα» αν θα κλιμακώσει τον πόλεμο με το Ιράν, τώρα που ολοκληρώθηκαν οι ενδιάμεσες εκλογές. Εξετάζει τρεις επιλογές: νέα πλήγματα, συνέχιση της οικονομικής πίεσης ή συμφωνία με σημαντικές παραχωρήσεις προς την Τεχεράνη. Παράλληλα, διαμεσολαβητές του Κατάρ επεξεργάζονται προσχέδιο (άρση ναυτικού αποκλεισμού, αποδέσμευση κεφαλαίων, επαναλειτουργία των Στενών του Ορμούζ), ενώ το CENTCOM προετοιμάζεται για πιθανή επανέναρξη επιχειρήσεων χωρίς νέα εντολή.",
+     "src": [
+      {
+       "n": "ΣΚΑΪ",
+       "u": "https://www.skai.gr/news/world/tramp-i-apofasi-gia-ton-polemo-me-to-iran-tha-lifthei-syntoma",
+       "d": "2026-11-06"
+      }
+     ]
+    }
+   },
+   "thread": "us-iran",
+   "region": "middle-east"
+  },
+  {
+   "id": "nkad",
+   "rubric": "miltech",
+   "developing": false,
+   "event": {
+    "ru": "КНДР испытала новый комплекс ПВО",
+    "fr": "La Corée du Nord teste une défense antiaérienne",
+    "en": "North Korea tests air-defence system",
+    "de": "Nordkorea testet Flugabwehrsystem",
+    "sk": "KĽDR testovala protivzdušnú obranu",
+    "ro": "Coreea de Nord testează un sistem antiaerian",
+    "el": "Η Βόρεια Κορέα δοκιμάζει σύστημα αεράμυνας",
+    "ja": "北朝鮮が対空ミサイル試射"
+   },
+   "t": {
+    "ru": {
+     "h": "Северная Корея провела испытание новейшего комплекса ПВО",
+     "s": "Ракетное управление КНДР 4 ноября провело пробный пуск новой системы противовоздушной обороны, сообщило ЦТАК. По данным агентства, в ходе испытаний проверили параметры и надежность новых материалов, а также способность комплекса распознавать и идентифицировать цели. Пхеньян представляет испытание как часть плановой модернизации боевых систем.",
+     "src": [
+      {
+       "n": "Интерфакс",
+       "u": "https://www.interfax.ru/world/1127055",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "en": {
+     "h": "North Korea tests new air-defence missile system: state media",
+     "s": "North Korean state media said Pyongyang test-fired a newly designed air-defence missile system and staged a strategic cruise-missile strike drill, both presented as a display of its weapons capabilities. The article places the tests in a recent run of weapons demonstrations and a harder line toward Seoul and Washington, noting that North Korea has a history of launching missiles around US elections, widely seen as a show of force.",
+     "src": [
+      {
+       "n": "Gulf News",
+       "u": "https://gulfnews.com/world/asia/north-korea-tests-new-air-defence-missile-system-state-media-1.500736467",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "de": {
+     "h": "Staatsmedien: Nordkorea testet neues Raketensystem",
+     "s": "Einen Tag nach den US-Kongresswahlen meldeten nordkoreanische Staatsmedien die Erprobung eines neu entwickelten Flugabwehrsystems, das laut KCNA die „technischen Spezifikationen“ bestätigen sollte. Demnach bewährten sich ein neues Material und ein intelligenter Lenkmodus, Details blieben offen. Zusätzlich wurde eine Übung mit Langstrecken-Marschflugkörpern gemeldet, die Beobachter wie frühere Starts im Umfeld von US-Wahlen als Machtdemonstration deuten.",
+     "src": [
+      {
+       "n": "ORF",
+       "u": "https://orf.at/stories/3447244/",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "sk": {
+     "h": "KĽDR otestovala nový systém protivzdušnej obrany, tvrdia štátne médiá",
+     "s": "Podľa štátnych médií KĽDR v stredu preverila nový protiletecký raketový komplex a zároveň nacvičila úder strelami s plochou dráhou letu. Podľa agentúry KCNA test potvrdil parametre zbrane a jej schopnosť identifikovať a sledovať ciele. Udalosť nasledovala po sérii zbrojných ukážok a vyostrenej rétorike Pchjongjangu voči Soulu a Washingtonu.",
+     "src": [
+      {
+       "n": "TASR (teraz.sk)",
+       "u": "https://www.teraz.sk/zahranicie/kldr-otestovala-novy-system-protivzdu/1005400-clanok.html",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "ro": {
+     "h": "Coreea de Nord anunță testarea unui nou sistem de rachete antiaeriene",
+     "s": "Potrivit agenției oficiale nord-coreene KCNA, Phenianul a testat miercuri un sistem antiaerian nou și avansat, pe fondul intensificării activităților militare. Sursa nu a oferit detalii tehnice despre sistem, raza de acțiune sau rezultatele testului. Anunțul vine după lansările de rachete raportate de Seul și alte teste recente, iar Coreea de Sud și SUA spun că monitorizează situația.",
+     "src": [
+      {
+       "n": "Mediafax",
+       "u": "https://www.mediafax.ro/externe/coreea-de-nord-anunta-testarea-unui-nou-sistem-de-rachete-antiaeriene-23837785",
+       "d": "2026-11-04"
+      }
+     ]
+    },
+    "el": {
+     "h": "H Βόρεια Κορέα δοκίμασε νέο σύστημα αεράμυνας και πυραύλους κρουζ μεγάλης εμβέλειας",
+     "s": "Η Πιονγκγιάνγκ προχώρησε σε δοκιμή νέου αντιαεροπορικού συστήματος με εκτοξεύσεις αναχαιτιστικών βλημάτων, καθώς και σε άσκηση πλήγματος σε εικονικό στόχο με πυραύλους κρουζ μεγάλου βεληνεκούς. Σύμφωνα με το KCNA, το σύστημα επιβεβαίωσε τις προδιαγραφές και την αξιοπιστία του, καθώς και την ικανότητα εντοπισμού και εξουδετέρωσης στόχων. Η ανακοίνωση συνδέεται με τις εκτοξεύσεις από τη Σοντόκ προς την Ανατολική Θάλασσα που είχε ήδη καταγράψει η Νότια Κορέα.",
+     "src": [
+      {
+       "n": "Πρώτο Θέμα",
+       "u": "https://www.protothema.gr/world/article/1905889/h-voreia-korea-dokimase-neo-sustima-aeramunas-kai-puraulous-krouz-megalis-emveleias/",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "ja": {
+     "h": "北朝鮮、４日発射は対空ミサイル　長距離巡航弾の訓練も",
+     "s": "朝鮮中央通信によると、北朝鮮のミサイル総局が4日に新型対空ミサイルの試射を行い、軍部隊が長距離巡航ミサイルの発射訓練を実施した。対空ミサイルには新素材が取り入れられたとしている。",
+     "src": [
+      {
+       "n": "琉球新報（共同通信）",
+       "u": "https://ryukyushimpo.jp/kyodo/entry-5589715.html",
+       "d": "2026-11-05"
+      }
+     ],
+     "q": [
+      "partial"
+     ]
+    }
+   },
+   "thread": "north-korea-weapons",
+   "region": "east-asia"
+  },
+  {
+   "id": "ruiran",
+   "rubric": "milecon",
+   "developing": false,
+   "event": {
+    "ru": "Поставки пусковых установок из России в Иран",
+    "fr": "Lanceurs russes pour l'Iran",
+    "en": "Russian launchers for Iran",
+    "de": "Russische Startgeräte für Iran",
+    "sk": "Ruské odpaľovacie zariadenia pre Irán",
+    "ro": "Lansatoare rusești pentru Iran",
+    "el": "Ρωσικοί εκτοξευτές για το Ιράν",
+    "ja": "ロシアからイランへの発射装置"
+   },
+   "t": {
+    "ru": {
+     "h": "СМИ: Россия передаст Ирану пусковые установки под управляемые ракеты ЛМУР Х-39",
+     "s": "Со ссылкой на Financial Times «Военное обозрение» пишет, что Россия согласилась поставить Ирану 90 пусковых установок «АПУ-Л» и «АПУ-305» для управляемых ракет Х-39 ЛМУР, предназначенных для уже закупленных Ираном вертолетов Ми-28. Издание подчеркивает, что FT «неоднократно замеченная в публикации откровенных фейков», поэтому к сообщению следует относиться осторожно.",
+     "src": [
+      {
+       "n": "Военное обозрение",
+       "u": "https://topwar.ru/292995-smi-rossija-peredast-iranu-puskovye-ustanovki-pod-upravljaemye-rakety-lmur-h-39.html",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "en": {
+     "h": "Rocket launcher deal illustrates deepening Russia-Iran relations",
+     "s": "Citing documents from a major Russian defence manufacturer, the Financial Times reported that Moscow committed in 2024 to supply Tehran with 90 advanced missile launchers; Al Jazeera could not confirm whether any have been delivered. The report came a day after Iran's Supreme National Security Council secretary Mohsen Rezaei met Putin in Moscow, where the Kremlin said they discussed developing their Comprehensive Strategic Partnership Treaty. Analyst Hanna Notte of the James Martin Center for Nonproliferation Studies said Russia \"still has certain red lines\" and its support is \"operationally helpful but is not the game changer in this war\".",
+     "src": [
+      {
+       "n": "Al Jazeera",
+       "u": "https://www.aljazeera.com/news/2026/11/6/rocket-launcher-deal-illustrates-deepening-russia-iran-relations",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "de": {
+     "h": "Krieg am Golf: Russland liefert Iran Abschussvorrichtungen für Hubschrauber",
+     "s": "Das russische Militär soll laut einem Bericht der Financial Times, der sich auf Lieferlisten der ukrainischen Sicherheitsfirma Dallas Analytics stützt, Abschussvorrichtungen für Lenkflugkörper von Kampfhubschraubern an Teheran liefern – genau jene Technik, die Putins Armee in der Ukraine selbst einsetzt; eine unabhängige Bestätigung gibt es nicht. t-online ordnet dies in die sogenannte „Achse des Umbruchs“ aus Russland, Iran, Nordkorea und China ein. Zugleich beriet Irans Sicherheitsberater Mohsen Rezaei mit Putin in Moskau unter anderem über die „Nachkriegszeit“.",
+     "src": [
+      {
+       "n": "t-online",
+       "u": "https://www.t-online.de/nachrichten/ausland/internationale-politik/id_101516548/krieg-am-golf-russland-liefert-iran-abschussvorrichtungen-fuer-hubschrauber.html",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "sk": {
+     "h": "Zákazník K-10 chcel ruskú výzbroj používanú na Ukrajine. Uniknuté dokumenty odhalili jeho totožnosť",
+     "s": "Podľa uniknutých dokumentov ruského zbrojárskeho priemyslu, ku ktorým sa dostali Financial Times a The Guardian, mala Moskva pripravených 90 odpaľovacích zariadení pre presne navádzané rakety, ktoré používa aj vo vojne na Ukrajine, a zákazníkom označeným ako K-10 je podľa dokumentov Irán. Nie je však potvrdené, že sa zariadenia skutočne vyrobili, vyviezli alebo odovzdali iránskej armáde. Kontrakt pochádza z roku 2024, takže sám osebe nedokazuje, že Rusko teraz dodáva Iránu zbrane na použitie proti USA či Izraelu, čo Moskva popiera.",
+     "src": [
+      {
+       "n": "Pravda",
+       "u": "https://www.pravda.sk/spravy/svet/clanok/2073807-rusko-iran-zbrane-vojna-na-ukrajine-dokumenty-rakety",
+       "d": "2026-11-06"
+      }
+     ],
+     "q": [
+      "date"
+     ]
+    },
+    "ro": {
+     "h": "Rusia înarmează Iranul cu tehnologie militară testată în războiul din Ucraina. Acord secret pentru 90 de lansatoare de rachete, dezvăluit de Financial Times",
+     "s": "Potrivit Financial Times, care citează documente interne ale industriei ruse de apărare, Rusia ar fi convenit să livreze Iranului 90 de lansatoare APU-L pentru elicoptere de atac și rachete ghidate LMUR, folosite în războiul din Ucraina. Cumpărătorul apare sub codul „K-10”, care, potrivit unei surse FT, desemnează Iranul. Moscova și Teheranul nu au oferit un răspuns oficial.",
+     "src": [
+      {
+       "n": "Mediafax",
+       "u": "https://www.mediafax.ro/stirile-zilei/rusia-inarmeaza-iranul-cu-tehnologie-militara-testata-in-razboiul-din-ucraina-acord-secret-pentru-90-de-lansatoare-de-rachete-dezvaluit-de-financial-times-23838022",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "el": {
+     "h": "Σε διπλό ταμπλό ο Πούτιν: Συμφώνησε να προμηθεύσει το Ιράν με 90 πυραυλικούς εκτοξευτήρες, ενώ καθησυχάζει την Ουάσιγκτον λόγω... Ουκρανίας",
+     "s": "Σύμφωνα με έρευνα του βρετανικού Guardian, βασισμένη σε διαρρεύσαντα έγγραφα της ρωσικής αμυντικής βιομηχανίας που εξασφάλισε η ουκρανική εταιρεία πληροφοριών Dallas Analytics, η Μόσχα συμφώνησε να προμηθεύσει το Ιράν με 90 εκτοξευτές για κατευθυνόμενους πυραύλους LMUR. Τα έγγραφα δεν αποδεικνύουν ότι η παράδοση ολοκληρώθηκε. Το άρθρο συνδέει τη στάση του Πούτιν με την επιθυμία του να διατηρήσει τις επαφές με τον Τραμπ ενόψει των διαπραγματεύσεων για την Ουκρανία.",
+     "src": [
+      {
+       "n": "Πρώτο Θέμα",
+       "u": "https://www.protothema.gr/world/article/1906294/se-diplo-tablo-o-poutin-sumfonise-me-to-iran-gia-promitheia-90-puraulikon-ektoxeutiron-diatirei-kales-sheseis-kai-me/",
+       "d": "2026-11-05"
+      }
+     ]
+    }
+   },
+   "thread": "russia-iran-arms",
+   "region": "middle-east",
+   "diff": {
+    "ru": "Все версии опираются на утечку документов, опубликованную Financial Times (греческая — на Guardian). «Военное обозрение» ставит под сомнение саму FT, Al Jazeera пишет, что поставки подтвердить не удалось, а немецкая и греческая версии называют источником документов украинскую фирму Dallas Analytics.",
+    "fr": "Toutes les versions reposent sur la fuite de documents publiée par le Financial Times (la grecque sur le Guardian). Voennoe Obozrenie met en doute le FT lui-même, Al Jazeera écrit n'avoir pu confirmer aucune livraison, et les versions allemande et grecque citent la société ukrainienne Dallas Analytics comme source des documents.",
+    "en": "Every version rests on the document leak published by the Financial Times (the Greek one on the Guardian). Voennoe Obozrenie questions the FT itself, Al Jazeera says it could not confirm any delivery, and the German and Greek versions name the Ukrainian firm Dallas Analytics as the source of the documents.",
+    "de": "Alle Fassungen stützen sich auf das vom Financial Times veröffentlichte Dokumentenleck (die griechische auf den Guardian). Wojennoje Obosrenije zweifelt die FT selbst an, Al Jazeera konnte keine Lieferung bestätigen, die deutsche und die griechische Fassung nennen die ukrainische Firma Dallas Analytics als Quelle der Dokumente.",
+    "sk": "Všetky verzie vychádzajú z úniku dokumentov, ktorý zverejnili Financial Times (grécka z Guardianu). Vojennoje obozrenije spochybňuje samotné FT, Al Jazeera píše, že dodávky sa nepodarilo potvrdiť, a nemecká a grécka verzia uvádzajú ako zdroj dokumentov ukrajinskú firmu Dallas Analytics.",
+    "ro": "Toate versiunile se bazează pe scurgerea de documente publicată de Financial Times (cea greacă pe Guardian). Voennoe Obozrenie pune la îndoială chiar FT, Al Jazeera scrie că nu a putut confirma livrările, iar versiunile germană și greacă numesc firma ucraineană Dallas Analytics drept sursă a documentelor.",
+    "el": "Όλες οι εκδοχές βασίζονται στη διαρροή εγγράφων που δημοσίευσαν οι Financial Times (η ελληνική στον Guardian). Το Voennoe Obozrenie αμφισβητεί τους ίδιους τους FT, το Al Jazeera γράφει ότι δεν μπόρεσε να επιβεβαιώσει παραδόσεις, ενώ η γερμανική και η ελληνική εκδοχή αναφέρουν ως πηγή την ουκρανική εταιρεία Dallas Analytics.",
+    "ja": "いずれの版もフィナンシャル・タイムズが報じた文書流出（ギリシャ語版はガーディアン）に基づく。露「軍事展望」はFT自体を疑問視し、アルジャジーラは引き渡しを確認できなかったとし、独語版とギリシャ語版は文書の出所としてウクライナ企業ダラス・アナリティクスを挙げる。"
+   }
+  },
+  {
+   "id": "analysis",
+   "rubric": "analysis",
+   "developing": false,
+   "event": {
+    "ru": "Трамп после промежуточных выборов",
+    "fr": "Trump après les élections de mi-mandat",
+    "en": "Trump after the midterms",
+    "de": "Trump nach den Zwischenwahlen",
+    "sk": "Trump po voľbách do Kongresu",
+    "ro": "Trump după alegerile intermediare",
+    "el": "Ο Τραμπ μετά τις ενδιάμεσες εκλογές",
+    "ja": "中間選挙後のトランプ政権"
+   },
+   "t": {
+    "ru": {
+     "h": "На первый, второй, крайний — рассчитайсь!",
+     "s": "Замруководителя группы иностранной информации «Коммерсанта» Евгений Хвостик разбирает, каким чиновникам грозит отставка после «сокрушительного поражения» республиканцев: по данным The Washington Post и Financial Times, первым под удар попадают ответственные за затянувшуюся войну с Ираном, прежде всего министр войны Пит Хегсет. В списке уязвимых также глава аппарата Сюзи Уайлз, вице-президент Вэнс (сам признавший, что «причина нашего проигрыша — война»), госсекретарь Рубио, министр торговли Лютник из-за связей с Эпштейном и министр финансов Бессент из-за инфляции.",
+     "src": [
+      {
+       "n": "Коммерсантъ",
+       "u": "https://www.kommersant.ru/doc/9081521",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "fr": {
+     "h": "Midterms 2026 : la déroute républicaine rebat les cartes pour la succession de Donald Trump",
+     "s": "Dans cette analyse d'Henri Clavier pour Public Sénat, les spécialistes Lauric Henneton (UVSQ), Ludivine Gilli (Fondation Jean-Jaurès) et Maxime Chervaux (Institut français de géopolitique) expliquent la débâcle républicaine surtout par l'inflation et les promesses économiques non tenues, tandis que des cadres comme JD Vance remettent ouvertement en cause les choix de Donald Trump, notamment la guerre en Iran. La perspective de 2028 libère une parole longtemps muselée et oblige les prétendants à concilier la mouvance MAGA et les conservateurs traditionnels, Marco Rubio apparaissant comme un rival sérieux de Vance. Reste la question, appelée à revenir avec insistance, de savoir si Trump est devenu un fardeau pour son parti.",
+     "src": [
+      {
+       "n": "Public Sénat",
+       "u": "https://publicsenat.fr/actualites/international/midterms-2026-la-deroute-republicaine-rebat-les-cartes-pour-la-succession-de-donald-trump",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "en": {
+     "h": "Is Trump really a 'lame duck' after losing both houses of US Congress?",
+     "s": "Al Jazeera's analysis questions whether the 'lame duck' label fits Trump after Democrats won both chambers: he has lost legislative leverage but keeps executive orders, emergency declarations and the veto, as Obama, Clinton and Biden did in their final years. James Boys, research fellow at UCL's Centre on US Politics, said \"many issues remain beyond the reach of Congress\" and that the Constitution grants the president \"wide-ranging powers\" in foreign policy, where Trump will likely spend his remaining time. Two days later Trump's appointment of Miller was framed by Al Jazeera as doubling down on his most controversial policies after the midterm losses.",
+     "src": [
+      {
+       "n": "Al Jazeera",
+       "u": "https://www.aljazeera.com/news/2026/11/4/is-trump-really-a-lame-duck-after-losing-both-houses-of-us-congress",
+       "d": "2026-11-04"
+      },
+      {
+       "n": "Al Jazeera",
+       "u": "https://www.aljazeera.com/news/2026/11/6/who-is-stephen-miller-trumps-new-white-house-chief-of-staff",
+       "d": "2026-11-06"
+      }
+     ],
+     "q": [
+      "old"
+     ]
+    },
+    "de": {
+     "h": "Trump hat nichts mehr zu verlieren: Gefährliche Macht des Stephen Miller",
+     "s": "In einem als Meinung gekennzeichneten Kommentar wertet t-online-Korrespondent Bastian Brauns die Beförderung Stephen Millers, des „Architekten“ von Trumps hartem Migrationskurs, zum Stabschef nach dem „Midterms-Desaster“ als „verheerendes Signal“ und bewusste Provokation. Er erwartet heftige Konfrontationen mit den Demokraten im Kongress und eine Ausweitung der präsidialen Macht. Trump, der nicht mehr wiedergewählt werden kann, werde in seinen verbleibenden zwei Amtsjahren wohl noch radikaler regieren.",
+     "src": [
+      {
+       "n": "t-online",
+       "u": "https://www.t-online.de/nachrichten/ausland/usa/us-wahl/id_101517282/trump-hat-nichts-mehr-zu-verlieren-gefaehrliche-macht-des-stephen-miller.html",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "ro": {
+     "h": "Românul care l-a consiliat pe Trump dezvăluie ce sfaturi i-ar da acum: „Să nu uităm că pe vremuri a fost democrat”",
+     "s": "Politologul Greg Scărlătoiu, fost consilier al administrației Trump pe problema Coreei de Nord, consideră că eșecul republicanilor la alegerile intermediare nu a fost o surpriză și reprezintă un vot de nemulțumire față de economie, nu un sprijin pentru agenda democraților. El îi recomandă Casei Albe prosperitate economică acasă, coerență strategică în afară, o mai bună gestionare a relațiilor cu NATO, Europa, Japonia și Coreea de Sud, precum și căutarea unor acorduri cu democrații.",
+     "src": [
+      {
+       "n": "Adevărul",
+       "u": "https://adevarul.ro/securitate-si-aparare/romanul-care-l-a-consiliat-pe-trump-dezvaluie-ce-2569320.html",
+       "d": "2026-11-07"
+      }
+     ]
+    },
+    "el": {
+     "h": "Η σαρωτική νίκη των Δημοκρατικών αλλάζει τα πάντα για τον Τραμπ, το τέλος της παντοδυναμίας του και η μάχη της διαδοχής",
+     "s": "Ο πολιτικός επιστήμονας Ίαν Μπρέμερ, πρόεδρος της Eurasia Group, εκτιμά ότι η συντριπτική νίκη των Δημοκρατικών στις ενδιάμεσες εκλογές περιορίζει την προεδρική ισχύ του Τραμπ και σηματοδοτεί την αρχή της σταδιακής αποδυνάμωσής του. Συνδέει την ήττα με τον πόλεμο στο Ιράν, τους δασμούς και τη συζήτηση για την ηλικία του προέδρου, που πυροδοτούν εσωκομματικές αντιπαραθέσεις και τη μάχη της διαδοχής με τους Βανς και Ρούμπιο στο προσκήνιο. Καταλήγει ότι η εποχή Τραμπ δεν έχει τελειώσει αλλά μπαίνει σε νέα φάση.",
+     "src": [
+      {
+       "n": "Πρώτο Θέμα",
+       "u": "https://www.protothema.gr/world/article/1905882/i-sarotiki-niki-ton-dimokratikon-allazei-ta-pada-gia-ton-trab-to-telos-tis-padodunamias-tou-kai-i-mahi-tis-diadohis/",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "ja": {
+     "h": "【分析】中間選挙敗北、トランプ氏は不可解な対応 賛否分かれるミラー氏を首席補佐官に昇格",
+     "s": "CNNのザカリー・B・ウルフ記者による分析記事。民主党が躍進した「ブルーウェーブ」の一因には大量送還政策に反発して共和党から離れたラティーノ系有権者があったにもかかわらず、トランプ氏はその政策の立案者ミラー氏を首席補佐官に抜擢したとして、筆者はこの判断を政治的に不可解だと論じる。移民政策を行き過ぎと見る有権者の多くが民主党に投票した事実を踏まえ、トランプ氏が選挙の教訓を学んだのか疑問が残ると結んでいる。",
+     "src": [
+      {
+       "n": "CNN.co.jp",
+       "u": "https://www.cnn.co.jp/usa/35254535.html",
+       "d": "2026-11-07"
+      }
+     ]
+    }
+   },
+   "thread": "us-politics",
+   "region": "north-america"
+  },
+  {
+   "id": "techrout",
+   "rubric": "business",
+   "developing": true,
+   "event": {
+    "ru": "Распродажа акций техсектора доходит до Азии",
+    "fr": "La déroute des valeurs tech gagne l'Asie",
+    "en": "Tech sell-off spreads to Asia",
+    "de": "Tech-Ausverkauf erreicht Asien",
+    "sk": "Výpredaj technologických akcií sa šíri do Ázie",
+    "ro": "Vânzările din tehnologie ajung în Asia",
+    "el": "Το sell-off της τεχνολογίας φτάνει στην Ασία",
+    "ja": "ハイテク株安がアジアに波及"
+   },
+   "t": {
+    "ru": {
+     "h": "Обвал стоимости акций технологических компаний распространился из США в Азию",
+     "s": "Южнокорейский KOSPI упал на 8% — «рекордное дневное снижение с февраля», японский Nikkei 225 потерял 6%; сильнее всего подешевели SoftBank (−14,4%), SK Hynix (−13,4%) и TSMC (−10,8%) вслед за падением Micron, Intel и Nvidia накануне. Причиной «Коммерсантъ» называет поражение республиканцев на промежуточных выборах: инвесторы опасаются, что демократы свернут ИИ-инициативы и ужесточат регулирование отрасли.",
+     "src": [
+      {
+       "n": "Коммерсантъ",
+       "u": "https://www.kommersant.ru/doc/9091287",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "fr": {
+     "h": "Les Bourses européennes reculent alors que la vente massive de puces américaines gagne l'Asie",
+     "s": "Après une séance noire à Wall Street où le S&P 500 a effacé 2 900 milliards de dollars et l'indice des semi-conducteurs chuté de 12,2 %, les Bourses européennes ont ouvert vendredi en repli (Stoxx 600 -1,2 %, DAX -1,6 %). La vague de ventes a gagné l'Asie : l'indice MSCI AC Asia a cédé plus de 4 %, SoftBank a clôturé en baisse d'environ 11 % à Tokyo et le Hang Seng reculait d'environ 1,1 % à mi-séance. Les investisseurs redoutent un durcissement des règles sur les centres de données d'IA après les succès démocrates aux midterms, susceptible de freiner la croissance américaine et la demande de puces et d'électricité.",
+     "src": [
+      {
+       "n": "Euronews",
+       "u": "https://fr.euronews.com/2026/11/06/les-bourses-europeennes-reculent-alors-que-la-vente-massive-de-puces-americaines-gagne-las",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "en": {
+     "h": "Tech stock rout, driven by US AI fears, continues in Asian trading",
+     "s": "Asian markets fell sharply on Friday as a tech selloff that began on Wall Street, where chip stocks had their worst day since 2020, spread across the region amid fears that the Democrats' midterm win would bring tougher AI oversight and slow US data-centre expansion. Japan's Nikkei slumped 6%, Taiwan's index closed 4.5% lower, SoftBank slid 11% and SK Hynix 9.4%, and trading in South Korea was briefly halted after indices plunged more than 8%. Several markets pared losses after authorities stepped in, with Chinese state entities buying equities.",
+     "src": [
+      {
+       "n": "Al Jazeera",
+       "u": "https://www.aljazeera.com/economy/2026/11/6/tech-stock-rout-driven-by-us-ai-fears-continues-in-asian-trading",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "Euronews",
+       "u": "https://www.euronews.com/2026/11/06/global-stock-rout-deepens-as-ai-data-centre-fears-fuel-worst-us-chip-sell-off-since-2020",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "Reuters via Global Banking & Finance Review",
+       "u": "https://www.globalbankingandfinance.com/softbank-group-9984-t-falls-2026-11-06/",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "de": {
+     "h": "Dax verliert nach KI-Ausverkauf in den USA und Asien",
+     "s": "Nach einer KI-bedingten Abwärtswelle in den USA und Asien gab der Dax am Freitag um 1,7 Prozent auf 25.868 Zähler nach. Anleger befürchten, dass die nach den Zwischenwahlen gestärkten Demokraten die KI-Branche strenger regulieren und den Ausbau von Rechenzentren bremsen könnten. Am Donnerstag hatte der Nasdaq 100 mit minus 6,4 Prozent seinen stärksten Tagesverlust seit dem Corona-Crash im März 2020 erlitten, der Halbleiterindex SOX brach um mehr als 12 Prozent ein.",
+     "src": [
+      {
+       "n": "Börsen-Zeitung (dpa-AFX/Reuters)",
+       "u": "https://www.boersen-zeitung.de/kapitalmaerkte/dax-verliert-nach-ki-ausverkauf-in-den-usa-und-asien",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "sk": {
+     "h": "Výpredaj akcií firiem z oblasti AI otriasa svetovými burzami",
+     "s": "Pokles technologických akcií z Wall Street sa v piatok preniesol na svetové burzy: londýnsky FTSE 100 oslabil ráno o 1,5 percenta a japonský Nikkei až o šesť percent, najviac strácali výrobcovia čipov pre AI ako Samsung a SK Hynix. Obavy posilnilo víťazstvo demokratov a ich kritika rýchleho budovania dátových centier; vo štvrtok S&P 500 klesol o 4,4 a Nasdaq o 5,5 percenta. Analytik Jefferies Mohit Kumar za výpredajom vidí najmä drobných investorov a nepovažuje ho za prasknutie bubliny okolo AI, rýchle zotavenie však neočakáva.",
+     "src": [
+      {
+       "n": "Štandard",
+       "u": "https://standard.sk/1362234/vypredaj-akcii-firiem-z-oblasti-ai-otriasa-svetovymi-burzami",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "TA3",
+       "u": "https://www.ta3.com/ekonomika/clanok/1081405/burzy-zasiahol-prudky-prepad-investori-sa-obavaju-prisnejsej-regulacie-technologickych-firiem",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "ro": {
+     "h": "Panica de pe Wall Street se extinde în Asia. Bursa din Japonia s-a prăbuşit cu 6%, iar cea din Coreea de Sud a pierdut tot 6%, pe fondul vânzărilor masive de acţiuni din sectorul AI",
+     "s": "Vânzările de acțiuni din tehnologie de pe Wall Street s-au extins vineri în Asia, unde Nikkei 225 și Kospi au scăzut cu aproximativ 6%, după ce Nasdaq 100 a pierdut 6,4%. Investitorii își reduc expunerea la companiile de inteligență artificială, temându-se că victoria democraților la alegerile intermediare ar putea frâna extinderea centrelor de date. Europa a resimțit mai puțin presiunea, Stoxx Europe 600 și FTSE 100 cedând circa 1,5% la deschidere.",
+     "src": [
+      {
+       "n": "Ziarul Financiar",
+       "u": "https://www.zf.ro/burse-fonduri-mutuale/panica-de-pe-wall-street-se-extinde-in-asia-bursa-din-japonia-s-a-prabusit-cu-6-iar-cea-din-coreea-de-sud-a-pierdut-tot-6-pe-fondul-vanzarilor-masive-de-actiuni-din-sectorul-ai-23276016",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "el": {
+     "h": "Ενδιάμεσες εκλογές και AI πίσω από τη βουτιά στις παγκόσμιες αγορές – «Φταίνε οι ανόητοι Δημοκρατικοί», λέει ο Τραμπ",
+     "s": "Μετά τις ενδιάμεσες εκλογές χάθηκαν τρισεκατομμύρια δολάρια από την αξία μεγάλων εταιρειών τεχνολογίας σε Αμερική, Ευρώπη και Ασία: ο Nasdaq υποχώρησε πάνω από 5,5%, ενώ Τόκιο, Σεούλ και Ταϊβάν δέχθηκαν ισχυρά πλήγματα από πωλήσεις μετοχών κατασκευαστών chips. Η αγορά φοβάται ότι οι τεράστιες επενδύσεις σε υποδομές τεχνητής νοημοσύνης δεν θα αποδώσουν και ότι οι Δημοκρατικοί, που κέρδισαν το Κογκρέσο, θα επιβραδύνουν τα κέντρα δεδομένων· το άρθρο συνδέει τον «νέο πανικό» με φόβους για φούσκα της AI. Ο Τραμπ ρίχνει την ευθύνη στους αντιπάλους του, που αποκαλεί «Dumocrats».",
+     "src": [
+      {
+       "n": "Εφημερίδα των Συντακτών",
+       "u": "https://www.efsyn.gr/oikonomia/1504261/endiameses-ekloges-kai-a-i-piso-apo-ti-voytia-ton-pagkosmion-agoron-ftaine-oi-anoitoi-dimokratikoi-leei-o-tramp/",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "ja": {
+     "h": "日経平均株価は大幅に5日続落、ＡＩ株安で一時5万7000円割れ　半年ぶり安値",
+     "s": "東京株式市場で日経平均は5日続落し、前営業日比5.96％安の5万7434円77銭で取引を終えた。前日の米国市場でAI・半導体関連株が急落した流れが波及し、アドバンテスト、ソフトバンクグループ、東京エレクトロンなどの主力株が指数を押し下げた。米中間選挙での民主党の躍進によりAIデータセンター規制が強まるとの懸念に加え、信用取引の追い証や損切りも下げに拍車をかけたとみられ、日経平均はテクニカル上で弱気相場入りした。",
+     "src": [
+      {
+       "n": "ニューズウィーク日本版（ロイター）",
+       "u": "https://www.newsweekjapan.jp/articles/-/339313",
+       "d": "2026-11-06"
+      }
+     ]
+    }
+   },
+   "thread": "ai-selloff",
+   "region": "global"
+  },
+  {
+   "id": "datacentres",
+   "rubric": "tech",
+   "developing": true,
+   "event": {
+    "ru": "Протесты против дата-центров для ИИ",
+    "fr": "Fronde contre les centres de données de l'IA",
+    "en": "Backlash against AI data centres",
+    "de": "Protest gegen KI-Rechenzentren",
+    "sk": "Odpor proti dátovým centrám pre AI",
+    "ro": "Revolta împotriva centrelor de date pentru IA",
+    "el": "Αντιδράσεις κατά των data centers της ΤΝ",
+    "ja": "AI向けデータセンターへの反発"
+   },
+   "t": {
+    "ru": {
+     "h": "В Амстердаме активисты ворвались на стройплощадку дата-центра Microsoft. Полиция применила силу",
+     "s": "Около 100 протестующих ворвались на стройплощадку дата-центра Microsoft в Амстердаме; полиции пришлось «применить силу», часть активистов выносили на руках. Эксперты связывают акцию с растущим в мире недовольством быстрым наращиванием вычислительных мощностей для ИИ, а противники дата-центров объявили о протестах в 16 странах. В Microsoft заявили, что уважают право людей на мнение, но «все должно происходить мирным способом».",
+     "src": [
+      {
+       "n": "Российская газета",
+       "u": "https://rg.ru/2026/11/06/v-amsterdame-aktivisty-vorvalis-na-strojploshchadku-data-centra-microsoft.html",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "fr": {
+     "h": "Des militants occupent le chantier d'un centre de données Microsoft à Amsterdam",
+     "s": "Vendredi, plusieurs centaines de militants opposés au centre de données Microsoft de Sloterdijk, près d'Amsterdam, ont investi le chantier et interrompu les travaux pour la journée, à l'appel des collectifs Geef Tegengas et Fossielvrij ; ils dénoncent sa consommation d'énergie et d'eau ainsi que son lien supposé avec l'IA militaire et la guerre à Gaza. Selon l'ANP, la police a interpellé entre 150 et 200 personnes ; Microsoft n'a pas réagi. Plus de 100 organisations dans 15 pays européens manifestent les 6 et 7 novembre pour réclamer un moratoire sur les grands centres de données, dans la foulée des élections de mi-mandat américaines où ces infrastructures sont devenues un enjeu politique.",
+     "src": [
+      {
+       "n": "La Libre (Belga)",
+       "u": "https://www.lalibre.be/dernieres-depeches/2026/11/06/des-militants-occupent-le-chantier-dun-centre-de-donnees-microsoft-a-amsterdam-E5TYW6WT75GXRLLMEQWNDG4ZFE/",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "Euronews",
+       "u": "https://fr.euronews.com/2026/11/05/en-europe-plus-de-100-organisations-reclament-un-moratoire-sur-les-grands-centres-de-donne",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "en": {
+     "h": "Protesters break into Microsoft data centre site in Amsterdam",
+     "s": "Hundreds of demonstrators occupied the construction site of a new Microsoft data centre in Amsterdam's Sloterdijk district on Friday, some clashing with police, climbing a crane and setting off flares; Dutch police detained 150 to 200 people suspected of trespassing. The action was part of a two-day Europe-wide campaign against AI-driven data centres, with activists arguing the buildout's heavy use of computing power and water is outpacing public consultation and environmental oversight. In the US, CBS News reports the same backlash shaped the midterms: voters approved 44 of 47 local measures restricting data centres, and fears of slower buildout pushed the Nasdaq into a correction.",
+     "src": [
+      {
+       "n": "Al Jazeera",
+       "u": "https://aljazeera.com/news/2026/11/6/protesters-break-into-microsoft-data-centre-site-in-amsterdam",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "CBS News",
+       "u": "https://www.cbsnews.com/news/ai-data-centers-stock-market-congress/",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "de": {
+     "h": "Protest gegen Microsoft-Rechenzentrum in Amsterdam - viele Festnahmen",
+     "s": "Hunderte Demonstranten drangen auf die Baustelle eines Microsoft-Rechenzentrums in Amsterdam vor; die Polizei nahm 150 bis 200 Personen wegen Hausfriedensbruchs fest und setzte Schlagstöcke ein. Die Bürgerbewegung Fossielvrij NL protestierte gegen den hohen Energieverbrauch von Rechenzentren, die Gruppierung Geef Tegengas versuchte mit Werkzeug Zäune aufzubrechen; Microsoft äußerte Verständnis für die Emotionen, billigt aber keine Gesetzesverstöße. Laut ORF steigt zugleich nach der „blauen Welle“ bei den US-Zwischenwahlen der Druck auf die KI-Branche: Rechenzentren stehen wegen hoher Strompreise und Wasserverbrauchs in der Kritik, Genehmigungen etwa in Texas, Ohio und Georgia könnten erschwert werden, Tech-Aktien gerieten weltweit unter Druck.",
+     "src": [
+      {
+       "n": "t-online (dpa-AFX)",
+       "u": "https://www.t-online.de/finanzen/boerse/ticker/protest-gegen-microsoft-rechenzentrum-in-amsterdam-viele-festnahmen/0DBACC00D143F2A1/",
+       "d": "2026-11-06"
+      },
+      {
+       "n": "ORF",
+       "u": "https://orf.at/stories/3447202/",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "sk": {
+     "h": "Američania odmietajú výstavbu nových dátových centier. Obavy z hluku a vysokej spotreby ovládli voľby",
+     "s": "Dátové centrá, kľúčové pre rozvoj umelej inteligencie, sa v USA stali neočakávanou témou volebnej kampane a voliči ich výstavbu v miestnych referendách čoraz častejšie odmietajú. Podľa prieskumov takmer sedem z desiatich Američanov nechce tieto centrá vo svojej komunite pre hluk a vysokú spotrebu vody a elektriny, hoci ich prezident Trump silno podporuje. Odpor sa prejavuje aj medzi jeho voličmi na vidieku; demokrati nespokojnosť využili a v Texase zvolili guvernérku, ktorá sľubuje prísnejšiu reguláciu.",
+     "src": [
+      {
+       "n": "TA3",
+       "u": "https://www.ta3.com/zahranicie/clanok/1081117/americania-odmietaju-vystavbu-novych-datovych-centier-obavy-z-hluku-a-vysokej-spotreby-ovladli-volby",
+       "d": "2026-11-05"
+      }
+     ]
+    },
+    "ro": {
+     "h": "Revoltă împotriva inteligenței artificiale se extinde Europa. Protestatarii au luat cu asalt un centru Microsoft din Amsterdam. Proteste anunțate în 15 țări",
+     "s": "Activiști au forțat gardurile șantierului din Amsterdam unde urmează să fie construit un centru de date Microsoft, au urcat pe macarale și au aprins torțe, iar poliția a reținut între 150 și 200 de persoane. Acțiunea face parte dintr-un val de proteste programate în 15 țări europene împotriva consumului mare de energie și apă al centrelor de date care susțin dezvoltarea inteligenței artificiale. Organizatorii cer un moratoriu asupra proiectelor mari, în timp ce companiile tehnologice susțin că aceste investiții sunt esențiale pentru competitivitatea Europei.",
+     "src": [
+      {
+       "n": "Mediafax",
+       "u": "https://www.mediafax.ro/externe/revolta-impotriva-inteligentei-artificiale-se-extinde-europa-protestatarii-au-luat-cu-asalt-un-centru-microsoft-din-amsterdam-proteste-anuntate-in-15-tari-23839244",
+       "d": "2026-11-07"
+      }
+     ],
+     "q": [
+      "head"
+     ]
+    },
+    "el": {
+     "h": "Μεγαλώνει η οργή για τα data centers στην Ευρώπη: Ακτιβιστές μπήκαν σε εργοτάξιο της Microsoft [εικόνες – βίντεο]",
+     "s": "Στο Άμστερνταμ τουλάχιστον εκατό διαδηλωτές εισήλθαν σε εργοτάξιο κέντρου δεδομένων της Microsoft για την Τεχνητή Νοημοσύνη, στο πλαίσιο διήμερων κινητοποιήσεων σε 16 χώρες. Η συμμαχία «Stop Dirty Data Centres» ζητά παύση της κατασκευής μεγάλων κέντρων δεδομένων, επικαλούμενη πιέσεις σε ενέργεια και νερό και απειλές για τους κλιματικούς στόχους, χωρίς να ζητά το κλείσιμο των υπαρχόντων. Η Microsoft δηλώνει ότι σέβεται την ειρηνική διαμαρτυρία αλλά δεν θα ανεχθεί παράνομες ενέργειες.",
+     "src": [
+      {
+       "n": "Εφημερίδα των Συντακτών",
+       "u": "https://www.efsyn.gr/kosmos/1504843/megalonei-i-orgi-gia-ta-data-centers-stin-eyropi-aktivistes-mpikan-se-ergotaxio-tis-microsoft-eikones-vinteo/",
+       "d": "2026-11-06"
+      }
+     ]
+    },
+    "ja": {
+     "h": "データセンター建設に反対　米住民投票、推進１件のみ",
+     "s": "米CNBCテレビは4日、中間選挙に合わせて全米10州で行われた人工知能（AI）向けデータセンター建設の是非を問う住民投票の結果を報じた。投票は計41件あり、有権者は1件を除いて建設に反対した。",
+     "src": [
+      {
+       "n": "琉球新報（共同通信）",
+       "u": "https://ryukyushimpo.jp/kyodo/entry-5589713.html",
+       "d": "2026-11-05"
+      }
+     ],
+     "q": [
+      "partial"
+     ]
+    }
+   },
+   "thread": "ai-datacentres",
+   "region": "global"
+  }
+ ],
+ "charts": [
+  {
+   "id": "asia-rout-chart",
+   "rubric": "infographic",
+   "kind": "bars",
+   "unit": "%",
+   "title": {
+    "ru": "6 ноября: распродажа техсектора в Азии и Европе",
+    "fr": "6 novembre : la déroute tech en Asie et en Europe",
+    "en": "November 6: the tech rout in Asia and Europe",
+    "de": "6. November: Tech-Ausverkauf in Asien und Europa",
+    "sk": "6. november: výpredaj technológií v Ázii a Európe",
+    "ro": "6 noiembrie: prăbușirea tehnologiei în Asia și Europa",
+    "el": "6 Νοεμβρίου: το sell-off της τεχνολογίας σε Ασία και Ευρώπη",
+    "ja": "11月6日：アジアと欧州のハイテク株安"
+   },
+   "note": {
+    "ru": "Изменение за 6 ноября, %. Первые три строки — индексы, далее акции. Nikkei, Taiex и все акции — по Al Jazeera (Samsung — «почти 6%»); Stoxx Europe 600 — по Ziarul Financiar, на открытии торгов.",
+    "fr": "Variation du 6 novembre, en %. Les trois premières lignes sont des indices, les suivantes des titres. Nikkei, Taiex et titres : Al Jazeera (Samsung : « près de 6 % ») ; Stoxx Europe 600 : Ziarul Financiar, à l'ouverture.",
+    "en": "Change on November 6, %. First three rows are indexes, the rest are stocks. Nikkei, Taiex and all stocks per Al Jazeera (Samsung 'nearly 6 percent'); Stoxx Europe 600 per Ziarul Financiar, at the open.",
+    "de": "Veränderung am 6. November, in %. Die ersten drei Zeilen sind Indizes, danach Aktien. Nikkei, Taiex und alle Aktien laut Al Jazeera (Samsung „fast 6 Prozent“); Stoxx Europe 600 laut Ziarul Financiar, zur Eröffnung.",
+    "sk": "Zmena 6. novembra v %. Prvé tri riadky sú indexy, ďalšie akcie. Nikkei, Taiex a všetky akcie podľa Al Jazeery (Samsung „takmer 6 %“); Stoxx Europe 600 podľa Ziarul Financiar, pri otvorení.",
+    "ro": "Variație pe 6 noiembrie, %. Primele trei rânduri sunt indici, restul acțiuni. Nikkei, Taiex și toate acțiunile: Al Jazeera (Samsung „aproape 6%”); Stoxx Europe 600: Ziarul Financiar, la deschidere.",
+    "el": "Μεταβολή στις 6 Νοεμβρίου, %. Οι τρεις πρώτες γραμμές είναι δείκτες, οι υπόλοιπες μετοχές. Nikkei, Taiex και όλες οι μετοχές: Al Jazeera (Samsung «σχεδόν 6%»)· Stoxx Europe 600: Ziarul Financiar, στο άνοιγμα.",
+    "ja": "11月6日の変化率（%）。上の3行は指数、以下は個別株。日経平均・加権指数・個別株はアルジャジーラ（サムスンは「約6%」）、ストックス欧州600はジアルル・フィナンチアル（寄り付き時点）。"
+   },
+   "rows": [
+    [
+     "Nikkei 225",
+     -6.0
+    ],
+    [
+     "Taiex",
+     -4.5
+    ],
+    [
+     "Stoxx Europe 600",
+     -1.5
+    ],
+    [
+     "SoftBank Group",
+     -11.0
+    ],
+    [
+     "SK Hynix",
+     -9.4
+    ],
+    [
+     "Samsung Electronics",
+     -6.0
+    ],
+    [
+     "TSMC",
+     -4.7
+    ]
+   ],
+   "src": [
+    {
+     "n": "Al Jazeera",
+     "u": "https://www.aljazeera.com/economy/2026/11/6/tech-stock-rout-driven-by-us-ai-fears-continues-in-asian-trading",
+     "d": "2026-11-06"
+    },
+    {
+     "n": "Ziarul Financiar",
+     "u": "https://www.zf.ro/burse-fonduri-mutuale/panica-de-pe-wall-street-se-extinde-in-asia-bursa-din-japonia-s-a-prabusit-cu-6-iar-cea-din-coreea-de-sud-a-pierdut-tot-6-pe-fondul-vanzarilor-masive-de-actiuni-din-sectorul-ai-23276016",
+     "d": "2026-11-06"
+    }
+   ]
+  },
+  {
+   "id": "oil-weekly-chart",
+   "rubric": "infographic",
+   "kind": "bars",
+   "split": 9,
+   "unit": "%",
+   "title": {
+    "ru": "Насколько подешевела нефть Brent за неделю: четыре прессы — четыре цифры",
+    "fr": "Recul hebdomadaire du Brent : quatre presses, quatre chiffres",
+    "en": "Brent's weekly fall: four presses, four figures",
+    "de": "Wochenminus bei Brent: vier Pressen, vier Zahlen",
+    "sk": "Týždenný pokles Brentu: štyri médiá, štyri čísla",
+    "ro": "Scăderea săptămânală a Brent: patru prese, patru cifre",
+    "el": "Η εβδομαδιαία πτώση του Brent: τέσσερις Τύποι, τέσσερις αριθμοί",
+    "ja": "ブレント原油の週間下落率：4つの報道、4つの数字"
+   },
+   "note": {
+    "ru": "Падение за неделю по 6 ноября, %, как его подали издания на разных языках. Reuters: «около 17%»; Интерфакс: 16% к вечеру пятницы; Capital.gr: «более 16%»; ТАСР: «примерно 12%» по утренним данным пятницы.",
+    "fr": "Baisse sur la semaine au 6 novembre, en %, telle que rapportée par des titres de langues différentes. Reuters : « environ 17 % » ; Interfax : 16 % vendredi soir ; Capital.gr : « plus de 16 % » ; TASR : « environ 12 % » vendredi matin.",
+    "en": "Weekly fall to November 6, %, as reported by outlets in different languages. Reuters: 'roughly 17%'; Interfax: 16% by Friday evening; Capital.gr: 'more than 16%'; TASR: 'about 12%' on Friday morning.",
+    "de": "Wochenverlust bis 6. November in %, wie ihn Medien verschiedener Sprachen meldeten. Reuters: „rund 17 %“; Interfax: 16 % am Freitagabend; Capital.gr: „über 16 %“; TASR: „etwa 12 %“ am Freitagmorgen.",
+    "sk": "Týždenný pokles k 6. novembru v %, ako ho uviedli médiá v rôznych jazykoch. Reuters: „zhruba 17 %“; Interfax: 16 % v piatok večer; Capital.gr: „viac ako 16 %“; TASR: „približne 12 %“ v piatok ráno.",
+    "ro": "Scăderea săptămânală până la 6 noiembrie, %, așa cum au relatat-o publicații în limbi diferite. Reuters: „circa 17%”; Interfax: 16% vineri seara; Capital.gr: „peste 16%”; TASR: „aproximativ 12%” vineri dimineață.",
+    "el": "Εβδομαδιαία πτώση έως τις 6 Νοεμβρίου, %, όπως τη μετέδωσαν μέσα σε διαφορετικές γλώσσες. Reuters: «περίπου 17%»· Interfax: 16% το βράδυ της Παρασκευής· Capital.gr: «άνω του 16%»· TASR: «περίπου 12%» το πρωί της Παρασκευής.",
+    "ja": "11月6日までの週間下落率（%）を各言語の媒体の報道どおりに示す。ロイター「約17%」、インタファクス「16%」（金曜夜）、キャピタル「16%超」、TASR「約12%」（金曜朝）。"
+   },
+   "rows": [
+    [
+     "Reuters (EN)",
+     -17
+    ],
+    [
+     "Интерфакс (RU)",
+     -16
+    ],
+    [
+     "Capital.gr (EL)",
+     -16
+    ],
+    [
+     "TASR (SK)",
+     -12
+    ]
+   ],
+   "src": [
+    {
+     "n": "Reuters via Global Banking & Finance Review",
+     "u": "https://www.globalbankingandfinance.com/oil-set-sharp-weekly-drop-middle-east-supply-concerns/",
+     "d": "2026-11-06"
+    },
+    {
+     "n": "Интерфакс",
+     "u": "https://www.interfax.ru/business/1127473",
+     "d": "2026-11-06"
+    },
+    {
+     "n": "Capital.gr",
+     "u": "https://www.capital.gr/agores/4028379/petrelaio-boutia-ano-tou-16-gia-to-brent-se-ebdomadiaia-basi/",
+     "d": "2026-11-06"
+    },
+    {
+     "n": "TASR / teraz.sk",
+     "u": "https://www.teraz.sk/ekonomika/ceny-ropy-v-piatok-rano-vzrastli/1005550-clanok.html",
+     "d": "2026-11-06"
+    }
+   ]
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-09",
+   "t": {
+    "ru": "Франция: встреча премьера Лекорню с профсоюзами и работодателями",
+    "fr": "France : Lecornu reçoit syndicats et patronat",
+    "en": "France: Lecornu meets unions and employers",
+    "de": "Frankreich: Lecornu trifft Gewerkschaften und Arbeitgeber",
+    "sk": "Francúzsko: Lecornu sa stretne s odbormi a zamestnávateľmi",
+    "ro": "Franța: Lecornu se întâlnește cu sindicatele și patronatul",
+    "el": "Γαλλία: ο Λεκορνί συναντά συνδικάτα και εργοδότες",
+    "ja": "仏：ルコルニュ首相が労使と会合"
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "end": "2026-11-20",
+   "t": {
+    "ru": "Анталья: климатическая конференция ООН COP31",
+    "fr": "Antalya : COP31 sur le climat",
+    "en": "Antalya: COP31 UN climate summit",
+    "de": "Antalya: UN-Klimakonferenz COP31",
+    "sk": "Antalya: klimatická konferencia OSN COP31",
+    "ro": "Antalya: conferința ONU pentru climă COP31",
+    "el": "Αττάλεια: διάσκεψη του ΟΗΕ για το κλίμα COP31",
+    "ja": "アンタルヤ：国連気候会議COP31"
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "end": "2026-11-11",
+   "t": {
+    "ru": "Абу-Даби: переговоры США, России и Украины",
+    "fr": "Abou Dhabi : pourparlers États-Unis, Russie, Ukraine",
+    "en": "Abu Dhabi: US, Russia and Ukraine talks",
+    "de": "Abu Dhabi: Dreiergespräche USA, Russland, Ukraine",
+    "sk": "Abú Zabí: rokovania USA, Ruska a Ukrajiny",
+    "ro": "Abu Dhabi: negocieri SUA–Rusia–Ucraina",
+    "el": "Άμπου Ντάμπι: συνομιλίες ΗΠΑ, Ρωσίας, Ουκρανίας",
+    "ja": "アブダビ：米ロウクライナ協議"
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "end": "2026-11-13",
+   "t": {
+    "ru": "Дублин: Европейское политическое сообщество и неформальный саммит ЕС",
+    "fr": "Dublin : Communauté politique européenne et sommet informel de l'UE",
+    "en": "Dublin: European Political Community and informal EU summit",
+    "de": "Dublin: Europäische Politische Gemeinschaft und informeller EU-Gipfel",
+    "sk": "Dublin: Európske politické spoločenstvo a neformálny samit EÚ",
+    "ro": "Dublin: Comunitatea Politică Europeană și summitul informal UE",
+    "el": "Δουβλίνο: Ευρωπαϊκή Πολιτική Κοινότητα και άτυπη σύνοδος της ΕΕ",
+    "ja": "ダブリン：欧州政治共同体とEU非公式首脳会議"
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "t": {
+    "ru": "Бельгия: премьер Де Вевер вновь у короля",
+    "fr": "Belgique : De Wever à nouveau chez le Roi",
+    "en": "Belgium: De Wever reports back to the King",
+    "de": "Belgien: De Wever erneut beim König",
+    "sk": "Belgicko: De Wever opäť u kráľa",
+    "ro": "Belgia: De Wever raportează din nou regelui",
+    "el": "Βέλγιο: ο Ντε Βέβερ ξανά στον βασιλιά",
+    "ja": "ベルギー：デウェーフェル首相が再び国王に報告"
+   }
+  },
+  {
+   "date": "2026-11-18",
+   "end": "2026-11-19",
+   "t": {
+    "ru": "Шэньчжэнь: саммит АТЭС",
+    "fr": "Shenzhen : sommet de l'APEC",
+    "en": "Shenzhen: APEC summit",
+    "de": "Shenzhen: APEC-Gipfel",
+    "sk": "Šen-čen: samit APEC",
+    "ro": "Shenzhen: summitul APEC",
+    "el": "Σεντζέν: σύνοδος APEC",
+    "ja": "深圳：APEC首脳会議"
+   }
+  },
+  {
+   "date": "2026-11-29",
+   "t": {
+    "ru": "Испания: досрочные выборы",
+    "fr": "Espagne : élections anticipées",
+    "en": "Spain: snap election",
+    "de": "Spanien: vorgezogene Wahl",
+    "sk": "Španielsko: predčasné voľby",
+    "ro": "Spania: alegeri anticipate",
+    "el": "Ισπανία: πρόωρες εκλογές",
+    "ja": "スペイン：前倒し総選挙"
+   }
+  }
+ ],
+ "local": {
+  "ru": [
+   {
+    "id": "abu-dhabi-talks",
+    "rubric": "politics",
+    "developing": true,
+    "h": "Путин обсудил с СБ РФ предстоящие 10 ноября трехсторонние переговоры РФ-США-Украина в ОАЭ",
+    "s": "На совещании с постоянными членами Совбеза Путин сообщил, что трехсторонние переговоры по украинской тематике в ОАЭ начнутся во вторник, 10 ноября, и поблагодарил руководство Эмиратов за содействие. По словам Пескова, встреча в Абу-Даби будет посвящена гарантиям безопасности и пройдет закрыто; в российскую делегацию войдут Владимир Мединский, замглавы МИД Сергей Рябков и Михаил Галузин, а также представители Генштаба Игорь Костюков и Юрий Жигарловский, курирует переговоры Юрий Ушаков.",
+    "src": [
+     {
+      "n": "Интерфакс",
+      "u": "https://www.interfax.ru/russia/1127496",
+      "d": "2026-11-06"
+     },
+     {
+      "n": "РБК",
+      "u": "https://www.rbc.ru/politics/07/11/2026/6aeed7699a79477f480478b8",
+      "d": "2026-11-07"
+     }
+    ]
+   },
+   {
+    "id": "pension-pds-conversion",
+    "rubric": "economy",
+    "developing": false,
+    "h": "В Думу внесен проект о конвертации пенсионных накоплений в ПДС",
+    "s": "Правительство внесло в Госдуму законопроект, по которому с 1 апреля 2027 года накопительная пенсия перестанет формироваться, а средства граждан будут переведены в программу долгосрочных сбережений «в силу закона»; страховую пенсию это не затрагивает. Накоплениями из Соцфонда будет управлять ВЭБ через уполномоченный НПФ с госучастием, а до 31 марта 2029 года можно будет сменить фонд без потери инвестиционного дохода. Минфин обещает «сохранение всех прав и гарантий для граждан», софинансирование государства и налоговые вычеты.",
+    "src": [
+     {
+      "n": "Интерфакс",
+      "u": "https://www.interfax.ru/russia/1127497",
+      "d": "2026-11-06"
+     },
+     {
+      "n": "РБК",
+      "u": "https://www.rbc.ru/finances/07/11/2026/6ae9e854d54c8a55deca6027",
+      "d": "2026-11-07"
+     }
+    ]
+   },
+   {
+    "id": "drone-attack-saratov-orel",
+    "rubric": "milpol",
+    "developing": true,
+    "h": "Более 400 украинских беспилотников атаковали регионы России. В Саратове пожар на заводе «Роснефти», в Орле горит завод «Протон»",
+    "s": "По данным Минобороны РФ, за ночь ПВО нейтрализовала 411 украинских беспилотников над рядом регионов, Крымом и акваториями Азовского и Черного морей. Издание Astra сообщило о пожаре на орловском заводе «Протон-Электротекс», выпускающем компоненты для военной техники; губернатор Андрей Клычков подтвердил атаку на неназванное предприятие. Саратовский губернатор Роман Бусаргин сообщил о повреждении «объектов гражданской инфраструктуры» — по анализу Astra, речь идет о НПЗ «Роснефти».",
+    "src": [
+     {
+      "n": "Медуза",
+      "u": "https://meduza.io/news/2026/11/07/bolee-400-ukrainskih-bespilotnikov-atakovali-regiony-rossii-v-saratove-pozhar-na-zavode-rosnefti-v-orle-gorit-zavod-proton",
+      "d": "2026-11-07"
+     }
+    ]
+   },
+   {
+    "id": "foreign-agents-parties",
+    "rubric": "politics",
+    "developing": false,
+    "h": "Новые «иноагенты» — партии «Мирная Россия» Ильи Яшина и «Рассвет» Екатерины Дунцовой",
+    "s": "Минюст внес в реестр «иноагентов» две оппозиционные партии без регистрации — основанную Ильей Яшиным в эмиграции «Мирную Россию» и созданный в Твери «Рассвет» Екатерины Дунцовой. В список также попали Леда Гарина, Борис Грозовский, Николай Родькин, Галина Рымбу, Мурат Темиров и медиаресурс «Разоблачено»; по версии министерства, они «распространяли недостоверную информацию о политике властей РФ» и выступали против вторжения в Украину.",
+    "src": [
+     {
+      "n": "Медуза",
+      "u": "https://meduza.io/news/2026/11/06/novye-inoagenty-partii-mirnaya-rossiya-ili-yashina-i-rassvet-ekateriny-duntsovoy",
+      "d": "2026-11-06"
+     }
+    ]
+   },
+   {
+    "id": "mod-deputy-armament-logistics",
+    "rubric": "milpol",
+    "developing": false,
+    "h": "Для заместителей министра обороны ввели должности начальников вооружения и тыла",
+    "s": "Указом Путина в Минобороны введены должности «начальника вооружения Вооруженных сил Российской Федерации — заместителя министра» и «начальника тыла Вооруженных сил Российской Федерации — заместителя министра». Документ допускает в ведомстве двенадцать заместителей министра, включая двух первых заместителей и статс-секретаря.",
+    "src": [
+     {
+      "n": "Интерфакс",
+      "u": "https://www.interfax.ru/russia/1127463",
+      "d": "2026-11-06"
+     }
+    ]
+   },
+   {
+    "id": "beget-data-loss",
+    "rubric": "tech",
+    "developing": true,
+    "h": "Beget восстановит данные на высокопроизводительных серверах только для половины пользователей",
+    "s": "Петербургский облачный провайдер Beget после атаки в ночь на 2 ноября признал, что данные на VPS удастся восстановить лишь для половины пользователей: злоумышленники взломали управляющие серверы и запустили вредоносное ПО для удаления данных. По словам компании, ее «облачная инфраструктура уничтожена» и строится заново; восстановлено 60% хостинговых серверов и 40% выделенных серверов с администрированием.",
+    "src": [
+     {
+      "n": "Интерфакс",
+      "u": "https://www.interfax.ru/digital/1127484",
+      "d": "2026-11-06"
+     }
+    ]
+   },
+   {
+    "id": "gazprom-turkey-supplies",
+    "rubric": "business",
+    "developing": false,
+    "h": "«Газпром» после заявлений Анкары о ценах заявил о росте поставок",
+    "s": "«Газпром» сообщил, что в октябре поставки в Турцию выросли на 78% к сентябрю, а за первые пять дней ноября почти вчетверо превысили показатели аналогичных периодов. Заявление последовало за словами министра энергетики Турции Алпарслана Байрактара о сокращении закупок российского газа в пользу американского: «Дело не в политике, а в цене».",
+    "src": [
+     {
+      "n": "РБК",
+      "u": "https://www.rbc.ru/politics/07/11/2026/6aef18309a7947193114b3c3",
+      "d": "2026-11-07"
+     }
+    ]
+   }
+  ],
+  "fr": [
+   {
+    "id": "budget-2027-rejete-assemblee",
+    "rubric": "politics",
+    "developing": false,
+    "h": "Budget 2027 : pourquoi même les macronistes ont lâché Lecornu",
+    "s": "Le 4 novembre, l'Assemblée nationale a rejeté le budget 2027 par 458 voix contre zéro, y compris des élus Renaissance, MoDem et indépendants proches du gouvernement. Selon le ministre des Comptes publics David Amiel, les modifications des députés dégradaient le solde de 20,7 milliards d'euros et portaient le déficit à 5,9 % du PIB, contre 5 % visés. Le gouvernement Lecornu doit choisir entre un compromis au Sénat, le 49.3 dont le RN pourrait décider de l'issue, ou une ordonnance budgétaire après le 17 décembre.",
+    "src": [
+     {
+      "n": "Politique Matin",
+      "u": "https://www.politiquematin.fr/budget-2027-macronistes-vote-contre-majorite-effondree",
+      "d": "2026-11-05"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Бюджет-2027: почему даже макронисты отвернулись от Лекорню",
+      "s": "4 ноября Национальное собрание отклонило бюджет на 2027 год 458 голосами против нуля, в том числе голосами депутатов от «Возрождения», MoDem и независимых, близких к правительству. По словам министра государственных счетов Давида Амьеля, внесённые депутатами поправки ухудшали сальдо на 20,7 млрд евро и доводили дефицит до 5,9% ВВП против целевых 5%. Правительству Лекорню предстоит выбрать между компромиссом в Сенате, статьёй 49.3, исход применения которой может решить «Национальное объединение», и бюджетным ордонансом после 17 декабря."
+     }
+    }
+   },
+   {
+    "id": "manifestations-5-novembre-conference-sociale",
+    "rubric": "social",
+    "developing": true,
+    "h": "Manifestations du 5 novembre : 1,57 million de personnes selon la CGT, 448 interpellations",
+    "s": "La journée de mobilisation du 5 novembre pour les salaires et le pouvoir d'achat a réuni 1 573 000 manifestants selon la CGT, 575 000 selon le ministère de l'Intérieur, avec 448 interpellations et 53 policiers ou gendarmes blessés. Sébastien Lecornu a convoqué une « conférence sociale » avec syndicats et patronat à Matignon lundi 9 novembre ; la CFDT réclame 100 euros nets de plus sur le Smic, la CGT +10 % et l'indexation des salaires. Samedi 7 novembre, une centaine de rassemblements sont prévus pour un quatrième week-end de contestation, les gilets jaunes voulant se réunir près de l'Assemblée malgré l'interdiction, sous un dispositif de 70 000 policiers et gendarmes.",
+    "src": [
+     {
+      "n": "Politique Matin",
+      "u": "https://www.politiquematin.fr/manifestations-5-novembre-2026-bilan-cgt-interpellations",
+      "d": "2026-11-06"
+     },
+     {
+      "n": "Public Sénat",
+      "u": "https://www.publicsenat.fr/actualites/politique/manifestation-du-5-novembre-sebastien-lecornu-annonce-une-conference-sociale-avec-les-syndicats-et-le-patronat-lundi",
+      "d": "2026-11-05"
+     },
+     {
+      "n": "Euronews",
+      "u": "https://fr.euronews.com/2026/11/07/france-nouvelle-journee-de-manifestations-ce-samedi",
+      "d": "2026-11-07"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Манифестации 5 ноября: 1,57 млн участников по данным ВКТ, 448 задержанных",
+      "s": "В день мобилизации 5 ноября за повышение зарплат и покупательной способности на улицы вышли 1 573 000 человек по данным ВКТ и 575 000 по данным МВД; задержаны 448 человек, ранены 53 полицейских и жандарма. Себастьен Лекорню созвал «социальную конференцию» с профсоюзами и работодателями в Матиньоне в понедельник, 9 ноября; ФДКТ требует повысить МРОТ (Smic) на 100 евро нетто, ВКТ — на 10% и ввести индексацию зарплат. В субботу, 7 ноября, запланировано около сотни акций в рамках четвёртых выходных протестов; «жёлтые жилеты» намерены собраться у Национального собрания вопреки запрету, задействованы 70 000 полицейских и жандармов."
+     }
+    }
+   },
+   {
+    "id": "plfss-2027-senat",
+    "rubric": "economy",
+    "developing": false,
+    "h": "Budget 2027 : les points chauds lors des débats au Sénat du 9 au 17 novembre",
+    "s": "Plus de 1 200 amendements ont été déposés au Sénat sur le budget 2027 de la Sécurité sociale, examiné du 9 au 17 novembre avant un vote solennel le 18. La commission propose de revaloriser les pensions jusqu'à 1 500 euros (contre 1 260 euros dans le texte du gouvernement) et de rétablir la réforme des retraites de 2023 ; les débats porteront aussi sur les allègements de charges, les taxes sur le sucre et un délai de résidence pour les prestations familiales des étrangers hors UE. Le gouvernement veut par ailleurs ramener par décret le remboursement des cures thermales de 65 % à 15 %.",
+    "src": [
+     {
+      "n": "Public Sénat",
+      "u": "https://www.publicsenat.fr/actualites/politique/budget-2027-les-points-chauds-lors-des-debats-au-senat-du-9-au-17-novembre",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Бюджет-2027: острые вопросы дебатов в Сенате 9–17 ноября",
+      "s": "В Сенат внесено более 1200 поправок к бюджету социального страхования на 2027 год, который будет рассматриваться с 9 по 17 ноября, а торжественное голосование назначено на 18-е. Комиссия предлагает индексировать пенсии размером до 1500 евро (против 1260 евро в правительственном тексте) и восстановить пенсионную реформу 2023 года; в ходе дебатов также обсудят снижение взносов, налоги на сахар и ценз оседлости для получения семейных пособий иностранцами из стран вне ЕС. Кроме того, правительство намерено декретом снизить компенсацию расходов на санаторно-курортное лечение с 65% до 15%."
+     }
+    }
+   },
+   {
+    "id": "mdcn-mk2-mbda",
+    "rubric": "milecon",
+    "developing": false,
+    "h": "Marine nationale : Le ministère des Armées va commander un nouveau standard du missile de croisière naval à MBDA",
+    "s": "Annoncée au salon Euronaval, la commande du MdCN Mk2 remplace la rénovation à mi-vie du missile de croisière naval par des munitions neuves. La cible est ramenée de 250 à 150 exemplaires, dont 50 pour les sous-marins nucléaires d'attaque, après la réduction à huit du nombre de frégates multimissions. L'investissement atteint environ 1,3 milliard d'euros selon le projet annuel de performances 2027, pour des livraisons à partir de 2030 et une portée supérieure à 1 000 km.",
+    "src": [
+     {
+      "n": "Zone Militaire (opex360)",
+      "u": "https://opex360.com/2026/11/06/marine-nationale-le-ministere-des-armees-va-commander-un-nouveau-standard-du-missile-de-croisiere-naval-a-mbda",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "ВМС Франции: Министерство вооружённых сил закажет у MBDA новую модификацию морской крылатой ракеты",
+      "s": "Объявленный на выставке Euronaval заказ MdCN Mk2 заменяет модернизацию морской крылатой ракеты в середине срока службы закупкой новых боеприпасов. Целевое количество сокращено с 250 до 150 единиц, из них 50 — для атомных многоцелевых подводных лодок, после сокращения числа многоцелевых фрегатов до восьми. Объём инвестиций, согласно ежегодному проекту показателей эффективности на 2027 год, составляет около 1,3 млрд евро; поставки начнутся с 2030 года, дальность превысит 1000 км."
+     }
+    }
+   },
+   {
+    "id": "tgv-m-alstom-service",
+    "rubric": "business",
+    "developing": false,
+    "h": "Plus économique et écologique: le nouveau TGV d'Alstom est enfin sur les rails",
+    "s": "Le nouveau TGV d'Alstom a effectué vendredi son premier service commercial entre Paris et Marseille, avec deux ans et demi de retard. Il promet 20 % d'énergie en moins et jusqu'à 20 % de passagers en plus, à 320 km/h. La SNCF a commandé 160 rames pour plus de cinq milliards d'euros, qui remplaceront progressivement le parc existant sur une dizaine d'années.",
+    "src": [
+     {
+      "n": "AFP via Bourse Direct",
+      "u": "https://www.boursedirect.fr/fr/actualites/categorie/economie/le-nouveau-tgv-d-alstom-entre-enfin-en-service-commercial-vendredi-a-la-sncf-afp-995f872cbd705183699dc34f5e9465a4432cd200",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Экономичнее и экологичнее: новый TGV от Alstom наконец вышел на линию",
+      "s": "Новый TGV от Alstom в пятницу совершил первый коммерческий рейс между Парижем и Марселем — с опозданием на два с половиной года. Он обещает на 20% меньшее энергопотребление и до 20% больше пассажиров при скорости 320 км/ч. SNCF заказала 160 составов более чем на пять миллиардов евро; в течение примерно десяти лет они постепенно заменят нынешний парк."
+     }
+    }
+   }
+  ],
+  "en": [
+   {
+    "id": "miller-chief-of-staff",
+    "rubric": "politics",
+    "developing": true,
+    "h": "2026 midterm election live updates as Trump announces White House shakeup",
+    "s": "President Trump announced Friday that Deputy Chief of Staff Stephen Miller will replace Susie Wiles as White House chief of staff from Monday, Nov. 9, with Wiles moving to the Trump Political Operation; CBS calls it the most significant change to his team since Republicans' midterm losses. Rep. Robert Garcia, the incoming House Oversight chair, said Democrats would investigate Miller. Democrats are projected to win about 256 House seats and at least 54 in the Senate, while reports said Trump had asked advisers whether Defense Secretary Pete Hegseth should stay.",
+    "src": [
+     {
+      "n": "CBS News",
+      "u": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Промежуточные выборы 2026 года: Трамп объявил о перестановках в Белом доме",
+      "s": "Президент Трамп объявил в пятницу, что заместитель главы аппарата Стивен Миллер с понедельника, 9 ноября, сменит Сьюзи Уайлс на посту главы аппарата Белого дома, а Уайлс перейдёт в Trump Political Operation; CBS называет это самым значимым изменением в его команде после поражения республиканцев на промежуточных выборах. Член Палаты представителей Роберт Гарсия, будущий председатель комитета по надзору, заявил, что демократы проведут расследование в отношении Миллера. По прогнозам, демократы получат около 256 мест в Палате представителей и не менее 54 в Сенате; кроме того, по имеющимся сообщениям, Трамп спрашивал советников, стоит ли оставлять министра обороны Пита Хегсета."
+     }
+    }
+   },
+   {
+    "id": "doj-resignations",
+    "rubric": "politics",
+    "developing": false,
+    "h": "US prosecutor who led Trump-backed election probe exits Justice Department",
+    "s": "Jason Reding Quinones, the US Attorney for the Southern District of Florida and a Trump loyalist who expanded a probe into alleged Russian support for Trump's 2016 campaign, resigned Friday, according to Attorney General Todd Blanche. His exit follows those of Civil Rights Division head Harmeet Dhillon on Thursday and national security lawyer John Eisenberg, as the administration braces for Democrat-led congressional investigations, including into alleged politicisation of the Justice Department. CBS News, citing two sources, reports Trump had wanted Dhillon fired after an October 60 Minutes interview; more than 75% of her division's staff left during her tenure.",
+    "src": [
+     {
+      "n": "Al Jazeera",
+      "u": "https://www.aljazeera.com/news/2026/11/6/us-prosecutor-who-led-trump-backed-election-probe-exits-justice-department",
+      "d": "2026-11-06"
+     },
+     {
+      "n": "CBS News",
+      "u": "https://www.cbsnews.com/news/harmeet-dhillon-resigns-doj-civil-rights-division/",
+      "d": "2026-11-05"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Прокурор, возглавлявший поддержанное Трампом расследование по выборам, покидает Минюст США",
+      "s": "Джейсон Рединг Киньонес, федеральный прокурор Южного округа Флориды и сторонник Трампа, расширивший расследование предполагаемой российской поддержки кампании Трампа 2016 года, в пятницу ушёл в отставку, сообщил генпрокурор Тодд Бланш. Его уход последовал за отставками главы отдела по гражданским правам Хармит Диллон в четверг и юриста по вопросам национальной безопасности Джона Айзенберга — на фоне того, как администрация готовится к расследованиям в возглавляемом демократами Конгрессе, в том числе о предполагаемой политизации Министерства юстиции. CBS News со ссылкой на два источника сообщает, что Трамп хотел уволить Диллон после её интервью программе 60 Minutes в октябре; за время её руководства отдел покинули более 75% сотрудников."
+     }
+    }
+   },
+   {
+    "id": "mississippi-senate",
+    "rubric": "politics",
+    "developing": true,
+    "h": "Mississippi Senate race still a toss-up, with razor-thin margin",
+    "s": "In deep-red Mississippi, Democrat Scott Colom led GOP Sen. Cindy Hyde-Smith by just over 1,900 votes on Friday morning with about 96% of the vote counted. Roughly 3,600 mail ballots plus an unknown number of affidavit ballots remain, and counties must certify by Nov. 13. Republicans have called for preserving affidavit ballots, which Colom's campaign called a \"desperate stunt.\"",
+    "src": [
+     {
+      "n": "CBS News",
+      "u": "https://www.cbsnews.com/news/mississippi-senate-race-results-2026-midterms/",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Исход сенатской гонки в Миссисипи по-прежнему непредсказуем при минимальном отрыве",
+      "s": "В традиционно республиканском Миссисипи демократ Скотт Колом утром в пятницу опережал сенатора-республиканку Синди Хайд-Смит чуть более чем на 1900 голосов после подсчёта около 96% бюллетеней. Остаются примерно 3600 почтовых бюллетеней и неизвестное число бюллетеней под присягой (affidavit ballots); округа должны утвердить итоги до 13 ноября. Республиканцы призвали сохранить бюллетени под присягой, что штаб Колома назвал «отчаянным трюком»."
+     }
+    }
+   },
+   {
+    "id": "october-jobs",
+    "rubric": "economy",
+    "developing": false,
+    "h": "Employers added 165,000 jobs in October as labor market shows strength",
+    "s": "U.S. employers added 165,000 jobs in October, far above the 65,000 economists expected, and unemployment eased to 4.1% from 4.2%. The Labor Department revised August and September gains up by a combined 84,000, after a weak 2025 that averaged about 10,000 jobs a month. \"All signs point to a solid labor market,\" said Oxford Economics' Ryan Sweet.",
+    "src": [
+     {
+      "n": "CBS News",
+      "u": "https://www.cbsnews.com/news/october-jobs-report-us-labor-market-2026/",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "В октябре работодатели создали 165 тысяч рабочих мест: рынок труда демонстрирует силу",
+      "s": "В октябре американские работодатели создали 165 000 рабочих мест — гораздо больше ожидавшихся экономистами 65 000, а безработица снизилась с 4,2% до 4,1%. Министерство труда пересмотрело прирост за август и сентябрь в сторону повышения в сумме на 84 000 после слабого 2025 года, когда в среднем создавалось около 10 000 рабочих мест в месяц. «Все признаки указывают на крепкий рынок труда», — заявил Райан Свит из Oxford Economics."
+     }
+    }
+   },
+   {
+    "id": "nasdaq-correction",
+    "rubric": "business",
+    "developing": false,
+    "h": "Stocks rebound after tech selloff that pushed Nasdaq into correction",
+    "s": "Stocks recovered some ground Friday, with the S&P 500 up 0.3% to 7,377 and the Nasdaq up 1.1% while the Dow slipped 0.5%, after Thursday's worst day for the S&P since April 2025. The selloff was driven by fears that Democratic midterm wins and more than 40 approved local ballot measures could slow data-centre construction and AI spending, though analysts note Trump's veto makes sweeping federal curbs unlikely. Strong jobs data also raised expectations of Fed rate increases, and Anthropic's expected Nasdaq debut is seen as a key test for AI revenue.",
+    "src": [
+     {
+      "n": "CBS News",
+      "u": "https://www.cbsnews.com/news/stocks-tech-sell-off-nasdaq-correction-dow/",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Акции отскочили после распродажи в техсекторе, отправившей Nasdaq в коррекцию",
+      "s": "В пятницу акции частично отыграли потери: S&P 500 вырос на 0,3%, до 7377 пунктов, Nasdaq — на 1,1%, а Dow снизился на 0,5% после того, как в четверг S&P пережил худший день с апреля 2025 года. Распродажа была вызвана опасениями, что победы демократов на промежуточных выборах и более 40 одобренных местных инициатив на референдумах могут замедлить строительство дата-центров и расходы на ИИ, хотя аналитики отмечают, что право вето Трампа делает масштабные федеральные ограничения маловероятными. Сильные данные по занятости также усилили ожидания повышения ставок ФРС, а ожидаемый дебют Anthropic на Nasdaq рассматривается как ключевая проверка доходов от ИИ."
+     }
+    }
+   },
+   {
+    "id": "southern-vanguard-colombia",
+    "rubric": "milpol",
+    "developing": false,
+    "h": "US, Colombian troops kick off exercise amid the Pentagon's Western Hemisphere pivot",
+    "s": "About 350 U.S. personnel and more than 400 Colombian soldiers have begun Exercise Southern Vanguard 2027, a multi-week drill in Colombia on jungle operations and countering explosive threats, led by the Army's Western Hemisphere Command. Defense News frames it as part of the Pentagon's reorientation under the 2026 National Defense Strategy, which ranks homeland and hemisphere defense above countering China. Commander Gen. Joseph Ryan describes \"economic supremacy\" as the goal, casting China's economic influence in the region as a major security threat.",
+    "src": [
+     {
+      "n": "Defense News",
+      "u": "https://www.defensenews.com/global/the-americas/2026/11/06/us-colombian-troops-kick-off-exercise-amid-the-pentagons-western-hemisphere-pivot/",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Военные США и Колумбии начали учения на фоне разворота Пентагона к Западному полушарию",
+      "s": "Около 350 американских военнослужащих и более 400 колумбийских солдат начали в Колумбии многонедельные учения Southern Vanguard 2027, посвящённые операциям в джунглях и противодействию взрывоопасным угрозам; руководит ими Командование Западного полушария Сухопутных войск США. Defense News рассматривает их как часть переориентации Пентагона в рамках Стратегии национальной обороны 2026 года, которая ставит оборону страны и полушария выше сдерживания Китая. Командующий генерал Джозеф Райан называет целью «экономическое превосходство», представляя экономическое влияние Китая в регионе как серьёзную угрозу безопасности."
+     }
+    }
+   }
+  ],
+  "de": [
+   {
+    "id": "aigner-bundespraesidentin",
+    "rubric": "politics",
+    "developing": true,
+    "h": "Bundespräsidentenwahl: CDU einig: Aigner soll Bundespräsidentin werden",
+    "s": "Die CDU-Führung ist sich einig, die CSU-Politikerin und bayerische Landtagspräsidentin Ilse Aigner als Nachfolgerin von Frank-Walter Steinmeier vorzuschlagen; Kanzler Merz soll sie laut t-online am Sonntag präsentieren. Die Bundesversammlung wählt am 30. Januar, Union und SPD haben dort eine Mehrheit von etwa 50 Stimmen, SPD-Fraktionschef Miersch hat sich bereits für Aigner ausgesprochen. t-online zeichnet Merz kritisch als Getriebenen, dem die Personalie „entglitten“ sei, nachdem CSU-Chef Söder Aigner schon im April ins Spiel gebracht hatte.",
+    "src": [
+     {
+      "n": "Tagesspiegel (dpa)",
+      "u": "https://www.tagesspiegel.de/politik/dpa-bundesprasidentenwahl-cdu-einig-aigner-soll-bundesprasidentin-werden-16253151.html",
+      "d": "2026-11-06"
+     },
+     {
+      "n": "t-online",
+      "u": "https://t-online.de/nachrichten/deutschland/innenpolitik/id_101516102/aigner-soll-bundespraesidentin-werden-wie-konnte-es-merz-nur-so-entgleiten-.html",
+      "d": "2026-11-06"
+     },
+     {
+      "n": "t-online",
+      "u": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101515946/ilse-aigner-als-bundespraesidentin-das-sagt-cdu-generalin-hoppermann.html",
+      "d": "2026-11-07"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Выборы федерального президента: в ХДС едины — президентом должна стать Айгнер",
+      "s": "Руководство ХДС едино в намерении выдвинуть политика ХСС и председателя баварского ландтага Ильзе Айгнер преемницей Франка-Вальтера Штайнмайера; канцлер Мерц, по данным t-online, должен представить её в воскресенье. Федеральное собрание проголосует 30 января, ХДС/ХСС и СДПГ располагают там большинством примерно в 50 голосов, глава фракции СДПГ Мирш уже высказался в поддержку Айгнер. t-online критически изображает Мерца как политика, действующего под давлением обстоятельств, у которого кадровый вопрос «вышел из-под контроля» после того, как лидер ХСС Зёдер ещё в апреле предложил кандидатуру Айгнер."
+     }
+    }
+   },
+   {
+    "id": "industrieproduktion-september",
+    "rubric": "economy",
+    "developing": false,
+    "h": "Konjunktur: Industrieproduktion in Deutschland wächst überraschend",
+    "s": "Die deutsche Industrie steigerte ihre Produktion im September trotz Dürre und der Folgen der Kriege im Iran und in der Ukraine um 0,7 Prozent gegenüber dem Vormonat, teilte das Statistische Bundesamt mit. Der August-Wert wurde allerdings von 2 auf 1 Prozent nach unten korrigiert, im Jahresvergleich lag das Plus mit 0,4 Prozent unter den Erwartungen. Getragen wurde das Wachstum von Autoindustrie und Pharmabranche, Bau und Maschinenbau gingen zurück.",
+    "src": [
+     {
+      "n": "Tagesspiegel (dpa)",
+      "u": "https://www.tagesspiegel.de/wirtschaft/dpa-konjunktur-industrieproduktion-in-deutschland-wachst-uberraschend-16248237.html",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Конъюнктура: промышленное производство в Германии неожиданно выросло",
+      "s": "Немецкая промышленность в сентябре, несмотря на засуху и последствия войн в Иране и Украине, увеличила производство на 0,7% по сравнению с предыдущим месяцем, сообщило Федеральное статистическое ведомство. Однако показатель за август был пересмотрен в сторону понижения с 2 до 1%, а в годовом выражении прирост в 0,4% оказался ниже ожиданий. Рост обеспечили автомобильная и фармацевтическая отрасли, тогда как строительство и машиностроение сократились."
+     }
+    }
+   },
+   {
+    "id": "rheinmetall-prognose",
+    "rubric": "business",
+    "developing": false,
+    "h": "Rüstung: Rheinmetall macht viel mehr Geschäft, senkt aber Prognose",
+    "s": "Rheinmetall steigerte in den ersten neun Monaten den Umsatz um 38 Prozent auf 8,4 Milliarden Euro und das operative Ergebnis um 69 Prozent auf 1,3 Milliarden Euro. Dennoch senkte der Konzern die Jahresprognose auf rund 13,2 Milliarden Euro Umsatz (zuvor 13,7 bis 14,2 Milliarden), vor allem wegen Verzögerungen beim Boxer und bei Artilleriemunition. Die Aktie brach zeitweise um bis zu 16 bis 17 Prozent ein – stock3 schrieb, der Kurs „implodiert nach Zahlen“.",
+    "src": [
+     {
+      "n": "Tagesspiegel (dpa)",
+      "u": "https://www.tagesspiegel.de/wirtschaft/dpa-rustung-rheinmetall-macht-viel-mehr-geschaft-senkt-aber-prognose-16244947.html",
+      "d": "2026-11-05"
+     },
+     {
+      "n": "stock3",
+      "u": "https://stock3.com/news/rheinmetall-aktienkurs-implodiert-nach-zahlen-17376853",
+      "d": "2026-11-05"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Оборонная промышленность: оборот Rheinmetall заметно вырос, но компания снизила прогноз",
+      "s": "За первые девять месяцев Rheinmetall увеличил выручку на 38%, до 8,4 млрд евро, а операционную прибыль — на 69%, до 1,3 млрд евро. Тем не менее концерн понизил годовой прогноз выручки до примерно 13,2 млрд евро (ранее 13,7–14,2 млрд), прежде всего из-за задержек с Boxer и артиллерийскими боеприпасами. Акции временами обваливались на 16–17%; stock3 написал, что курс «взрывается вниз после публикации цифр»."
+     }
+    }
+   },
+   {
+    "id": "knds-staatsbeteiligung",
+    "rubric": "milecon",
+    "developing": true,
+    "h": "Deutscher Staat beteiligt sich offenbar zu 50 Prozent an KNDS",
+    "s": "Der Bund soll sich laut Handelsblatt, das sich auf vertrauliche Regierungsunterlagen beruft, mit den Eigentümerfamilien von KNDS auf die Übernahme von 50 Prozent der Anteile geeinigt haben; die anderen 50 Prozent hält der französische Staat, Kosten sind nicht beziffert. Der geplante Börsengang von 20 Prozent wurde wegen des schwierigen Marktumfelds offenbar abgesagt. Der Bund wäre damit größter staatlicher Anteilseigner eines deutschen Rüstungsunternehmens (Leopard 2, Panzerhaubitze 2000, Boxer); eine Bestätigung liegt nicht vor.",
+    "src": [
+     {
+      "n": "hartpunkt",
+      "u": "https://www.hartpunkt.de/deutscher-staat-beteiligt-sich-offenbar-zu-50-prozent-an-knds/",
+      "d": "2026-11-05"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Германия, по всей видимости, получит 50% в KNDS",
+      "s": "По данным Handelsblatt, ссылающегося на конфиденциальные правительственные документы, федеральное правительство договорилось с семьями-владельцами KNDS о приобретении 50% акций; остальные 50% принадлежат французскому государству, стоимость сделки не называется. Запланированное размещение 20% акций на бирже, судя по всему, отменено из-за сложной рыночной конъюнктуры. Таким образом, федеральное правительство стало бы крупнейшим государственным акционером немецкой оборонной компании (Leopard 2, Panzerhaubitze 2000, Boxer); подтверждения пока нет."
+     }
+    }
+   },
+   {
+    "id": "bundeswehr-ki-osint",
+    "rubric": "miltech",
+    "developing": false,
+    "h": "Internet Reconnaissance – Bundeswehr will rund 50 Millionen Euro in KI-gestützte OSINT-Fähigkeiten investieren",
+    "s": "Die Bundeswehr will über die BWI GmbH das Werkzeug „Internet Reconnaissance“ beschaffen, das frei zugängliche Online-Informationen einschließlich Bildern und Videos KI-gestützt sammelt, auswertet und visualisiert. Der Haushaltsausschuss soll sich nächste Woche mit einer 25-Millionen-Euro-Vorlage befassen; für den auf fünf Jahre angelegten Rahmenvertrag sind insgesamt rund 50 Millionen Euro nötig.",
+    "src": [
+     {
+      "n": "hartpunkt",
+      "u": "https://www.hartpunkt.de/internet-reconnaissance-bundeswehr-will-rund-50-millionen-euro-in-ki-gestuetzte-osint-faehigkeiten-investieren/",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Internet Reconnaissance: бундесвер намерен вложить около 50 млн евро в OSINT-возможности на базе ИИ",
+      "s": "Бундесвер через компанию BWI GmbH планирует закупить инструмент Internet Reconnaissance, который с помощью ИИ собирает, анализирует и визуализирует общедоступную информацию в интернете, включая изображения и видео. Бюджетный комитет должен на следующей неделе рассмотреть предложение на 25 млн евро; всего для рассчитанного на пять лет рамочного контракта потребуется около 50 млн евро."
+     }
+    }
+   },
+   {
+    "id": "ig-metall-tarifrunde",
+    "rubric": "social",
+    "developing": true,
+    "h": "Metall- und Elektroindustrie: In dritter Verhandlung: IG Metall macht Lösungsvorschlag",
+    "s": "In der dritten Verhandlungsrunde in Ludwigsburg bot die IG Metall an, eine befristete tarifliche Regelung zu erarbeiten, die Investitionen in Zukunftsprodukte an verbindliche Zusagen zu Standorten, Jobs und Ausbildung koppelt. Die Gewerkschaft fordert 5 Prozent mehr bei zwölf Monaten Laufzeit, die Arbeitgeber bieten eine Einmalzahlung und 1,3 Prozent ab Juli 2028. Südwestmetall-Chef Krause nennt den Vorstoß „interessant“, sieht die Seiten aber weit auseinander; die Warnstreiks gehen weiter, am Montag wird in Düsseldorf verhandelt.",
+    "src": [
+     {
+      "n": "Tagesspiegel (dpa)",
+      "u": "https://www.tagesspiegel.de/wirtschaft/dpa-metall-und-elektroindustrie-in-dritter-verhandlung-ig-metall-macht-losungsvorschlag-16246246.html",
+      "d": "2026-11-05"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Металлургия и электротехника: в третьем раунде переговоров IG Metall предложила решение",
+      "s": "В третьем раунде переговоров в Людвигсбурге IG Metall предложила разработать временное тарифное соглашение, увязывающее инвестиции в продукты будущего с обязательными гарантиями сохранения производственных площадок, рабочих мест и обучения. Профсоюз требует повышения на 5% при сроке действия в двенадцать месяцев, работодатели предлагают единовременную выплату и 1,3% с июля 2028 года. Глава Südwestmetall Краузе назвал инициативу «интересной», но считает, что позиции сторон далеки друг от друга; предупредительные забастовки продолжаются, в понедельник переговоры пройдут в Дюссельдорфе."
+     }
+    }
+   }
+  ],
+  "sk": [
+   {
+    "id": "fico-eu-referendum",
+    "rubric": "politics",
+    "developing": true,
+    "h": "Fico vyhlásením o sfalšovanom referende o EÚ šokoval politickú scénu. Opozícia hovorí o nebezpečnej hre",
+    "s": "Premiér Robert Fico (Smer-SD) v piatok v diskusii s bývalým českým prezidentom Václavom Klausom tvrdil, že referendum o vstupe Slovenska do EÚ z roku 2004 bolo sfalšované a bez falšovania by nebolo úspešné; dôkazy neuviedol. SaS to považuje za predvolebný ťah na voličov Republiky, PS spochybňuje, že môže niečo také vysloviť premiér členskej krajiny, a KDH hovorí o vrchole politickej nezodpovednosti a približovaní sa k dezinformačnej scéne.",
+    "src": [
+     {
+      "n": "TA3",
+      "u": "https://www.ta3.com/slovensko/clanok/1081541/fico-vyhlasenim-o-sfalsovanom-referende-o-eu-sokoval-politicku-scenu-opozicia-hovori-o-nebezpecnej-hre",
+      "d": "2026-11-07"
+     },
+     {
+      "n": "TASR (teraz.sk)",
+      "u": "https://teraz.sk/slovensko/kdh-premier-vyrokmi-o-referende-cynic/1005866-clanok.html",
+      "d": "2026-11-07"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Фицо шокировал политическую сцену заявлением о фальсификации референдума о ЕС. Оппозиция говорит об опасной игре",
+      "s": "Премьер-министр Роберт Фицо («Смер — социальная демократия») в пятницу в дискуссии с бывшим президентом Чехии Вацлавом Клаусом утверждал, что референдум 2004 года о вступлении Словакии в ЕС был сфальсифицирован и без фальсификаций не оказался бы успешным; доказательств он не привёл. SaS считает это предвыборным ходом в расчёте на избирателей партии «Республика», PS сомневается, что подобное может заявлять премьер страны — члена ЕС, а KDH говорит о верхе политической безответственности и сближении с дезинформационной сценой."
+     }
+    }
+   },
+   {
+    "id": "migration-fund-no-exemption",
+    "rubric": "politics",
+    "developing": false,
+    "h": "Slovensko opäť nedostalo výnimku z migračnej solidarity. Šutaj Eštok odmieta platiť, Fico hovoril o miliónoch eur",
+    "s": "Európska komisia vo výročnej správe o migrácii nezaradila Slovensko medzi krajiny, ktoré môžu na rok 2027 žiadať zníženie príspevkov do fondu solidarity, na rozdiel od Česka, Rakúska, Poľska či Bulharska. Minister vnútra Matúš Šutaj Eštok vyhlásil, že „Slovensko neplatí a nebude platiť za odmietnutých imigrantov“, hoci Fico v júni hovoril o zaplatení asi štyroch miliónov eur. Opozičné KDH v tom vidí ďalší neúspech vlády v Bruseli; konečne rozhodne Rada EÚ.",
+    "src": [
+     {
+      "n": "Pravda",
+      "u": "https://pravda.sk/spravy/domace/clanok/2073795-slovensko-musi-prispievat-do-migracneho-fondu-eu-cesko-rakusko-ci-polsko-mozno-nebudu-musiet",
+      "d": "2026-11-06"
+     },
+     {
+      "n": "Štandard",
+      "u": "https://standard.sk/1362999/kdh-vidi-v-migracnej-vynimke-dalsi-neuspech-vlady-v-bruseli",
+      "d": "2026-11-06"
+     }
+    ],
+    "q": [
+     "date"
+    ],
+    "tr": {
+     "ru": {
+      "h": "Словакия вновь не получила исключения из механизма миграционной солидарности. Шутай Эшток отказывается платить, Фицо говорил о миллионах евро",
+      "s": "Европейская комиссия в ежегодном докладе о миграции не включила Словакию в число стран, которые могут запросить снижение взносов в фонд солидарности на 2027 год, — в отличие от Чехии, Австрии, Польши и Болгарии. Министр внутренних дел Матуш Шутай Эшток заявил, что «Словакия не платит и не будет платить за отвергнутых иммигрантов», хотя Фицо в июне говорил об уплате около четырёх миллионов евро. Оппозиционное KDH видит в этом очередную неудачу правительства в Брюсселе; окончательное решение примет Совет ЕС."
+     }
+    }
+   },
+   {
+    "id": "recovery-plan-payments",
+    "rubric": "economy",
+    "developing": false,
+    "h": "Slovensko môže prísť o časť peňazí z EÚ. Drucker vysvetlil, čo Bruselu prekáža a kedy majú prísť platby",
+    "s": "Brusel by mal do konca novembra uvoľniť ôsmu a deviatu platbu z plánu obnovy, minister Tomáš Drucker však pripustil, že časť peňazí môže byť zadržaná, lebo Komisia má stále výhrady. Výhrady sa týkajú najmä prípravy území pre veterné elektrárne, s ktorými samosprávy nesúhlasia. Drucker plán obnovy označil za „úspešný príbeh“.",
+    "src": [
+     {
+      "n": "Pravda",
+      "u": "https://www.pravda.sk/spravy/ekonomika/clanok/2074011-slovensko-moze-prist-o-cast-penazi-z-eu-drucker-vysvetlil-co-bruselu-prekaza-a-kedy-maju-prist-platby",
+      "d": "2026-11-06"
+     }
+    ],
+    "q": [
+     "date"
+    ],
+    "tr": {
+     "ru": {
+      "h": "Словакия может лишиться части средств ЕС. Друкер объяснил, что не устраивает Брюссель и когда поступят выплаты",
+      "s": "Брюссель должен до конца ноября перечислить восьмой и девятый транши по плану восстановления, однако министр Томаш Друкер допустил, что часть средств может быть задержана, поскольку у Еврокомиссии остаются претензии. Они касаются прежде всего подготовки территорий под ветряные электростанции, против которых выступают органы местного самоуправления. Друкер назвал план восстановления «историей успеха»."
+     }
+    }
+   },
+   {
+    "id": "capercaillie-ec-lawsuit",
+    "rubric": "politics",
+    "developing": false,
+    "h": "Drucker, Takáč a Kuffa rokovali s EK o žalobe pre ochranu hlucháňa",
+    "s": "Ministri Tomáš Drucker, Richard Takáč a Filip Kuffa rokovali v Bruseli o žalobe, ktorú Európska komisia vedie voči Slovensku od roku 2022 pre nedostatočnú ochranu hlucháňa a ohrozených biotopov. Drucker rokovanie označil za „veľmi konštruktívne“; potrebné zmeny zákona o lesoch a zákonov o ochrane prírody chce vláda dokončiť do konca roka 2027.",
+    "src": [
+     {
+      "n": "TASR (teraz.sk)",
+      "u": "https://www.teraz.sk/ekonomika/drucker-takac-a-kuffa-rokovali-s-ek-o/1005681-clanok.html",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Друкер, Такач и Куффа провели переговоры с ЕК по иску о защите глухаря",
+      "s": "Министры Томаш Друкер, Ричард Такач и Филип Куффа обсудили в Брюсселе иск, который Европейская комиссия ведёт против Словакии с 2022 года из-за недостаточной защиты глухаря и находящихся под угрозой местообитаний. Друкер назвал переговоры «очень конструктивными»; необходимые изменения закона о лесах и законов об охране природы правительство намерено завершить до конца 2027 года."
+     }
+    }
+   },
+   {
+    "id": "criminal-responsibility-age",
+    "rubric": "social",
+    "developing": true,
+    "h": "Danko chce znížiť vek trestnej zodpovednosti. Pred súd by sa mohli dostať už 12-ročné deti",
+    "s": "Koaličná SNS po incidentoch v Staškove a vo Veľkej Lomnici navrhuje znížiť vek trestnej zodpovednosti zo 14 na 13 rokov, individuálne až na 12, podanie návrhu však odložila do rokovaní s koalíciou. Hlas-SD tému podporuje, no žiada odbornú diskusiu; opozičná SaS hovorí, že to problém nerieši a treba riešiť zodpovednosť rodičov.",
+    "src": [
+     {
+      "n": "Pravda",
+      "u": "https://www.pravda.sk/spravy/domace/clanok/2073749-danko-chce-znizit-vek-trestnej-zodpovednosti-pred-sud-by-sa-mohli-dostat-uz-12-rocne-deti",
+      "d": "2026-11-06"
+     },
+     {
+      "n": "STVR",
+      "u": "https://spravy.stvr.sk/spravy-po-minute/na-slovensku-sa-opat-diskutuje-o-znizeni-vekovej-hranice-trestnej-zodpovednosti/",
+      "d": "2026-11-06"
+     }
+    ],
+    "q": [
+     "date"
+    ],
+    "tr": {
+     "ru": {
+      "h": "Данко хочет снизить возраст уголовной ответственности. Перед судом могут оказаться уже 12-летние дети",
+      "s": "Входящая в коалицию SNS после инцидентов в Сташкове и Велька-Ломнице предлагает снизить возраст уголовной ответственности с 14 до 13 лет, а в индивидуальных случаях — до 12, однако отложила внесение законопроекта до переговоров с коалицией. «Голос — социальная демократия» поддерживает тему, но требует экспертного обсуждения; оппозиционная SaS заявляет, что это не решает проблему и нужно заниматься ответственностью родителей."
+     }
+    }
+   },
+   {
+    "id": "javorina-military-land",
+    "rubric": "milpol",
+    "developing": false,
+    "h": "Kaliňák chce vykúpiť Javorinu, no stále nevie, koľko pôdy potrebuje. Vlastníci čakajú na odpovede",
+    "s": "Vojenské lesy a majetky SR začali oslovovať vlastníkov pozemkov v bývalom vojenskom obvode Javorina s ponukou dobrovoľného výkupu pre potreby armády, presná výmera však stále nie je známa. Poslankyňa PS Darina Luščíková na hodine otázok kritizovala, že rezort obrany nevie určiť, ktoré pozemky armáda potrebuje; minister Kaliňák v júni vyvlastnenie vylúčil a chce sa s tisíckami vlastníkov dohodnúť do troch rokov.",
+    "src": [
+     {
+      "n": "Pravda",
+      "u": "https://www.pravda.sk/spravy/domace/clanok/2074029-kalinak-chce-vykupit-javorinu-no-stale-nevie-kolko-pody-potrebuje-vlastnici-cakaju-na-odpovede",
+      "d": "2026-11-06"
+     }
+    ],
+    "q": [
+     "date"
+    ],
+    "tr": {
+     "ru": {
+      "h": "Калиньяк хочет выкупить Яворину, но до сих пор не знает, сколько земли нужно. Владельцы ждут ответов",
+      "s": "Госпредприятие «Военные леса и имущество СР» начало обращаться к владельцам земельных участков на территории бывшего военного округа Яворина с предложением добровольного выкупа для нужд армии, однако точная площадь до сих пор неизвестна. Депутат от PS Дарина Лущикова в ходе «часа вопросов» раскритиковала то, что оборонное ведомство не может определить, какие участки нужны армии; министр Калиньяк в июне исключил экспроприацию и рассчитывает договориться с тысячами владельцев в течение трёх лет."
+     }
+    }
+   }
+  ],
+  "ro": [
+   {
+    "id": "cernavoda-pierderi",
+    "rubric": "economy",
+    "developing": true,
+    "h": "Pierderi de aproximativ un miliard de lei după oprirea reactoarelor de la Cernavodă",
+    "s": "Centrala de la Cernavodă a fost oprită din cauza scăderii nivelului Dunării, care a făcut imposibilă asigurarea apei de răcire. Premierul Luca Niculescu a estimat pierderile din ultimele trei luni la circa un miliard de lei (aproximativ 200 de milioane de euro). Unitatea 1 a fost resincronizată la Sistemul Energetic Național pe 6 noiembrie, după peste trei luni de oprire.",
+    "src": [
+     {
+      "n": "Mediafax",
+      "u": "https://www.mediafax.ro/energie/pierderi-de-aproximativ-un-miliard-de-lei-dupa-oprirea-reactoarelor-de-la-cernavoda-23839220",
+      "d": "2026-11-07"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Потери около миллиарда леев после остановки реакторов АЭС «Чернаводэ»",
+      "s": "АЭС «Чернаводэ» была остановлена из-за падения уровня Дуная, что сделало невозможным обеспечение охлаждающей водой. Премьер-министр Лука Никулеску оценил потери за последние три месяца примерно в миллиард леев (около 200 млн евро). Энергоблок 1 был вновь синхронизирован с Национальной энергосистемой 6 ноября после более чем трёхмесячного простоя."
+     }
+    }
+   },
+   {
+    "id": "militari-sua-plata",
+    "rubric": "milpol",
+    "developing": true,
+    "h": "Surse: România ar putea plăti 15.000 de euro pentru fiecare militar american staționat în țară. Ce mai oferă Bucureștiul",
+    "s": "Potrivit unor surse din Ministerul Apărării, România ar putea oferi circa 15.000 de euro pentru fiecare militar american, o sumă apropiată de cea propusă de Polonia, plus cazare, hrană și acces la școli și spitale pentru familii. Propunerile urmează să ajungă la șeful Pentagonului, Pete Hegseth, după vizita lui Elbridge Colby la București, iar decizia finală îi aparține lui Donald Trump. În schimb, oficialii români ar fi cerut o prezență militară mai mare și dotări suplimentare; informațiile nu sunt confirmate oficial.",
+    "src": [
+     {
+      "n": "Știrile ProTV",
+      "u": "https://stirileprotv.ro/stiri/actualitate/surse-romania-ar-putea-plati-15-000-de-euro-pentru-fiecare-militar-american-stationat-in-tara-ce-mai-ofera-bucurestiul.html",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Источники: Румыния может платить 15 000 евро за каждого размещённого в стране американского военного. Что ещё предлагает Бухарест",
+      "s": "По данным источников в Министерстве обороны, Румыния может предложить около 15 000 евро за каждого американского военного — сумму, близкую к предложенной Польшей, а также жильё, питание и доступ к школам и больницам для семей. Предложения должны поступить к главе Пентагона Питу Хегсету после визита Элбриджа Колби в Бухарест, а окончательное решение остаётся за Дональдом Трампом. В ответ румынские официальные лица якобы попросили об увеличении военного присутствия и дополнительном оснащении; официального подтверждения этой информации нет."
+     }
+    }
+   },
+   {
+    "id": "skyceptor-rafael",
+    "rubric": "miltech",
+    "developing": false,
+    "h": "SkyCeptor ar putea fi resuscitat: România reia discuțiile pentru un interceptor low-cost de Patriot produs aici",
+    "s": "Potrivit Defense România, oficialii MApN au reluat discuțiile cu compania israeliană Rafael pentru deblocarea programului SkyCeptor, un interceptor Patriot low-cost care ar urma să fie fabricat la Electromecanica Ploiești. Programul, derivat din racheta Stunner, stagnase după un memorandum Romarm–Raytheon, deși ar promite performanțe apropiate de PAC-3 la un cost de 3-4 ori mai mic. În timpul vizitei lui Elbridge Colby, România ar fi propus mai multe scenarii pentru prezența militarilor americani, inclusiv una permanentă.",
+    "src": [
+     {
+      "n": "Defense Romania",
+      "u": "https://www.defenseromania.ro/skyceptor-ar-putea-fi-resuscitat-mapn-discutii-cu-israelienii-de-la-rafael-pentru-un-interceptor-low-cost-de-patriot-romania-vrea-si-baze-militare-permanente-ale-sua_651813.html",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "SkyCeptor может получить второе дыхание: Румыния возобновляет переговоры о дешёвом перехватчике для Patriot местного производства",
+      "s": "По данным Defense România, представители Минобороны возобновили переговоры с израильской компанией Rafael о разблокировании программы SkyCeptor — недорогого перехватчика для Patriot, производство которого планируется наладить на предприятии Electromecanica Ploiești. Программа, основанная на ракете Stunner, застопорилась после меморандума между Romarm и Raytheon, хотя она обещает характеристики, близкие к PAC-3, при стоимости в 3–4 раза ниже. Во время визита Элбриджа Колби Румыния, как сообщается, предложила несколько сценариев присутствия американских военных, в том числе постоянного."
+     }
+    }
+   },
+   {
+    "id": "combinat-galati",
+    "rubric": "business",
+    "developing": true,
+    "h": "Angajații Combinatului Siderurgic Galați au ieșit din nou în stradă după șase luni fără salarii. Fostul colos industrial riscă falimentul",
+    "s": "Angajații combinatului de la Galați au protestat din nou în fața Consiliului Județean, în timp ce compania, cu datorii estimate la un miliard de euro, riscă deconectarea de la rețeaua electrică. La Palatul Victoria a fost prezentat un nou plan de restructurare, iar creditorii, printre care ANAF, au primit recomandarea să-l aprobe. Premierul a anunțat prelungirea cu șase luni a plății drepturilor salariale pentru cei 2.400 de angajați și negocieri directe cu cinci investitori, după eșecul a două licitații internaționale.",
+    "src": [
+     {
+      "n": "Știrile ProTV",
+      "u": "https://stirileprotv.ro/stiri/actualitate/angajatii-combinatului-siderurgic-galati-au-iesit-din-nou-in-strada-dupa-sase-luni-fara-salarii-fostul-colos-industrial-risca-falimentul.html",
+      "d": "2026-11-07"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Работники металлургического комбината в Галаце снова вышли на улицы после шести месяцев без зарплаты. Бывшему промышленному гиганту грозит банкротство",
+      "s": "Работники комбината в Галаце вновь провели акцию протеста перед зданием уездного совета, тогда как компании с долгами, оцениваемыми в миллиард евро, грозит отключение от электросети. Во дворце Виктория был представлен новый план реструктуризации, а кредиторам, в том числе налоговому ведомству ANAF, рекомендовано его одобрить. Премьер-министр объявил о продлении на шесть месяцев выплат зарплатных компенсаций 2400 работникам и о прямых переговорах с пятью инвесторами после провала двух международных тендеров."
+     }
+    }
+   },
+   {
+    "id": "pensii-taxe-2027",
+    "rubric": "politics",
+    "developing": false,
+    "h": "Vești pentru pensionari. Luca Niculescu spune când se află procentul indexării pensiilor și dacă vin taxe noi în 2027",
+    "s": "Premierul Luca Niculescu a anunțat că procentul de indexare a pensiilor va fi stabilit odată cu bugetul, în aproximativ o lună, după doi ani în care pensiile nu au fost majorate. Întrebat despre taxe în 2027, el a spus că Guvernul vrea să evite „taxe și impozite noi”, fără a oferi garanții. Prioritățile declarate sunt utilizarea responsabilă a banului public, o colectare mai bună și creșterea economică.",
+    "src": [
+     {
+      "n": "Mediafax",
+      "u": "https://www.mediafax.ro/social/vesti-pentru-pensionari-luca-niculescu-spune-cand-se-afla-procentul-indexarii-pensiilor-si-daca-vin-taxe-noi-in-2027-23839236",
+      "d": "2026-11-07"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Новости для пенсионеров. Лука Никулеску рассказал, когда станет известен процент индексации пенсий и будут ли новые налоги в 2027 году",
+      "s": "Премьер-министр Лука Никулеску объявил, что процент индексации пенсий будет определён вместе с бюджетом примерно через месяц — после двух лет, в течение которых пенсии не повышались. На вопрос о налогах в 2027 году он ответил, что правительство хочет избежать «новых налогов и сборов», не дав при этом никаких гарантий. В числе заявленных приоритетов — ответственное использование государственных средств, улучшение собираемости и экономический рост."
+     }
+    }
+   },
+   {
+    "id": "retail-scadere",
+    "rubric": "economy",
+    "developing": false,
+    "h": "Afacerile din retail au scăzut în primele nouă luni din 2026 cu 4,6%, după ce vânzările de produse nealimentare s-au redus cu 5,4%, iar cele de alimente şi băuturi cu 4%. Vânzările de carburanţi au avut o scădere de 3,8%",
+    "s": "Comerțul cu amănuntul a scăzut cu 4,6% în primele nouă luni din 2026 față de aceeași perioadă din 2025, potrivit datelor INS. Vânzările de produse nealimentare au coborât cu 5,4%, cele de alimente și băuturi cu 4%, iar cele de carburanți cu 3,8%. Pe seria ajustată, scăderea este de 4,9%, iar în septembrie retailul a fost în minus cu 1,5% față de anul trecut.",
+    "src": [
+     {
+      "n": "Ziarul Financiar",
+      "u": "https://www.zf.ro/zf-24/afacerile-retail-au-scazut-primele-luni-2026-4-6-dupa-vanzarile-produse-nealimentare-s-au-redus-5-4-iar-cele-alimente-bauturi-4-vanzarile-carburanti-au-avut-scadere-3-8-23275894",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Оборот розничной торговли за первые девять месяцев 2026 года сократился на 4,6%: продажи непродовольственных товаров снизились на 5,4%, продуктов питания и напитков — на 4%. Продажи топлива упали на 3,8%",
+      "s": "Розничная торговля за первые девять месяцев 2026 года сократилась на 4,6% по сравнению с тем же периодом 2025 года, свидетельствуют данные Национального института статистики (INS). Продажи непродовольственных товаров снизились на 5,4%, продуктов питания и напитков — на 4%, топлива — на 3,8%. С учётом сезонной корректировки спад составляет 4,9%, а в сентябре розница была в минусе на 1,5% в годовом выражении."
+     }
+    }
+   }
+  ],
+  "el": [
+   {
+    "id": "gsi-navtex",
+    "rubric": "milpol",
+    "developing": true,
+    "h": "Ηλεκτρική διασύνδεση Ελλάδας-Κύπρου: Άμεση η ισχύς της ελληνικής NAVTEX για την εκκίνηση των ερευνών – Με αντι-NAVTEX απάντησε η Άγκυρα",
+    "s": "Το Πολεμικό Ναυτικό εξέδωσε NAVTEX με ισχύ έως 6 Μαρτίου 2027 για τις έρευνες του γαλλικού σκάφους Abeille Marengo ανατολικά της Κρήτης και της Κάσου για το καλώδιο Great Sea Interconnector. Η Άγκυρα απάντησε με αντι-NAVTEX, υποστηρίζοντας ότι η περιοχή ανήκει στην υφαλοκρηπίδα της και ότι δεν έχει δώσει άδεια, ενώ ελληνικές διπλωματικές πηγές απαντούν ότι «το διεθνές δίκαιο της θάλασσας είναι σαφές». Ο υφυπουργός Εξωτερικών Τάσος Χατζηβασιλείου επιμένει ότι το χρονοδιάγραμμα του ευρωπαϊκού, χρηματοδοτούμενου από την ΕΕ έργου παραμένει ίδιο.",
+    "src": [
+     {
+      "n": "Capital.gr",
+      "u": "https://www.capital.gr/politiki/4028388/ilektriki-diasundesi-elladas-kuprou-amesi-i-isxus-tis-ellinikis-navtex-gia-tin-ekkinisi-ton-ereunon-me-anti-navtex-apantise-i-agkura/",
+      "d": "2026-11-07"
+     },
+     {
+      "n": "Εφημερίδα των Συντακτών",
+      "u": "https://www.efsyn.gr/politiki/1504745/ekdothike-i-navtex-gia-to-kalodio-elladas-kyproy-xekinoyn-oi-ereynes-toy-gallikoy-ploioy/",
+      "d": "2026-11-06"
+     },
+     {
+      "n": "Πρώτο Θέμα",
+      "u": "https://www.protothema.gr/world/article/1906711/na-parakampsei-to-kalodio-me-protasi-gia-energeia-apo-tourkia-stin-kupro-proteinei-o-bairaktar/",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Энергомост Греция — Кипр: греческий NAVTEX на начало изысканий вступает в силу немедленно, Анкара ответила контр-NAVTEX",
+      "s": "ВМС Греции выпустили NAVTEX со сроком действия до 6 марта 2027 года для изысканий французского судна Abeille Marengo к востоку от Крита и Касоса по кабелю Great Sea Interconnector. Анкара ответила контр-NAVTEX, утверждая, что район относится к её континентальному шельфу и что она не давала разрешения, а греческие дипломатические источники отвечают, что «международное морское право однозначно». Заместитель министра иностранных дел Тасос Хадзивасилиу настаивает, что график европейского проекта, финансируемого ЕС, остаётся прежним."
+     }
+    }
+   },
+   {
+    "id": "mitsotakis-kede",
+    "rubric": "politics",
+    "developing": false,
+    "h": "Μητσοτάκης: Έχουμε μία αντιπολίτευση που αρνείται ακόμη και ρυθμίσεις προστασίας των δανειοληπτών - Οι εξαγγελίες στην ΚΕΔΕ για τους δήμους",
+    "s": "Στο συνέδριο της ΚΕΔΕ ο Κυριάκος Μητσοτάκης έστειλε μήνυμα πολιτικής σταθερότητας ενόψει των εκλογών του 2027, λέγοντας ότι «ο ορίζοντας για την Ελλάδα είναι καθαρός» αν αποφευχθούν «περιπέτειες και πειραματισμοί». Ανακοίνωσε πακέτο «6+2» πρωτοβουλιών για το ενεργειακό κόστος των δήμων, με άμεση πίστωση 300 εκατ. ευρώ από τον ΕΟΑΝ για έργα ανακύκλωσης και ειδικό τιμολόγιο ρεύματος. Κατηγόρησε την αντιπολίτευση ότι αρνείται ρυθμίσεις όπως το επιτόκιο 3% για ευάλωτους δανειολήπτες και πρόστιμα έως 5 εκατ. ευρώ στους servicers.",
+    "src": [
+     {
+      "n": "Πρώτο Θέμα",
+      "u": "https://www.protothema.gr/politics/article/1906291/deite-live-i-omilia-tou-kuriakou-mitsotaki-sto-etisio-taktiko-sunedrio-tis-kede/",
+      "d": "2026-11-05"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Мицотакис: у нас оппозиция, которая отвергает даже меры защиты заёмщиков. Объявления на съезде KEDE для муниципалитетов",
+      "s": "На съезде Центрального союза муниципалитетов Греции (KEDE) Кириакос Мицотакис выступил с посланием о политической стабильности в преддверии выборов 2027 года, заявив, что «горизонт для Греции ясен», если удастся избежать «авантюр и экспериментов». Он объявил пакет из «6+2» инициатив по энергозатратам муниципалитетов с немедленным выделением 300 млн евро от EOAN на проекты по переработке отходов и специальным тарифом на электроэнергию. Он обвинил оппозицию в том, что она отвергает такие меры, как ставка 3% для уязвимых заёмщиков и штрафы до 5 млн евро для сервисеров."
+     }
+    }
+   },
+   {
+    "id": "polarisation-tsipras",
+    "rubric": "analysis",
+    "developing": false,
+    "h": "Κυβέρνηση: Επενδύει στην ακραία πόλωση με εκτός ορίων χτυπήματα στον Τσίπρα",
+    "s": "Κατά το in.gr, η κυβέρνηση επιλέγει συνειδητά την πόλωση, επαναφέροντας το αφήγημα για τους Ποινικούς Κώδικες του 2019 με υπαινιγμούς περί «εξαργύρωσης γραμματίων» χωρίς τεκμηρίωση. Στελέχη όπως ο Άδωνις Γεωργιάδης, ο Άκης Σκέρτσος και ο Μάκης Βορίδης κλιμάκωσαν τις επιθέσεις κατά του Αλέξη Τσίπρα, ενώ ο κυβερνητικός εκπρόσωπος Παύλος Μαρινάκης παραδέχθηκε, σύμφωνα με το δημοσίευμα, ότι δεν έχει στοιχεία. Ο αρθρογράφος εκτιμά ότι στόχος είναι η συσπείρωση της ΝΔ και η απομάκρυνση της συζήτησης από τις υποκλοπές και τον ΟΠΕΚΕΠΕ.",
+    "src": [
+     {
+      "n": "in.gr",
+      "u": "https://www.in.gr/2026/11/06/politics/politiki-grammateia/kyvernisi-ependyei-stin-akraia-polosi-me-ektos-orion-xtypimata-ston-tsipra/amp/",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Правительство делает ставку на крайнюю поляризацию, нанося запредельные удары по Ципрасу",
+      "s": "По мнению in.gr, правительство сознательно выбирает поляризацию, возрождая нарратив об Уголовных кодексах 2019 года с бездоказательными намёками на «оплату векселей». Такие представители власти, как Адонис Георгиадис, Акис Скерцос и Макис Воридис, усилили нападки на Алексиса Ципраса, а официальный представитель правительства Павлос Маринакис, согласно публикации, признал, что не располагает доказательствами. Автор статьи полагает, что цель — сплочение «Новой демократии» и отвлечение дискуссии от прослушки и OPEKEPE."
+     }
+    }
+   },
+   {
+    "id": "tempi-videos-trial",
+    "rubric": "social",
+    "developing": false,
+    "h": "Τέμπη: Αναβολή στη δίκη για τα «χαμένα» βίντεο – Οργισμένοι οι συγγενείς, μιλούν για κοροϊδία",
+    "s": "Η δίκη στη Λάρισα για το χαμένο βιντεοληπτικό υλικό της εμπορικής αμαξοστοιχίας των Τεμπών διακόπηκε ξανά μετά από αίτημα αναβολής του συνηγόρου του εκπροσώπου της εταιρείας φύλαξης και συνεχίζεται στις 13 Νοεμβρίου. Συγγενείς των θυμάτων και συνήγοροι της κατηγορίας αντέδρασαν έντονα, υπενθυμίζοντας ότι η προηγούμενη δίκη είχε φτάσει τις 23 συνεδριάσεις πριν ξεκινήσει από την αρχή. Οι γονείς χαρακτήρισαν την εξέλιξη «κοροϊδία», καθώς το υλικό δεν ανακτήθηκε ποτέ αφού επανεγγράφηκε τους πρώτους μήνες μετά το δυστύχημα.",
+    "src": [
+     {
+      "n": "Εφημερίδα των Συντακτών",
+      "u": "https://www.efsyn.gr/ellada/1504707/tempi-anavoli-sti-diki-gia-ta-hamena-vinteo-orgismenoi-oi-syggeneis-miloyn-gia-koroidia/",
+      "d": "2026-11-06"
+     },
+     {
+      "n": "Πρώτο Θέμα",
+      "u": "https://www.protothema.gr/greece/article/1906701/tebi-edasi-sti-diki-gia-ta-hamena-video-adidraseis-suggenon-gia-to-aitima-anavolis/",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Темпи: суд по делу о «пропавших» видеозаписях отложен, возмущённые родственники говорят об издевательстве",
+      "s": "Процесс в Ларисе по делу об утраченных видеозаписях с грузового поезда, причастного к катастрофе в Темпи, вновь прерван после ходатайства об отложении, поданного адвокатом представителя охранной компании, и продолжится 13 ноября. Родственники погибших и адвокаты стороны обвинения резко отреагировали, напомнив, что предыдущий процесс дошёл до 23 заседаний, прежде чем начаться заново. Родители назвали произошедшее «издевательством», поскольку записи так и не были восстановлены: их перезаписали в первые месяцы после катастрофы."
+     }
+    }
+   },
+   {
+    "id": "f35-andravida",
+    "rubric": "milecon",
+    "developing": false,
+    "h": "Δένδιας για την 117 Πτέρυγα Μάχης: Στις αρχές του 2027 η υπογραφή της σύμβασης για τις υποδομές των F-35",
+    "s": "Απαντώντας σε ερώτηση του βουλευτή του ΠΑΣΟΚ Μιχάλη Κατρίνη, ο υπουργός Εθνικής Άμυνας Νίκος Δένδιας ανέφερε ότι η σύμβαση για τις υποδομές των F-35 στην Ανδραβίδα αναμένεται να υπογραφεί στις αρχές του 2027. Το χρονοδιάγραμμα καθορίζεται από κοινού με τις αμερικανικές αρχές, τα ορόσημα παραμένουν απόρρητα και δεν προβλέπονται αντισταθμιστικά. Η στελέχωση της πτέρυγας χαρακτηρίζεται «δυναμική διαδικασία», ενώ ο σχεδιασμός των αρχικών εκπαιδεύσεων στις ΗΠΑ θα ολοκληρωθεί μέσα στο 2027.",
+    "src": [
+     {
+      "n": "Πρώτο Θέμα",
+      "u": "https://protothema.gr/politics/article/1906365/dendias-gia-tin-117-pteruga-mahis-stis-arhes-tou-2027-i-upografi-tis-sumvasis-gia-tis-upodomes-ton-f-35",
+      "d": "2026-11-05"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Дендиас о 117-м боевом крыле: контракт на инфраструктуру для F-35 будет подписан в начале 2027 года",
+      "s": "Отвечая на вопрос депутата от ПАСОК Михалиса Катриниса, министр национальной обороны Никос Дендиас сообщил, что контракт на инфраструктуру для F-35 в Андравиде, как ожидается, будет подписан в начале 2027 года. График определяется совместно с американскими властями, контрольные этапы остаются засекреченными, компенсационные (офсетные) соглашения не предусмотрены. Комплектование крыла личным составом названо «динамичным процессом», а планирование первоначальной подготовки в США будет завершено в течение 2027 года."
+     }
+    }
+   },
+   {
+    "id": "athex-dividends",
+    "rubric": "business",
+    "developing": false,
+    "h": "Χρηματιστήριο Αθηνών: Πάνω από 900 εκατ. θα δώσουν 8 εισηγμένες μέσα σε ένα μήνα",
+    "s": "Παρά το μεγάλο sell-off στις διεθνείς αγορές μετά τις αμερικανικές εκλογές, οκτώ ελληνικές εισηγμένες θα επιστρέψουν πάνω από 900 εκατ. ευρώ στους μετόχους έως το τέλος του 2026. Τον κύριο όγκο αποτελούν τα προμερίσματα των τεσσάρων συστημικών τραπεζών, ενώ η Jumbo προγραμματίζει έκτακτη διανομή 1 ευρώ ανά μετοχή. Ακολουθούν Trastor, Motor Oil και ΑΔΜΗΕ Συμμετοχών, με αποκοπές από 16 Νοεμβρίου έως 21 Δεκεμβρίου.",
+    "src": [
+     {
+      "n": "Οικονομικός Ταχυδρόμος",
+      "u": "https://www.ot.gr/2026/11/07/agores/xrimatistirio-athinon/xrimatistirio-athinon-pano-apo-900-ekat-tha-dosoun-8-eisigmenes-mesa-se-ena-mina/",
+      "d": "2026-11-07"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Афинская биржа: восемь эмитентов выплатят более 900 млн в течение месяца",
+      "s": "Несмотря на масштабную распродажу на мировых рынках после выборов в США, восемь греческих публичных компаний вернут акционерам более 900 млн евро до конца 2026 года. Основной объём приходится на промежуточные дивиденды четырёх системообразующих банков, а Jumbo планирует внеочередную выплату в размере 1 евро на акцию. За ними следуют Trastor, Motor Oil и ADMIE Holding; даты отсечки — с 16 ноября по 21 декабря."
+     }
+    }
+   }
+  ],
+  "ja": [
+   {
+    "id": "consumption-tax-cut-lower-house",
+    "rubric": "politics",
+    "developing": true,
+    "h": "消費減税法案が衆院通過＝高市首相、給付対象「３割以上」",
+    "s": "消費税減税関連法案は6日の衆院本会議で与党や日本維新の会などの賛成多数で可決され、参院に送付された。高市首相は中低所得者向けの所得連動給付「就業者負担軽減支援金」の対象を現役就業者の「３割以上」とする方針を示した。全野党は財源や給付制度の設計が不透明だとして反対し、政府・与党は12月12日の会期末までの成立を目指す。",
+    "src": [
+     {
+      "n": "nippon.com（時事通信）",
+      "u": "https://www.nippon.com/ja/articles/-/57018",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Законопроект о снижении потребительского налога прошёл нижнюю палату; премьер Такаити: выплаты получат «не менее 30%»",
+      "s": "Пакет законопроектов о снижении потребительского налога 6-го числа был принят на пленарном заседании Палаты представителей большинством голосов правящей коалиции, Партии японских инноваций (Исин) и других и направлен в Палату советников. Премьер-министр Такаити заявила, что адресатами привязанных к доходу выплат для граждан с низкими и средними доходами — «пособия на снижение нагрузки на работающих» — станут «не менее 30%» работающего населения. Все оппозиционные партии выступили против, сославшись на неясность источников финансирования и устройства системы выплат; правительство и правящая коалиция добиваются принятия законов до окончания сессии 12 декабря."
+     }
+    }
+   },
+   {
+    "id": "okinawa-policy-council",
+    "rubric": "politics",
+    "developing": false,
+    "h": "基地負担軽減「目に見える形で」＝高市首相表明、１３年ぶり沖縄政策協",
+    "s": "政府は6日、首相官邸で沖縄県と経済振興や米軍基地問題を協議する「沖縄政策協議会」を2013年以来13年ぶりに開いた。高市首相は基地負担の軽減を「目に見える形で」実現するため力を尽くすと表明した。古謝玄太知事は振興予算の確保に加え、日米地位協定の抜本的見直しや普天間飛行場の返還時期の明確化を求めた。",
+    "src": [
+     {
+      "n": "nippon.com（時事通信）",
+      "u": "https://www.nippon.com/ja/articles/-/56998",
+      "d": "2026-11-06"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Снижение нагрузки от баз — «в ощутимой форме»: премьер Такаити на первом за 13 лет совете по политике в отношении Окинавы",
+      "s": "Правительство 6-го числа впервые с 2013 года, то есть за 13 лет, провело в резиденции премьер-министра «Совет по политике в отношении Окинавы», на котором с префектурой Окинава обсуждаются экономическое развитие и проблемы военных баз США. Премьер-министр Такаити заявила, что приложит все усилия, чтобы снижение нагрузки от баз было достигнуто «в ощутимой форме». Губернатор Гэнта Кодзя помимо обеспечения бюджета на развитие призвал к коренному пересмотру японо-американского Соглашения о статусе сил и к определению сроков возврата аэродрома Футэмма."
+     }
+    }
+   },
+   {
+    "id": "active-cyber-defense-revision",
+    "rubric": "milpol",
+    "developing": true,
+    "h": "サイバー防御法改正検討　首相指示、監視対象拡大か　緊急対策、接続強制遮断も",
+    "s": "政府は6日、相次ぐ不正アクセス事案を受けて関係閣僚会議を開き、高市早苗首相は日本を狙う攻撃への情報収集力を高めるため「能動的サイバー防御」関連の法改正検討を指示した。現行の枠組みは外国関連の通信情報に限られており、見出しは監視対象の拡大や緊急対策としての接続強制遮断に言及している。",
+    "src": [
+     {
+      "n": "琉球新報",
+      "u": "https://ryukyushimpo.jp/politics/entry-5592314.html",
+      "d": "2026-11-07"
+     }
+    ],
+    "q": [
+     "partial"
+    ],
+    "tr": {
+     "ru": {
+      "h": "Рассматривается поправка к закону о киберзащите: по указанию премьера возможно расширение объектов мониторинга, в качестве экстренной меры — принудительное отключение соединений",
+      "s": "Правительство 6-го числа в связи с участившимися случаями несанкционированного доступа провело совещание профильных министров, и премьер-министр Санаэ Такаити поручила рассмотреть поправки к законодательству об «активной киберзащите», чтобы усилить сбор информации об атаках на Японию. Действующая система ограничена коммуникационными данными, связанными с зарубежьем; в заголовке упоминаются расширение объектов мониторинга и принудительное отключение соединений в качестве экстренной меры."
+     }
+    }
+   },
+   {
+    "id": "msdf-mideast-extension",
+    "rubric": "milpol",
+    "developing": false,
+    "h": "海自の中東派遣１年延長　政府、停戦監視活動も",
+    "s": "政府は6日、海上自衛隊の派遣期間を来年11月19日まで1年間延長することを閣議決定した。任務はソマリア沖アデン湾での海賊対策と中東海域での情報収集活動で、見出しによれば停戦監視活動も加わる。",
+    "src": [
+     {
+      "n": "琉球新報（共同通信）",
+      "u": "https://ryukyushimpo.jp/kyodo/entry-5591314.html",
+      "d": "2026-11-06"
+     }
+    ],
+    "q": [
+     "partial"
+    ],
+    "tr": {
+     "ru": {
+      "h": "Миссия МССО на Ближнем Востоке продлена на год; правительство добавляет наблюдение за прекращением огня",
+      "s": "Правительство 6-го числа решением кабинета продлило срок командирования Морских сил самообороны на один год — до 19 ноября следующего года. Задачи миссии — борьба с пиратством в Аденском заливе у берегов Сомали и сбор информации в водах Ближнего Востока; согласно заголовку, к ним добавится и наблюдение за прекращением огня."
+     }
+    }
+   },
+   {
+    "id": "real-wages-september",
+    "rubric": "economy",
+    "developing": false,
+    "h": "実質賃金９カ月連続プラス　９月は２・２％増、春闘が寄与",
+    "s": "厚生労働省が6日発表した9月分の毎月勤労統計調査（速報値）で、物価変動の影響を除いた1人当たりの実質賃金は前年同月比2.2％増となった。実質賃金は9カ月連続のプラスで、春闘での賃上げが寄与した。",
+    "src": [
+     {
+      "n": "琉球新報（共同通信）",
+      "u": "https://ryukyushimpo.jp/kyodo/entry-5591343.html",
+      "d": "2026-11-06"
+     }
+    ],
+    "q": [
+     "partial"
+    ],
+    "tr": {
+     "ru": {
+      "h": "Реальные зарплаты растут девятый месяц подряд: в сентябре плюс 2,2% благодаря «весеннему наступлению»",
+      "s": "Согласно опубликованным 6-го числа Министерством здравоохранения, труда и социального обеспечения предварительным данным ежемесячного обследования трудовой статистики за сентябрь, реальная заработная плата на одного работника с учётом изменения цен выросла на 2,2% в годовом выражении. Реальные зарплаты растут девятый месяц подряд; этому способствовало повышение зарплат по итогам «весеннего наступления» (сюнто)."
+     }
+    }
+   },
+   {
+    "id": "toyota-half-year-profit",
+    "rubric": "business",
+    "developing": false,
+    "h": "トヨタ中間純利益、３期ぶりプラス＝コスト削減奏功、ロボ事業も強化",
+    "s": "トヨタ自動車が5日発表した2026年9月中間連結決算は、純利益が前年同期比26.1％増の2兆2364億円となった。円安や米関税負担の軽減、徹底したコスト削減、好調なハイブリッド車販売が寄与し、27年3月期の利益予想も上方修正した。ロボティクス事業を将来の柱に育てる方針で、27年1月に専門部署を新設する。",
+    "src": [
+     {
+      "n": "nippon.com（時事通信）",
+      "u": "https://www.nippon.com/ja/articles/-/56934",
+      "d": "2026-11-05"
+     }
+    ],
+    "tr": {
+     "ru": {
+      "h": "Чистая прибыль Toyota за полугодие выросла впервые за три периода: помогло сокращение издержек, компания усиливает робототехнику",
+      "s": "Согласно опубликованной Toyota Motor 5-го числа консолидированной отчётности за полугодие, завершившееся в сентябре 2026 года, чистая прибыль выросла на 26,1% в годовом выражении, до 2,2364 трлн иен. Этому способствовали слабая иена, снижение бремени американских пошлин, последовательное сокращение издержек и высокие продажи гибридных автомобилей; компания также повысила прогноз прибыли на финансовый год, заканчивающийся в марте 2027 года. Toyota намерена сделать робототехнику одной из опор будущего бизнеса и в январе 2027 года создаст специализированное подразделение."
+     }
+    }
+   }
+  ]
+ }
+}
