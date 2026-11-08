@@ -1,0 +1,803 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Депеша</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@600;800;900&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Roboto+Condensed:wght@400;500;700&family=Noto+Serif+JP:wght@400;700&display=swap">
+<style>
+/* Layout: a strict broadsheet front page. Dateline + centred nameplate over a double rule, a sticky edition bar, rubric filter, lead story across the measure, then ruled columns beside a contents rail; below the fold, the coverage map, charts, calendar. */
+:root{
+  --paper:#fbfbf9; --ink:#141413; --ink2:#46453f; --muted:#75736b; --hair:#d5d3cb; --wash:#efeee9;
+  --accent:#a3161c; --bar:#2a2a27; --bar2:#a3161c;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100;
+  --display:"Noto Serif Display","Literata",Georgia,"Noto Serif JP",serif;
+  --body:"Literata",Georgia,"Noto Serif JP",serif;
+  --label:"Roboto Condensed","Arial Narrow",Arial,"Noto Serif JP",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#131312;--ink:#ecebe6;--ink2:#c4c2bb;--muted:#959389;--hair:#34332f;--wash:#1d1d1b;
+  --accent:#ef6a62;--bar:#d9d7cf;--bar2:#ef6a62;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#131312;--ink:#ecebe6;--ink2:#c4c2bb;--muted:#959389;--hair:#34332f;--wash:#1d1d1b;
+  --accent:#ef6a62;--bar:#d9d7cf;--bar2:#ef6a62;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;color-scheme:dark}
+:lang(ja){--display:"Noto Serif JP",serif;--body:"Noto Serif JP",serif}
+*{box-sizing:border-box}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 72px)}
+body{background:var(--paper);color:var(--ink);font:400 1.0625rem/1.58 var(--body)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--paper)}
+.in{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.lbl,.kick,.dateline,.tabs button,.chips button,.src,.meta-row,.tool,.cal time,table.mx{font-family:var(--label)}
+
+/* Masthead */
+.mast{padding-block:18px 0;display:grid;gap:10px}
+.dateline{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2);border-bottom:1px solid var(--ink);padding-bottom:6px}
+.nameplate{text-align:center;padding-block:6px 4px}
+.nameplate h1{margin:0;font:900 clamp(2.9rem,11vw,6.6rem)/.95 var(--display);letter-spacing:-.02em;text-wrap:balance}
+.nameplate p{margin:8px auto 0;max-width:62ch;color:var(--ink2);font-size:.95rem;font-style:italic}
+.dbl{height:6px;border-top:3px solid var(--ink);border-bottom:1px solid var(--ink)}
+
+/* Sticky edition bar */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--paper);border-bottom:1px solid var(--ink)}
+.bar .in{display:flex;align-items:center;gap:8px 16px;min-height:52px}
+.tabs{display:flex;gap:2px;margin:0;padding:0;list-style:none;overflow-x:auto;scrollbar-width:none;flex:1 1 auto;min-width:0}
+.tabs::-webkit-scrollbar{display:none}
+.tabs button{border:0;background:none;padding:8px 10px;min-height:44px;font-size:.92rem;letter-spacing:.02em;cursor:pointer;white-space:nowrap;border-bottom:3px solid transparent;color:var(--ink2)}
+.tabs button:hover{color:var(--ink)}
+.tabs button[aria-pressed="true"]{color:var(--ink);font-weight:700;border-bottom-color:var(--accent)}
+.tabs .code{display:none}
+.tool{display:flex;align-items:center;gap:8px;flex:none}
+.tool button,.tool select{border:1px solid var(--ink);background:var(--paper);min-height:38px;padding:4px 10px;font-size:.85rem;cursor:pointer;border-radius:0}
+.tool button{display:inline-flex;align-items:center;gap:6px}
+.tool button:hover{background:var(--ink);color:var(--paper)}
+.tool select{max-width:44vw}
+svg.ic{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2}
+
+/* Rubric filter */
+.filters{padding-block:14px 0;display:grid;gap:10px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
+.chips button{border:1px solid var(--hair);background:none;padding:5px 11px;min-height:34px;font-size:.8rem;letter-spacing:.05em;text-transform:uppercase;cursor:pointer;color:var(--ink2)}
+.chips button:hover{border-color:var(--ink);color:var(--ink)}
+.chips button[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.chips button span{opacity:.7;margin-left:5px;font-variant-numeric:tabular-nums}
+.frame{margin:0;font-size:.9rem;color:var(--ink2);max-width:80ch}
+
+/* Front page */
+.page{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:0 36px;padding-block:18px 8px;align-items:start}
+.main{min-width:0}
+.rail{min-width:0;border-left:1px solid var(--hair);padding-left:24px;display:grid;gap:28px}
+.lead{border-bottom:3px double var(--ink);padding-bottom:20px;margin-bottom:20px}
+.cols{columns:2 300px;column-gap:36px;column-rule:1px solid var(--hair)}
+article{break-inside:avoid;padding-bottom:18px;margin-bottom:18px;border-bottom:1px solid var(--hair);display:grid;gap:7px;scroll-margin-top:84px}
+.cols article:last-child{border-bottom:0}
+.kick{display:flex;flex-wrap:wrap;gap:2px 10px;font-size:.76rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.kick .rub{color:var(--accent);font-weight:700}
+.kick .live{color:var(--accent)}
+.kick .live::before{content:"● "}
+article h3{margin:0;font:700 1.36rem/1.2 var(--display);text-wrap:balance}
+.lead h3{font-size:clamp(1.85rem,4.6vw,3rem);font-weight:800;line-height:1.06;letter-spacing:-.01em}
+.lead .sum{font-size:1.16rem;max-width:62ch}
+.lead .sum::first-letter{float:left;font:800 3.4em/.8 var(--display);margin:.06em .08em 0 0;color:var(--accent)}
+.sum{margin:0;max-width:66ch;hyphens:auto}
+article.gap h3{font-size:1.1rem;color:var(--ink2);font-weight:600}
+article.gap .sum{font-style:italic;color:var(--muted);font-size:.95rem}
+.src{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:2px 14px;font-size:.8rem;color:var(--muted)}
+.src a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--hair);text-underline-offset:3px}
+.src a:hover{text-decoration-color:var(--accent)}
+.src time{margin-left:5px}
+.meta-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;font-size:.8rem;color:var(--muted)}
+.dots{display:inline-flex;gap:3px}
+.dots i{width:10px;height:10px;border:1px solid var(--ink);display:inline-block}
+.dots i.on{background:var(--ink)}
+.linkbtn{border:0;background:none;padding:6px 0;min-height:32px;cursor:pointer;font:500 .8rem var(--label);letter-spacing:.05em;text-transform:uppercase;color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.flash{animation:flash 1.6s ease-out}
+@keyframes flash{from{background:color-mix(in oklab,var(--accent) 14%,transparent)}to{background:transparent}}
+
+/* Rail */
+.rail h2,.sec>h2{margin:0;font:700 .82rem var(--label);letter-spacing:.12em;text-transform:uppercase;border-top:3px solid var(--ink);padding-top:6px}
+.toc{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:9px;counter-reset:t}
+.toc li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:6px;font-size:.92rem;line-height:1.3;counter-increment:t}
+.toc li::before{content:counter(t);font:700 .8rem var(--label);color:var(--accent);padding-top:2px}
+.toc a{color:var(--ink);text-decoration:none}
+.toc a:hover{text-decoration:underline}
+.toc .g{color:var(--muted)}
+.cal{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:10px}
+.cal li{display:grid;grid-template-columns:66px minmax(0,1fr);gap:8px;font-size:.92rem;line-height:1.32}
+.cal time{font-size:.8rem;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;padding-top:1px}
+
+/* Below the fold */
+.sec{padding-block:26px 6px;display:grid;gap:14px}
+.sec>h2{font-size:.95rem}
+.sec .note{margin:0;color:var(--ink2);font-size:.9rem;max-width:80ch}
+.duo{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:28px;align-items:start}
+.mapbox{display:grid;gap:10px;min-width:0}
+.mapbox select{border:1px solid var(--ink);background:var(--paper);min-height:38px;padding:4px 8px;font:.9rem var(--label);max-width:100%;border-radius:0}
+svg.map{width:100%;height:auto;display:block}
+svg.map text{font:500 9px var(--label);pointer-events:none}
+svg.map .sep{stroke:var(--hair);stroke-dasharray:3 3}
+.maplegend{display:flex;flex-wrap:wrap;gap:6px 14px;font:.8rem var(--label);color:var(--ink2);align-items:center}
+.maplegend i{display:inline-block;width:12px;height:12px;border:1px solid var(--ink);vertical-align:-2px;margin-right:5px}
+.scroll{overflow-x:auto;min-width:0}
+table.mx{border-collapse:collapse;font-size:.85rem;width:100%;font-variant-numeric:tabular-nums}
+table.mx th,table.mx td{padding:5px 4px;text-align:center;border-bottom:1px solid var(--hair)}
+table.mx thead th{font-weight:700;letter-spacing:.05em;border-bottom:1px solid var(--ink)}
+table.mx th[scope=row]{text-align:left;font-weight:400;min-width:150px}
+table.mx th[scope=row] button{border:0;background:none;padding:2px 0;text-align:left;cursor:pointer;font:inherit;color:var(--ink)}
+table.mx tr.sel th[scope=row] button{font-weight:700;text-decoration:underline;text-decoration-color:var(--accent)}
+table.mx td button{width:26px;height:26px;border:1px solid var(--ink);background:none;cursor:pointer;padding:0}
+table.mx td button.on{background:var(--ink)}
+table.mx td button.off{border-color:var(--hair);background:repeating-linear-gradient(45deg,transparent 0 3px,var(--hair) 3px 4px)}
+table.mx tfoot td{font-weight:700;border-bottom:0}
+
+#cov .duo{grid-template-columns:minmax(0,1fr)}
+.lochead{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;border-bottom:1px solid var(--ink);padding-bottom:6px}
+.trbtn{margin-left:auto;border:1px solid var(--ink);background:var(--paper);min-height:36px;padding:4px 12px;cursor:pointer;font:500 .85rem var(--label);letter-spacing:.03em}
+.trbtn:hover,.trbtn[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.lochead h3{margin:0;font:800 1.6rem/1.1 var(--display)}
+.cols.loc{columns:3 260px}
+.cols.loc article h3{font-size:1.15rem}
+.cols.loc .sum{font-size:.98rem}
+.tool .tx{white-space:nowrap}
+.tool button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+body.compact .sum{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+body.compact .lead .sum::first-letter{float:none;font:inherit;color:inherit;margin:0}
+body.compact .main .src,body.compact .diff{display:none}
+.brief{border:1px solid var(--ink);padding:12px 16px;margin-bottom:20px;display:grid;gap:8px}
+.brief h2{margin:0;font:700 .8rem var(--label);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.brief ol{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.brief li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;font-size:.95rem;line-height:1.4}
+.brief li b{font:700 .72rem/1.9 var(--label);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+.brief a{color:var(--ink);text-decoration:none}.brief a:hover{text-decoration:underline}
+.diff{margin:0;font-size:.9rem;line-height:1.45;color:var(--ink2);border-left:2px solid var(--accent);padding-left:10px;max-width:66ch}
+.diff b{font:700 .74rem var(--label);letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-right:6px}
+.qb{font:500 .7rem/1.6 var(--label);letter-spacing:.04em;text-transform:uppercase;border:1px dashed var(--muted);padding:0 6px;color:var(--muted)}
+.star{border:0;background:none;cursor:pointer;color:var(--muted);min-width:32px;min-height:32px;padding:0;display:inline-grid;place-items:center}
+.star svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8}
+.star[aria-pressed="true"]{color:var(--accent)}.star[aria-pressed="true"] svg{fill:currentColor}
+.ilist{list-style:none;margin:0;padding:0;display:grid}
+.ilist li{border-bottom:1px solid var(--hair)}
+.ilist button.go{display:grid;gap:3px;width:100%;text-align:left;border:0;background:none;padding:10px 2px;cursor:pointer}
+.ilist button.go:hover h3{text-decoration:underline}
+.ilist h3{margin:0;font:700 1.02rem/1.25 var(--display)}
+.ilist p{margin:0;font-size:.9rem;color:var(--ink2)}
+.wk{display:grid;gap:4px;padding-block:14px;border-bottom:1px solid var(--hair)}
+.wk h3{margin:0;font:800 1.2rem/1.2 var(--display)}
+.wk .ilist li{border:0}.wk .ilist button.go{padding:4px 0;grid-template-columns:70px minmax(0,1fr);gap:10px}
+.wk time{font:700 .8rem var(--label);color:var(--accent);padding-top:2px}
+table.heat td{font-variant-numeric:tabular-nums;font-size:.82rem;min-width:44px}
+/* Charts */
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:26px 36px}
+figure{margin:0;display:grid;gap:10px;align-content:start;border-top:1px solid var(--ink);padding-top:10px;min-width:0}
+figcaption{font:700 1.15rem/1.25 var(--display);text-wrap:balance}
+figure .note{font-size:.84rem}
+.chart{display:grid;gap:7px;font-variant-numeric:tabular-nums}
+.row{display:grid;grid-template-columns:minmax(84px,150px) minmax(0,1fr) 62px;gap:10px;align-items:center;font-size:.88rem}
+.row .lb{min-width:0;overflow-wrap:anywhere;font-family:var(--label)}
+.track{height:16px;position:relative;border-left:1px solid var(--muted)}
+.fill{position:absolute;top:0;bottom:0;left:0;background:var(--bar);border-radius:0 3px 3px 0}
+.row.b .fill{background:var(--bar2)}
+.val{font:500 .84rem var(--label);text-align:right}
+.div .track{border-left:0;background:linear-gradient(var(--muted),var(--muted)) center/1px 100% no-repeat}
+.div .fill.neg{border-radius:3px 0 0 3px;background:var(--bar2)}
+.share{display:flex;gap:2px;height:28px}
+.share span{display:block;min-width:2px}
+.share span:first-child{border-radius:3px 0 0 3px}.share span:last-child{border-radius:0 3px 3px 0}
+.legend{list-style:none;margin:0;padding:0;display:grid;gap:5px;font:.85rem var(--label)}
+.legend li{display:grid;grid-template-columns:12px minmax(0,1fr) auto;gap:8px;align-items:center}
+.legend i{width:12px;height:12px;border-radius:2px;display:block}
+.legend b{font-weight:500;font-variant-numeric:tabular-nums}
+.lc{position:relative}
+.lc svg{width:100%;height:auto;display:block;overflow:visible}
+.lc text{font:400 11px var(--label);fill:var(--muted)}
+.tip{position:absolute;pointer-events:none;background:var(--paper);border:1px solid var(--ink);padding:6px 8px;font:.8rem/1.35 var(--label);min-width:120px;transform:translate(-50%,-100%);white-space:nowrap}
+.tip i{display:inline-block;width:10px;height:2px;vertical-align:middle;margin-right:5px}
+
+/* Calendar section */
+.seg{display:inline-flex;border:1px solid var(--ink)}
+.seg button{border:0;background:none;padding:6px 14px;min-height:36px;cursor:pointer;font:.85rem var(--label);letter-spacing:.04em}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.calhead{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
+.wknav{display:flex;align-items:center;gap:8px;font:.9rem var(--label)}
+.wknav button{border:1px solid var(--ink);background:none;width:36px;height:36px;cursor:pointer}
+.wknav button:disabled{opacity:.35;cursor:default}
+.week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));border-top:1px solid var(--ink);border-left:1px solid var(--hair)}
+.day{border-right:1px solid var(--hair);border-bottom:1px solid var(--hair);min-height:132px;padding:6px 7px;display:grid;align-content:start;gap:6px;min-width:0}
+.day h4{margin:0;font:500 .78rem var(--label);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between}
+.day h4 b{font:800 1.3rem/1 var(--display);color:var(--ink)}
+.day.today h4 b{color:var(--accent)}
+.day.we{background:var(--wash)}
+.ev{font-size:.84rem;line-height:1.28;border-left:3px solid var(--accent);padding-left:6px;overflow-wrap:anywhere}
+.ev.cont{border-left-style:dotted;color:var(--ink2)}
+.empty{color:var(--muted);font-style:italic;font-size:.92rem;margin:0}
+.calfull{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:0 28px}
+.calfull li{display:grid;grid-template-columns:80px minmax(0,1fr);gap:10px;padding-block:9px;border-bottom:1px solid var(--hair)}
+.calfull time{font:700 .85rem var(--label);color:var(--accent)}
+
+footer{padding-block:24px 48px;margin-top:20px;border-top:3px double var(--ink);font-size:.85rem;color:var(--muted)}
+.state{color:var(--muted);padding-block:40px}
+
+/* Dialogs */
+dialog{border:1px solid var(--ink);background:var(--paper);color:var(--ink);padding:0;width:min(1120px,calc(100vw - 24px));max-height:calc(100vh - 32px - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px))}
+dialog::backdrop{background:rgba(10,10,10,.45)}
+.dlg{display:grid;grid-template-rows:auto minmax(0,1fr);max-height:inherit}
+.dhead{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;padding:14px 18px;border-bottom:3px double var(--ink)}
+.dhead h2{margin:0;font:800 1.45rem/1.15 var(--display);text-wrap:balance}
+.dhead .kick{margin-bottom:4px}
+.x{border:1px solid var(--ink);background:none;min-width:38px;height:38px;cursor:pointer;font:1.1rem var(--label);flex:none}
+.dbody{overflow:auto;padding:16px 18px 22px}
+.cmp{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:0 28px}
+.cmp section{padding-block:12px;border-bottom:1px solid var(--hair);display:grid;gap:6px;align-content:start;min-width:0}
+.cmp .ln{font:700 .78rem var(--label);letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.cmp h3{margin:0;font:700 1.08rem/1.25 var(--display)}
+.cmp p{margin:0;font-size:.95rem}
+.cmp .gap p{color:var(--muted);font-style:italic}
+.sbox{display:grid;gap:10px}
+.sbox input[type=search]{width:100%;border:0;border-bottom:2px solid var(--ink);background:none;padding:8px 2px;font:600 1.3rem var(--body);border-radius:0}
+.sbox input[type=search]::placeholder{color:var(--muted);font-weight:400}
+.sres{list-style:none;margin:0;padding:0;display:grid}
+.sres li button{display:grid;gap:3px;width:100%;text-align:left;border:0;border-bottom:1px solid var(--hair);background:none;padding:10px 2px;cursor:pointer}
+.sres li button:hover h3{text-decoration:underline}
+.sres h3{margin:0;font:700 1.02rem/1.25 var(--display)}
+.sres p{margin:0;font-size:.88rem;color:var(--ink2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.count{font:.85rem var(--label);color:var(--muted)}
+
+@media (max-width:1240px){.tool .tx{display:none}.tool button{padding:4px 9px}}
+@media (max-width:900px){.page{grid-template-columns:minmax(0,1fr)}.rail{border-left:0;padding-left:0;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:24px 32px}.duo{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:640px){
+  .bar .in{flex-wrap:wrap;gap:0 8px;padding-bottom:6px}
+  .tabs{flex:1 1 100%;display:grid;grid-template-columns:repeat(8,minmax(0,1fr))}
+  .tabs .full{display:none}.tabs .code{display:inline}.tabs button{padding:8px 0;width:100%}
+  .tool{flex:1 1 100%;min-width:0}.tool .tx{display:none}.tool select{flex:1 1 auto;max-width:none;min-width:0;width:0}
+  html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 112px)}article{scroll-margin-top:112px}
+  .dateline{justify-content:center;text-align:center}
+  .week{grid-template-columns:minmax(0,1fr)}.day{min-height:0;grid-template-columns:70px minmax(0,1fr);align-items:start}.day h4{display:grid;gap:2px}.day .empty{display:none}
+  .row{grid-template-columns:minmax(0,1fr) 56px}.row .track{grid-column:1/-1;grid-row:2}
+}
+@media (prefers-reduced-motion:reduce){.flash{animation:none}}
+</style>
+
+<header class="in mast">
+  <div class="dateline"><span id="edition"></span><span id="dl"></span></div>
+  <div class="nameplate"><h1 id="name">Депеша</h1><p id="tag"></p></div>
+  <div class="dbl" aria-hidden="true"></div>
+</header>
+
+<nav class="bar" aria-label="Edition">
+  <div class="in">
+    <ul class="tabs" id="langs"></ul>
+    <div class="tool">
+      <button type="button" id="sbtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg><span class="tx" id="sbtnL"></span></button>
+      <button type="button" id="wbtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span class="tx" id="wbtnL"></span></button>
+      <button type="button" id="fbtn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg><span class="tx" id="fbtnL"></span></button>
+      <button type="button" id="cbtn" aria-pressed="false"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h16"/></svg><span class="tx" id="cbtnL"></span></button>
+      <select id="issue" aria-label="Issue"></select>
+    </div>
+  </div>
+</nav>
+
+<div class="in filters">
+  <ul class="chips" id="rubs"></ul>
+  <p class="frame" id="frame"></p>
+</div>
+
+<div class="in page">
+  <main class="main" id="stories"><p class="state">…</p></main>
+  <aside class="rail" id="rail">
+    <div><h2 id="tocH"></h2><ol class="toc" id="toc"></ol></div>
+    <div id="upBox"><h2 id="upH"></h2><ol class="cal" id="up"></ol></div>
+  </aside>
+</div>
+
+<section class="in sec" id="locSec">
+  <h2 id="locH"></h2>
+  <p class="note" id="locNote"></p>
+  <ul class="chips" id="ctabs"></ul>
+  <div class="lochead"><h3 id="locC"></h3><span class="count" id="locBy"></span><button type="button" class="trbtn" id="trBtn" hidden></button></div>
+  <p class="note" id="trNote" hidden></p>
+  <div class="cols loc" id="loc"></div>
+</section>
+
+<section class="in sec" id="cov">
+  <h2 id="covH"></h2>
+  <div class="duo">
+    <div class="mapbox">
+      <label for="evsel" class="lbl" id="evselL" hidden></label>
+      <div class="calhead"><select id="evsel"></select><div class="seg" role="group" id="zoom" hidden><button type="button" data-z="world"></button><button type="button" data-z="europe"></button></div></div>
+      <svg class="map" id="map" role="img"></svg>
+      <div class="maplegend" id="mapleg"></div>
+      <p class="note" id="mapnote"></p>
+    </div>
+    <div class="mapbox">
+      <h3 class="lbl" id="mxH" style="margin:0;font:700 .8rem var(--label);letter-spacing:.08em;text-transform:uppercase"></h3>
+      <div class="scroll"><table class="mx" id="mx"></table></div>
+    </div>
+  </div>
+</section>
+
+<section class="in sec" id="chartsSec">
+  <h2 id="chH"></h2>
+  <div class="charts" id="charts"></div>
+</section>
+
+<section class="in sec" id="trSec" hidden>
+  <div class="calhead"><h2 id="trH" style="flex:1 1 auto"></h2><div class="seg" role="group" id="trP"><button type="button" data-p="7"></button><button type="button" data-p="30"></button></div></div>
+  <div class="charts" id="trC"></div>
+  <figure id="attF"><figcaption id="attH"></figcaption><p class="note" id="attN"></p><div class="scroll"><table class="mx heat" id="att"></table></div></figure>
+</section>
+
+<section class="in sec" id="calSec">
+  <h2 id="calH"></h2>
+  <div class="calhead">
+    <div class="seg" role="group" id="calMode"><button type="button" data-m="week"></button><button type="button" data-m="list"></button></div>
+    <div class="wknav" id="wknav"><button type="button" id="wprev"><span aria-hidden="true">‹</span></button><span id="wlabel"></span><button type="button" id="wnext"><span aria-hidden="true">›</span></button></div>
+  </div>
+  <div id="calView"></div>
+</section>
+
+<footer class="in" id="foot"></footer>
+
+<dialog id="cmpD" aria-labelledby="cmpT"><div class="dlg">
+  <div class="dhead"><div><div class="kick" id="cmpK"></div><h2 id="cmpT"></h2></div><button type="button" class="x" data-close>×</button></div>
+  <div class="dbody"><p class="note" id="cmpN" style="margin:0 0 6px;color:var(--ink2);font-size:.9rem"></p><div class="cmp" id="cmpG"></div></div>
+</div></dialog>
+
+<dialog id="listD" aria-labelledby="listT"><div class="dlg">
+  <div class="dhead"><div><h2 id="listT"></h2><p class="note" id="listN" style="margin:4px 0 0;color:var(--ink2);font-size:.9rem"></p></div><button type="button" class="x" data-close>×</button></div>
+  <div class="dbody"><div id="listB"></div></div>
+</div></dialog>
+
+<dialog id="srchD" aria-labelledby="srchT"><div class="dlg">
+  <div class="dhead"><h2 id="srchT"></h2><button type="button" class="x" data-close>×</button></div>
+  <div class="dbody sbox">
+    <input type="search" id="q" autocomplete="off">
+    <div class="calhead"><div class="seg" role="group" id="scope"><button type="button" data-s="lang"></button><button type="button" data-s="all"></button></div><span class="count" id="scount"></span></div>
+    <ul class="sres" id="sres"></ul>
+  </div>
+</div></dialog>
+
+<script>
+const LANGS={ru:"Русский",fr:"Français",en:"English",de:"Deutsch",sk:"Slovenčina",ro:"Română",el:"Ελληνικά",ja:"日本語"};
+const LK=Object.keys(LANGS);
+const ORDER=["politics","economy","social","milpol","miltech","milecon","analysis","business","tech","infographic"];
+const COUNTRY={ru:"RU",fr:"FR",en:"US",de:"DE",sk:"SK",ro:"RO",el:"GR",ja:"JP"};
+const UI={
+ru:{name:"Депеша",tag:"Мировая политика, экономика и оборона за день на восьми языках. Каждая версия пересказывает прессу на своём языке.",frame:"Одно событие, восемь взглядов: в каждой языковой версии сохранены заголовки, термины и подача изданий на этом языке. Поэтому цифры и оценки в разных версиях могут расходиться.",arch:"Выпуск",cal:"Календарь",up:"Что впереди",live:"Развивается",no:"№",ed:"Русское издание",gap:"В доступных для проверки изданиях на этом языке материала по теме не нашлось.",load:"Загружаем выпуск…",err:"Не удалось загрузить выпуск. Обновите страницу.",foot:"Выпуск составляет Claude, ИИ от Anthropic, по публикациям СМИ. Он может ошибаться, поэтому у каждого материала указаны источники и даты.",
+ loc:"Внутренние новости",locN:"Главное внутри страны по прессе на её языке. У каждой страны своя подборка, она не совпадает между языками.",locNone:"Подборки по этой стране в выпуске нет.",locBy:"по прессе на языке страны",toc:"В номере",all:"Все рубрики",none:"В выбранных рубриках материалов нет.",cmp:"Сравнить языки",of:"{n} из 8 языков",cmpN:"Каждая версия написана по прессе на своём языке. Заголовки и термины сохранены как в источнике.",close:"Закрыть",
+ search:"Поиск",sT:"Поиск по архиву",sPh:"Слово, имя, страна…",sLang:"На этом языке",sAll:"Все языки",sFound:"Найдено: {n}",sNone:"Ничего не нашлось. Попробуйте другое слово или поиск по всем языкам.",sLoad:"Загружаем архив…",sHint:"Введите хотя бы два символа.",
+ cov:"Карта охвата",allEv:"Все события выпуска",mapAll:"Закрашены страны, где говорят на языке издания. Чем темнее цвет, тем больше событий выпуска осветила пресса на этом языке.",mapEv:"Тёмным закрашены страны языков, на которых нашлась публикация. Штриховка — материала не нашлось.",mW:"Мир",mE:"Европа",mx:"Кто что осветил",tot:"Итого",yes:"есть материал",no2:"нет материала",
+ ch:"Графики и тенденции",covC:"Охват по языкам",covCN:"Сколько событий выпуска нашлось в прессе на каждом языке, из {n}. Считается по данным выпуска.",trC:"Выпуски: сюжеты и пробелы",trCN:"По всем выпускам архива. Пробел — событие, по которому на каком-то языке не нашлось материала.",tr1:"Сюжеты",tr2:"Пробелы",
+ week:"Неделя",list:"Список",prev:"Предыдущая неделя",next:"Следующая неделя",wNone:"На этой неделе событий в календаре нет.",
+ r:{politics:"Политика",economy:"Экономика",social:"Социальная сфера",milpol:"Военно-политическая сфера",miltech:"Военно-техническая сфера",milecon:"Военно-экономическая сфера",analysis:"Аналитика",business:"Бизнес и финансы",tech:"Технологии и ИИ",infographic:"Инфографика и тенденции"}},
+fr:{name:"Dépêche",tag:"Politique, économie et défense dans le monde, chaque jour, en huit langues. Chaque version reprend la presse de sa langue.",frame:"Un événement, huit regards : chaque version conserve les titres, les termes et l'angle de la presse de sa langue. Les chiffres et les jugements peuvent donc différer d'une version à l'autre.",arch:"Édition",cal:"Agenda",up:"À venir",live:"En cours",no:"N°",ed:"Édition française",gap:"Aucun article sur ce sujet dans les titres vérifiables de cette langue.",load:"Chargement de l'édition…",err:"Impossible de charger l'édition. Actualisez la page.",foot:"Rédigé par Claude, une IA d'Anthropic, à partir d'articles de presse. Des erreurs sont possibles : chaque article indique ses sources et leurs dates.",
+ loc:"Actualité nationale",locN:"L'essentiel de l'actualité intérieure de chaque pays, d'après sa propre presse. Chaque pays a sa sélection, différente d'une langue à l'autre.",locNone:"Pas de sélection pour ce pays dans cette édition.",locBy:"d'après la presse du pays",toc:"Au sommaire",all:"Toutes les rubriques",none:"Aucun article dans les rubriques choisies.",cmp:"Comparer les langues",of:"{n} langues sur 8",cmpN:"Chaque version est rédigée d'après la presse de sa langue. Titres et termes restent ceux de la source.",close:"Fermer",
+ search:"Recherche",sT:"Rechercher dans les archives",sPh:"Mot, nom, pays…",sLang:"Dans cette langue",sAll:"Toutes les langues",sFound:"{n} résultat(s)",sNone:"Aucun résultat. Essayez un autre mot ou toutes les langues.",sLoad:"Chargement des archives…",sHint:"Saisissez au moins deux caractères.",
+ cov:"Carte de couverture",allEv:"Tous les événements",mapAll:"Les pays coloriés parlent la langue d'une édition. Plus la teinte est foncée, plus la presse de cette langue a couvert d'événements du jour.",mapEv:"En foncé : pays des langues où un article a été trouvé. Hachures : aucun article.",mW:"Monde",mE:"Europe",mx:"Qui a couvert quoi",tot:"Total",yes:"article trouvé",no2:"aucun article",
+ ch:"Graphiques et tendances",covC:"Couverture par langue",covCN:"Nombre d'événements de l'édition couverts par la presse de chaque langue, sur {n}. Calculé à partir de l'édition.",trC:"Éditions : sujets et lacunes",trCN:"Sur toutes les éditions archivées. Une lacune est un événement sans article dans une langue.",tr1:"Sujets",tr2:"Lacunes",
+ week:"Semaine",list:"Liste",prev:"Semaine précédente",next:"Semaine suivante",wNone:"Rien à l'agenda cette semaine.",
+ r:{politics:"Politique",economy:"Économie",social:"Société",milpol:"Politique et défense",miltech:"Technologies de défense",milecon:"Économie de défense",analysis:"Analyses",business:"Entreprises et finance",tech:"Technologies et IA",infographic:"Infographies et tendances"}},
+en:{name:"Dispatch",tag:"World politics, economics and defence, every day, in eight languages. Each edition retells its own language's press.",frame:"One event, eight views: each language edition keeps the headlines, terms and angle of that language's press, so figures and judgements can differ between editions.",arch:"Issue",cal:"Calendar",up:"Coming up",live:"Developing",no:"No.",ed:"English edition",gap:"No coverage of this found in the checkable outlets in this language.",load:"Loading the issue…",err:"The issue could not be loaded. Refresh the page.",foot:"Compiled by Claude, an AI from Anthropic, from news reports. It can make mistakes, so every story lists its sources and dates.",
+ loc:"Home news",locN:"The main domestic news of each country, from its own press. Each country has its own selection, so these differ between languages.",locNone:"No selection for this country in this issue.",locBy:"from the country's own press",toc:"In this issue",all:"All sections",none:"No stories in the selected sections.",cmp:"Compare languages",of:"{n} of 8 languages",cmpN:"Each version is written from its own language's press. Headlines and terms are kept as the source has them.",close:"Close",
+ search:"Search",sT:"Search the archive",sPh:"Word, name, country…",sLang:"This language",sAll:"All languages",sFound:"{n} found",sNone:"Nothing found. Try another word or search all languages.",sLoad:"Loading the archive…",sHint:"Type at least two characters.",
+ cov:"Coverage map",allEv:"All events in this issue",mapAll:"Shaded countries speak an edition's language. The darker the shade, the more of the day's events that language's press covered.",mapEv:"Dark: countries of languages where an article was found. Hatched: no article found.",mW:"World",mE:"Europe",mx:"Who covered what",tot:"Total",yes:"article found",no2:"no article",
+ ch:"Charts and trends",covC:"Coverage by language",covCN:"Events in this issue covered by each language's press, out of {n}. Counted from the issue itself.",trC:"Issues: stories and gaps",trCN:"Across every archived issue. A gap is an event with no article in one of the languages.",tr1:"Stories",tr2:"Gaps",
+ week:"Week",list:"List",prev:"Previous week",next:"Next week",wNone:"Nothing in the calendar this week.",
+ r:{politics:"Politics",economy:"Economy",social:"Society",milpol:"Military and politics",miltech:"Military technology",milecon:"Defence economics",analysis:"Analysis",business:"Business and finance",tech:"Technology and AI",infographic:"Infographics and trends"}},
+de:{name:"Depesche",tag:"Weltpolitik, Wirtschaft und Verteidigung, täglich, in acht Sprachen. Jede Fassung gibt die Presse ihrer Sprache wieder.",frame:"Ein Ereignis, acht Blickwinkel: Jede Sprachfassung übernimmt Schlagzeilen, Begriffe und Sichtweise der Presse in dieser Sprache. Zahlen und Urteile können deshalb voneinander abweichen.",arch:"Ausgabe",cal:"Kalender",up:"Demnächst",live:"Aktuell",no:"Nr.",ed:"Deutsche Ausgabe",gap:"In den prüfbaren Medien dieser Sprache fand sich dazu kein Beitrag.",load:"Ausgabe wird geladen…",err:"Die Ausgabe konnte nicht geladen werden. Bitte die Seite neu laden.",foot:"Zusammengestellt von Claude, einer KI von Anthropic, auf Basis von Medienberichten. Fehler sind möglich, deshalb nennt jeder Beitrag Quellen und Datum.",
+ loc:"Inland",locN:"Die wichtigsten Inlandsnachrichten jedes Landes, nach der Presse des Landes. Jedes Land hat eine eigene Auswahl, sie unterscheidet sich je nach Sprache.",locNone:"Für dieses Land gibt es in dieser Ausgabe keine Auswahl.",locBy:"nach der Presse des Landes",toc:"In dieser Ausgabe",all:"Alle Ressorts",none:"In den gewählten Ressorts gibt es keine Beiträge.",cmp:"Sprachen vergleichen",of:"{n} von 8 Sprachen",cmpN:"Jede Fassung beruht auf der Presse ihrer Sprache. Schlagzeilen und Begriffe bleiben wie in der Quelle.",close:"Schließen",
+ search:"Suche",sT:"Im Archiv suchen",sPh:"Wort, Name, Land…",sLang:"In dieser Sprache",sAll:"Alle Sprachen",sFound:"{n} Treffer",sNone:"Keine Treffer. Versuchen Sie ein anderes Wort oder alle Sprachen.",sLoad:"Archiv wird geladen…",sHint:"Mindestens zwei Zeichen eingeben.",
+ cov:"Abdeckungskarte",allEv:"Alle Ereignisse der Ausgabe",mapAll:"Eingefärbt sind Länder, in denen eine der Sprachen gesprochen wird. Je dunkler, desto mehr Ereignisse des Tages hat die Presse dieser Sprache behandelt.",mapEv:"Dunkel: Länder der Sprachen mit gefundenem Beitrag. Schraffiert: kein Beitrag.",mW:"Welt",mE:"Europa",mx:"Wer berichtete worüber",tot:"Summe",yes:"Beitrag gefunden",no2:"kein Beitrag",
+ ch:"Grafiken und Trends",covC:"Abdeckung nach Sprache",covCN:"Ereignisse der Ausgabe, über die die Presse jeder Sprache berichtet hat, von {n}. Aus der Ausgabe selbst gezählt.",trC:"Ausgaben: Beiträge und Lücken",trCN:"Über alle Ausgaben im Archiv. Eine Lücke ist ein Ereignis ohne Beitrag in einer der Sprachen.",tr1:"Beiträge",tr2:"Lücken",
+ week:"Woche",list:"Liste",prev:"Vorherige Woche",next:"Nächste Woche",wNone:"In dieser Woche steht nichts im Kalender.",
+ r:{politics:"Politik",economy:"Volkswirtschaft",social:"Gesellschaft",milpol:"Sicherheitspolitik",miltech:"Wehrtechnik",milecon:"Rüstungswirtschaft",analysis:"Analyse",business:"Unternehmen und Finanzen",tech:"Technologie und KI",infographic:"Grafiken und Trends"}},
+sk:{name:"Depeša",tag:"Svetová politika, ekonomika a obrana každý deň v ôsmich jazykoch. Každá verzia preberá tlač vo svojom jazyku.",frame:"Jedna udalosť, osem pohľadov: každá jazyková verzia zachováva titulky, pojmy a uhol pohľadu médií v danom jazyku. Čísla a hodnotenia sa preto môžu líšiť.",arch:"Vydanie",cal:"Kalendár",up:"Čo nás čaká",live:"Vyvíja sa",no:"č.",ed:"Slovenské vydanie",gap:"V overiteľných médiách v tomto jazyku sa k téme nenašiel článok.",load:"Načítavame vydanie…",err:"Vydanie sa nepodarilo načítať. Obnovte stránku.",foot:"Zostavuje Claude, umelá inteligencia od Anthropic, z mediálnych správ. Môže sa mýliť, preto má každý článok uvedené zdroje a dátumy.",
+ loc:"Domáce správy",locN:"Najdôležitejšie domáce správy každej krajiny podľa jej vlastnej tlače. Každá krajina má vlastný výber, ktorý sa medzi jazykmi líši.",locNone:"Pre túto krajinu nie je v tomto vydaní výber.",locBy:"podľa tlače krajiny",toc:"V tomto vydaní",all:"Všetky rubriky",none:"Vo vybraných rubrikách nie sú články.",cmp:"Porovnať jazyky",of:"{n} z 8 jazykov",cmpN:"Každá verzia vychádza z tlače vo svojom jazyku. Titulky a pojmy sú ponechané podľa zdroja.",close:"Zavrieť",
+ search:"Hľadať",sT:"Hľadať v archíve",sPh:"Slovo, meno, krajina…",sLang:"V tomto jazyku",sAll:"Všetky jazyky",sFound:"Nájdené: {n}",sNone:"Nič sa nenašlo. Skúste iné slovo alebo všetky jazyky.",sLoad:"Načítavame archív…",sHint:"Zadajte aspoň dva znaky.",
+ cov:"Mapa pokrytia",allEv:"Všetky udalosti vydania",mapAll:"Vyfarbené sú krajiny, kde sa hovorí jazykom vydania. Čím tmavšie, tým viac udalostí dňa pokryla tlač v tomto jazyku.",mapEv:"Tmavé: krajiny jazykov, v ktorých sa článok našiel. Šrafované: článok sa nenašiel.",mW:"Svet",mE:"Európa",mx:"Kto o čom písal",tot:"Spolu",yes:"článok nájdený",no2:"bez článku",
+ ch:"Grafy a trendy",covC:"Pokrytie podľa jazykov",covCN:"Počet udalostí vydania, o ktorých písala tlač v danom jazyku, z {n}. Spočítané z vydania.",trC:"Vydania: články a medzery",trCN:"Za všetky vydania v archíve. Medzera je udalosť bez článku v niektorom jazyku.",tr1:"Články",tr2:"Medzery",
+ week:"Týždeň",list:"Zoznam",prev:"Predchádzajúci týždeň",next:"Nasledujúci týždeň",wNone:"Tento týždeň nie je v kalendári nič.",
+ r:{politics:"Politika",economy:"Ekonomika",social:"Spoločnosť",milpol:"Vojensko-politická oblasť",miltech:"Vojenská technika",milecon:"Obranná ekonomika",analysis:"Analýzy",business:"Biznis a financie",tech:"Technológie a AI",infographic:"Infografiky a trendy"}},
+ro:{name:"Depeșa",tag:"Politică mondială, economie și apărare, zilnic, în opt limbi. Fiecare versiune redă presa din limba ei.",frame:"Un eveniment, opt perspective: fiecare versiune păstrează titlurile, termenii și unghiul presei din limba respectivă. De aceea cifrele și aprecierile pot diferi.",arch:"Ediția",cal:"Calendar",up:"Urmează",live:"În desfășurare",no:"Nr.",ed:"Ediția în română",gap:"Nu am găsit articole pe această temă în publicațiile verificabile în această limbă.",load:"Se încarcă ediția…",err:"Ediția nu a putut fi încărcată. Reîncărcați pagina.",foot:"Realizat de Claude, o inteligență artificială de la Anthropic, pe baza articolelor de presă. Poate greși, de aceea fiecare știre are sursele și datele indicate.",
+ loc:"Știri interne",locN:"Principalele știri interne ale fiecărei țări, după presa proprie. Fiecare țară are selecția ei, diferită de la o limbă la alta.",locNone:"Nu există o selecție pentru această țară în această ediție.",locBy:"după presa țării",toc:"În această ediție",all:"Toate rubricile",none:"Nu există articole în rubricile alese.",cmp:"Compară limbile",of:"{n} din 8 limbi",cmpN:"Fiecare versiune se bazează pe presa din limba ei. Titlurile și termenii rămân ca în sursă.",close:"Închide",
+ search:"Căutare",sT:"Căutare în arhivă",sPh:"Cuvânt, nume, țară…",sLang:"În această limbă",sAll:"Toate limbile",sFound:"{n} rezultate",sNone:"Niciun rezultat. Încercați alt cuvânt sau toate limbile.",sLoad:"Se încarcă arhiva…",sHint:"Introduceți cel puțin două caractere.",
+ cov:"Harta acoperirii",allEv:"Toate evenimentele ediției",mapAll:"Sunt colorate țările în care se vorbește limba unei ediții. Cu cât e mai închis, cu atât presa în acea limbă a acoperit mai multe evenimente ale zilei.",mapEv:"Închis: țările limbilor în care s-a găsit un articol. Hașurat: niciun articol.",mW:"Lumea",mE:"Europa",mx:"Cine ce a acoperit",tot:"Total",yes:"articol găsit",no2:"niciun articol",
+ ch:"Grafice și tendințe",covC:"Acoperire pe limbi",covCN:"Evenimente ale ediției acoperite de presa din fiecare limbă, din {n}. Numărate din ediție.",trC:"Ediții: știri și goluri",trCN:"Pentru toate edițiile din arhivă. Un gol este un eveniment fără articol într-una dintre limbi.",tr1:"Știri",tr2:"Goluri",
+ week:"Săptămâna",list:"Listă",prev:"Săptămâna anterioară",next:"Săptămâna următoare",wNone:"Nimic în calendar săptămâna aceasta.",
+ r:{politics:"Politică",economy:"Economie",social:"Social",milpol:"Politico-militar",miltech:"Tehnică militară",milecon:"Economia apărării",analysis:"Analize",business:"Afaceri și finanțe",tech:"Tehnologie și IA",infographic:"Infografice și tendințe"}},
+el:{name:"Τηλεγράφημα",tag:"Παγκόσμια πολιτική, οικονομία και άμυνα, κάθε μέρα, σε οκτώ γλώσσες. Κάθε έκδοση αποδίδει τον Τύπο της γλώσσας της.",frame:"Ένα γεγονός, οκτώ οπτικές: κάθε γλωσσική έκδοση διατηρεί τίτλους, όρους και οπτική του Τύπου στη γλώσσα της. Γι' αυτό αριθμοί και εκτιμήσεις μπορεί να διαφέρουν.",arch:"Τεύχος",cal:"Ημερολόγιο",up:"Επόμενα",live:"Σε εξέλιξη",no:"Αρ.",ed:"Ελληνική έκδοση",gap:"Δεν βρέθηκε δημοσίευμα για το θέμα στα ελέγξιμα μέσα αυτής της γλώσσας.",load:"Φόρτωση τεύχους…",err:"Δεν ήταν δυνατή η φόρτωση. Ανανεώστε τη σελίδα.",foot:"Το συντάσσει το Claude, τεχνητή νοημοσύνη της Anthropic, από δημοσιεύματα. Μπορεί να κάνει λάθη, γι' αυτό κάθε θέμα αναφέρει πηγές και ημερομηνίες.",
+ loc:"Εσωτερικά",locN:"Οι σημαντικότερες εσωτερικές ειδήσεις κάθε χώρας, από τον δικό της Τύπο. Κάθε χώρα έχει δική της επιλογή, διαφορετική ανά γλώσσα.",locNone:"Δεν υπάρχει επιλογή για αυτή τη χώρα στο τεύχος.",locBy:"από τον Τύπο της χώρας",toc:"Σε αυτό το τεύχος",all:"Όλες οι ενότητες",none:"Δεν υπάρχουν θέματα στις επιλεγμένες ενότητες.",cmp:"Σύγκριση γλωσσών",of:"{n} από 8 γλώσσες",cmpN:"Κάθε εκδοχή βασίζεται στον Τύπο της γλώσσας της. Τίτλοι και όροι μένουν όπως στην πηγή.",close:"Κλείσιμο",
+ search:"Αναζήτηση",sT:"Αναζήτηση στο αρχείο",sPh:"Λέξη, όνομα, χώρα…",sLang:"Σε αυτή τη γλώσσα",sAll:"Όλες οι γλώσσες",sFound:"Βρέθηκαν: {n}",sNone:"Δεν βρέθηκε τίποτα. Δοκιμάστε άλλη λέξη ή όλες τις γλώσσες.",sLoad:"Φόρτωση αρχείου…",sHint:"Πληκτρολογήστε τουλάχιστον δύο χαρακτήρες.",
+ cov:"Χάρτης κάλυψης",allEv:"Όλα τα γεγονότα του τεύχους",mapAll:"Χρωματίζονται οι χώρες όπου μιλιέται η γλώσσα μιας έκδοσης. Όσο πιο σκούρο, τόσο περισσότερα γεγονότα της ημέρας κάλυψε ο Τύπος της γλώσσας αυτής.",mapEv:"Σκούρο: χώρες των γλωσσών όπου βρέθηκε δημοσίευμα. Διαγράμμιση: δεν βρέθηκε.",mW:"Κόσμος",mE:"Ευρώπη",mx:"Ποιος κάλυψε τι",tot:"Σύνολο",yes:"βρέθηκε δημοσίευμα",no2:"χωρίς δημοσίευμα",
+ ch:"Γραφήματα και τάσεις",covC:"Κάλυψη ανά γλώσσα",covCN:"Γεγονότα του τεύχους που κάλυψε ο Τύπος κάθε γλώσσας, από {n}. Μετρημένα από το τεύχος.",trC:"Τεύχη: θέματα και κενά",trCN:"Σε όλα τα τεύχη του αρχείου. Κενό είναι ένα γεγονός χωρίς δημοσίευμα σε κάποια γλώσσα.",tr1:"Θέματα",tr2:"Κενά",
+ week:"Εβδομάδα",list:"Λίστα",prev:"Προηγούμενη εβδομάδα",next:"Επόμενη εβδομάδα",wNone:"Τίποτα στο ημερολόγιο αυτή την εβδομάδα.",
+ r:{politics:"Πολιτική",economy:"Οικονομία",social:"Κοινωνία",milpol:"Πολιτικοστρατιωτικά",miltech:"Αμυντική τεχνολογία",milecon:"Αμυντική οικονομία",analysis:"Αναλύσεις",business:"Επιχειρήσεις και αγορές",tech:"Τεχνολογία και ΤΝ",infographic:"Γραφήματα και τάσεις"}},
+ja:{name:"電報",tag:"世界の政治・経済・防衛を毎日、8言語で。各言語版はその言語の報道を伝えます。",frame:"一つの出来事を八つの視点で。各言語版はその言語のメディアの見出し・用語・論調を保っているため、数字や評価が版ごとに異なることがあります。",arch:"号",cal:"カレンダー",up:"今後の予定",live:"続報",no:"第",ed:"日本語版",gap:"この言語で確認できる媒体には、このテーマの記事が見つかりませんでした。",load:"読み込み中…",err:"読み込めませんでした。ページを再読み込みしてください。",foot:"AnthropicのAI「Claude」が報道をもとに編集しています。誤りの可能性があるため、各記事に出典と日付を記載しています。",
+ loc:"国内ニュース",locN:"各国の主な国内ニュースを、その国の報道から伝えます。国ごとに選んだ記事で、言語ごとに内容は異なります。",locNone:"この号にはこの国の記事がありません。",locBy:"その国の報道から",toc:"この号の記事",all:"すべての分野",none:"選んだ分野の記事はありません。",cmp:"言語を比較",of:"8言語中{n}",cmpN:"各版はその言語の報道をもとに書かれています。見出しや用語は出典のままです。",close:"閉じる",
+ search:"検索",sT:"アーカイブを検索",sPh:"語句、人名、国名…",sLang:"この言語",sAll:"全言語",sFound:"{n}件",sNone:"見つかりませんでした。別の語句か全言語で検索してください。",sLoad:"アーカイブを読み込み中…",sHint:"2文字以上入力してください。",
+ cov:"報道カバー地図",allEv:"この号のすべての出来事",mapAll:"各版の言語が話されている国を色分けしています。色が濃いほど、その言語の報道がこの日の出来事を多く伝えています。",mapEv:"濃い色：記事が見つかった言語の国。斜線：記事なし。",mW:"世界",mE:"欧州",mx:"どの言語が何を報じたか",tot:"合計",yes:"記事あり",no2:"記事なし",
+ ch:"グラフとトレンド",covC:"言語別のカバー状況",covCN:"この号の{n}件の出来事のうち、各言語の報道で記事が見つかった数。号のデータから集計。",trC:"各号の記事数と空白",trCN:"アーカイブ全号の集計。空白は、ある言語で記事が見つからなかった出来事です。",tr1:"記事",tr2:"空白",
+ week:"週",list:"一覧",prev:"前の週",next:"次の週",wNone:"今週の予定はありません。",
+ r:{politics:"政治",economy:"経済",social:"社会",milpol:"軍事・政治",miltech:"防衛技術",milecon:"防衛経済",analysis:"分析",business:"ビジネス・金融",tech:"テクノロジー・AI",infographic:"インフォグラフィック・トレンド"}}
+};
+/* Tile map: [iso, col, row, langs] — a tile grid of Europe with North America and Japan insets */
+const TILES=[["CA",0,1,["en","fr"]],["US",0,2,["en"]],
+["IS",2,0],["NO",6,0],["SE",7,0],["FI",8,0],
+["IE",3,1,["en"]],["GB",4,1,["en"]],["DK",6,1],["EE",8,1],
+["NL",5,2],["DE",6,2,["de"]],["PL",7,2],["LV",8,2],
+["BE",5,3,["fr"]],["CZ",6,3],["SK",7,3,["sk"]],["LT",8,3],["BY",9,3,["ru"]],
+["FR",5,4,["fr"]],["CH",6,4,["de","fr"]],["AT",7,4,["de"]],["HU",8,4],["UA",9,4],
+["PT",3,5],["ES",4,5],["IT",6,5],["SI",7,5],["HR",8,5],["RO",9,5,["ro"]],["MD",10,5,["ro"]],
+["MT",6,6,["en"]],["BA",8,6],["RS",9,6],["BG",10,6],
+["AL",8,7],["MK",9,7],["TR",11,7],
+["GR",9,8,["el"]],["CY",11,8,["el"]],
+["JP",13,4,["ja"]]];
+const RU_BLOCK={x:10,y:0,w:2,h:4};
+const UI2={
+"ru":{"brief":"Коротко","compact":"Кратко","fav":"Избранное","favAdd":"В избранное","favDel":"Убрать из избранного","favNone":"Здесь пока пусто. Отмечайте материалы звёздочкой.","chron":"Хроника темы","chronN":"Все материалы этой темы в архиве, от новых к старым.","week":"Неделя","weekH":"Неделя за 5 минут","weekN":"Главные темы последних семи дней: что произошло и чем продолжилось.","weekNone":"Для недельного обзора пока мало выпусков.","diff":"Как подали","q":{"date":"дата по контексту","partial":"прочитано только начало","old":"материал старше 48 часов","head":"заголовок по поисковой выдаче"},"trends":"Тенденции","d7":"7 дней","d30":"30 дней","tRub":"Сюжеты по рубрикам","tRubN":"Число общих сюжетов за период.","tGap":"Пробелы по языкам","tGapN":"Доля событий, по которым на языке не нашлось материала, %.","tSrc":"Самые цитируемые издания","tSrcN":"Сколько раз издание указано источником за период, во всех языках и подборках.","att":"Индекс внимания","attN":"Какая доля событий региона нашлась в прессе на каждом языке, %. Чем темнее клетка, тем выше доля.","region":"Регион","reg":{"europe":"Европа","russia-ukraine":"Россия и Украина","middle-east":"Ближний Восток","north-america":"Северная Америка","latin-america":"Латинская Америка","east-asia":"Восточная Азия","south-asia":"Южная Азия","africa":"Африка","global":"Весь мир"}},
+"fr":{"brief":"L'essentiel","compact":"Condensé","fav":"Favoris","favAdd":"Ajouter aux favoris","favDel":"Retirer des favoris","favNone":"Rien pour l'instant. Marquez des articles avec l'étoile.","chron":"Chronologie du sujet","chronN":"Tous les articles de ce sujet dans les archives, du plus récent au plus ancien.","week":"Semaine","weekH":"La semaine en 5 minutes","weekN":"Les grands sujets des sept derniers jours : ce qui s'est passé et la suite.","weekNone":"Pas encore assez d'éditions pour un bilan de la semaine.","diff":"Comment ils l'ont présenté","q":{"date":"date déduite du contexte","partial":"seul le début a été lu","old":"article de plus de 48 h","head":"titre tiré des résultats de recherche"},"trends":"Tendances","d7":"7 jours","d30":"30 jours","tRub":"Sujets par rubrique","tRubN":"Nombre de sujets communs sur la période.","tGap":"Lacunes par langue","tGapN":"Part des événements sans article dans la langue, en %.","tSrc":"Titres les plus cités","tSrcN":"Nombre de fois où un titre est cité comme source sur la période, toutes langues et sélections confondues.","att":"Indice d'attention","attN":"Part des événements d'une région couverts par la presse de chaque langue, en %. Plus la case est foncée, plus la part est élevée.","region":"Région","reg":{"europe":"Europe","russia-ukraine":"Russie et Ukraine","middle-east":"Moyen-Orient","north-america":"Amérique du Nord","latin-america":"Amérique latine","east-asia":"Asie de l'Est","south-asia":"Asie du Sud","africa":"Afrique","global":"Monde"}},
+"en":{"brief":"In brief","compact":"Compact","fav":"Saved","favAdd":"Save","favDel":"Remove from saved","favNone":"Nothing saved yet. Mark stories with the star.","chron":"Story timeline","chronN":"Every article on this story in the archive, newest first.","week":"Week","weekH":"The week in 5 minutes","weekN":"The main stories of the last seven days: what happened and what followed.","weekNone":"Not enough issues yet for a weekly review.","diff":"How it was told","q":{"date":"date inferred from context","partial":"only the opening was read","old":"article older than 48 hours","head":"headline taken from search results"},"trends":"Trends","d7":"7 days","d30":"30 days","tRub":"Stories by section","tRubN":"Shared stories in the period.","tGap":"Gaps by language","tGapN":"Share of events with no article in the language, %.","tSrc":"Most cited outlets","tSrcN":"Times each outlet is cited as a source in the period, across all languages and digests.","att":"Attention index","attN":"Share of a region's events covered by each language's press, %. The darker the cell, the higher the share.","region":"Region","reg":{"europe":"Europe","russia-ukraine":"Russia and Ukraine","middle-east":"Middle East","north-america":"North America","latin-america":"Latin America","east-asia":"East Asia","south-asia":"South Asia","africa":"Africa","global":"Worldwide"}},
+"de":{"brief":"Kurz gefasst","compact":"Kompakt","fav":"Merkliste","favAdd":"Merken","favDel":"Von der Merkliste entfernen","favNone":"Noch nichts gemerkt. Markieren Sie Beiträge mit dem Stern.","chron":"Chronik des Themas","chronN":"Alle Beiträge zu diesem Thema im Archiv, neueste zuerst.","week":"Woche","weekH":"Die Woche in 5 Minuten","weekN":"Die wichtigsten Themen der letzten sieben Tage: was geschah und wie es weiterging.","weekNone":"Für einen Wochenrückblick gibt es noch zu wenige Ausgaben.","diff":"Wie berichtet wurde","q":{"date":"Datum aus dem Kontext","partial":"nur der Anfang gelesen","old":"Beitrag älter als 48 Stunden","head":"Schlagzeile aus den Suchergebnissen"},"trends":"Trends","d7":"7 Tage","d30":"30 Tage","tRub":"Beiträge nach Ressort","tRubN":"Gemeinsame Beiträge im Zeitraum.","tGap":"Lücken nach Sprache","tGapN":"Anteil der Ereignisse ohne Beitrag in der Sprache, in %.","tSrc":"Meistzitierte Medien","tSrcN":"Wie oft ein Medium im Zeitraum als Quelle genannt wird, über alle Sprachen und Auswahlen.","att":"Aufmerksamkeitsindex","attN":"Anteil der Ereignisse einer Region, über die die Presse jeder Sprache berichtet hat, in %. Je dunkler, desto höher.","region":"Region","reg":{"europe":"Europa","russia-ukraine":"Russland und Ukraine","middle-east":"Nahost","north-america":"Nordamerika","latin-america":"Lateinamerika","east-asia":"Ostasien","south-asia":"Südasien","africa":"Afrika","global":"Weltweit"}},
+"sk":{"brief":"Stručne","compact":"Skrátene","fav":"Uložené","favAdd":"Uložiť","favDel":"Odstrániť z uložených","favNone":"Zatiaľ nič. Články si označte hviezdičkou.","chron":"Vývoj témy","chronN":"Všetky články k tejto téme v archíve, od najnovších.","week":"Týždeň","weekH":"Týždeň za 5 minút","weekN":"Hlavné témy posledných siedmich dní: čo sa stalo a ako to pokračovalo.","weekNone":"Na týždenný prehľad je zatiaľ málo vydaní.","diff":"Ako to podali","q":{"date":"dátum podľa kontextu","partial":"prečítaný len začiatok","old":"článok starší ako 48 hodín","head":"titulok z výsledkov vyhľadávania"},"trends":"Trendy","d7":"7 dní","d30":"30 dní","tRub":"Články podľa rubrík","tRubN":"Počet spoločných tém za obdobie.","tGap":"Medzery podľa jazykov","tGapN":"Podiel udalostí bez článku v danom jazyku, %.","tSrc":"Najcitovanejšie médiá","tSrcN":"Koľkokrát je médium uvedené ako zdroj za obdobie, vo všetkých jazykoch a výberoch.","att":"Index pozornosti","attN":"Aký podiel udalostí regiónu pokryla tlač v každom jazyku, %. Čím tmavšia bunka, tým vyšší podiel.","region":"Región","reg":{"europe":"Európa","russia-ukraine":"Rusko a Ukrajina","middle-east":"Blízky východ","north-america":"Severná Amerika","latin-america":"Latinská Amerika","east-asia":"Východná Ázia","south-asia":"Južná Ázia","africa":"Afrika","global":"Celý svet"}},
+"ro":{"brief":"Pe scurt","compact":"Compact","fav":"Salvate","favAdd":"Salvează","favDel":"Elimină din salvate","favNone":"Nimic salvat încă. Marcați articolele cu steluța.","chron":"Cronologia subiectului","chronN":"Toate articolele despre acest subiect din arhivă, de la cele mai noi.","week":"Săptămâna","weekH":"Săptămâna în 5 minute","weekN":"Principalele subiecte ale ultimelor șapte zile: ce s-a întâmplat și cum a continuat.","weekNone":"Încă nu sunt destule ediții pentru o retrospectivă săptămânală.","diff":"Cum a fost prezentat","q":{"date":"dată dedusă din context","partial":"s-a citit doar începutul","old":"articol mai vechi de 48 de ore","head":"titlu preluat din rezultatele căutării"},"trends":"Tendințe","d7":"7 zile","d30":"30 de zile","tRub":"Știri pe rubrici","tRubN":"Numărul de subiecte comune în perioadă.","tGap":"Goluri pe limbi","tGapN":"Ponderea evenimentelor fără articol în limba respectivă, %.","tSrc":"Cele mai citate publicații","tSrcN":"De câte ori apare o publicație ca sursă în perioadă, în toate limbile și selecțiile.","att":"Indicele atenției","attN":"Ce pondere din evenimentele unei regiuni a acoperit presa din fiecare limbă, %. Cu cât celula e mai închisă, cu atât ponderea e mai mare.","region":"Regiune","reg":{"europe":"Europa","russia-ukraine":"Rusia și Ucraina","middle-east":"Orientul Mijlociu","north-america":"America de Nord","latin-america":"America Latină","east-asia":"Asia de Est","south-asia":"Asia de Sud","africa":"Africa","global":"Global"}},
+"el":{"brief":"Με μια ματιά","compact":"Συνοπτικά","fav":"Αποθηκευμένα","favAdd":"Αποθήκευση","favDel":"Αφαίρεση από τα αποθηκευμένα","favNone":"Τίποτα ακόμη. Σημειώστε θέματα με το αστέρι.","chron":"Χρονολόγιο θέματος","chronN":"Όλα τα δημοσιεύματα του θέματος στο αρχείο, από τα νεότερα.","week":"Εβδομάδα","weekH":"Η εβδομάδα σε 5 λεπτά","weekN":"Τα κύρια θέματα των τελευταίων επτά ημερών: τι έγινε και πώς συνεχίστηκε.","weekNone":"Δεν υπάρχουν ακόμη αρκετά τεύχη για εβδομαδιαία ανασκόπηση.","diff":"Πώς παρουσιάστηκε","q":{"date":"ημερομηνία από τα συμφραζόμενα","partial":"διαβάστηκε μόνο η αρχή","old":"δημοσίευμα παλαιότερο των 48 ωρών","head":"τίτλος από τα αποτελέσματα αναζήτησης"},"trends":"Τάσεις","d7":"7 ημέρες","d30":"30 ημέρες","tRub":"Θέματα ανά ενότητα","tRubN":"Αριθμός κοινών θεμάτων στην περίοδο.","tGap":"Κενά ανά γλώσσα","tGapN":"Ποσοστό γεγονότων χωρίς δημοσίευμα στη γλώσσα, %.","tSrc":"Τα πιο συχνά παρατιθέμενα μέσα","tSrcN":"Πόσες φορές αναφέρεται κάθε μέσο ως πηγή στην περίοδο, σε όλες τις γλώσσες και επιλογές.","att":"Δείκτης προσοχής","attN":"Ποσοστό των γεγονότων μιας περιοχής που κάλυψε ο Τύπος κάθε γλώσσας, %. Όσο πιο σκούρο, τόσο υψηλότερο.","region":"Περιοχή","reg":{"europe":"Ευρώπη","russia-ukraine":"Ρωσία και Ουκρανία","middle-east":"Μέση Ανατολή","north-america":"Βόρεια Αμερική","latin-america":"Λατινική Αμερική","east-asia":"Ανατολική Ασία","south-asia":"Νότια Ασία","africa":"Αφρική","global":"Παγκοσμίως"}},
+"ja":{"brief":"要点","compact":"簡略表示","fav":"保存済み","favAdd":"保存","favDel":"保存を解除","favNone":"まだありません。星印で記事を保存できます。","chron":"テーマの経緯","chronN":"このテーマのアーカイブ記事（新しい順）。","week":"週間","weekH":"5分でわかる1週間","weekN":"直近7日間の主なテーマ：何が起き、どう展開したか。","weekNone":"週間まとめに必要な号がまだ足りません。","diff":"各媒体の伝え方","q":{"date":"日付は文脈から推定","partial":"冒頭のみ確認","old":"48時間より前の記事","head":"見出しは検索結果から"},"trends":"トレンド","d7":"7日間","d30":"30日間","tRub":"分野別の記事数","tRubN":"期間中の共通テーマの数。","tGap":"言語別の空白","tGapN":"その言語で記事が見つからなかった出来事の割合（%）。","tSrc":"よく引用された媒体","tSrcN":"期間中に出典として挙げられた回数（全言語・全国内ニュース）。","att":"注目度指数","attN":"各地域の出来事のうち、各言語の報道が伝えた割合（%）。色が濃いほど高い。","region":"地域","reg":{"europe":"欧州","russia-ukraine":"ロシア・ウクライナ","middle-east":"中東","north-america":"北米","latin-america":"中南米","east-asia":"東アジア","south-asia":"南アジア","africa":"アフリカ","global":"世界全体"}}
+}
+;
+for(const k in UI2)Object.assign(UI[k],UI2[k]);
+const TRS={"ru": ["Перевести на русский", "Показать оригинал", "перевод", "Перевод на русский сделал Claude, ИИ от Anthropic. Возможны неточности; оригинал возвращается той же кнопкой."], "fr": ["Traduire en russe", "Afficher l'original", "traduction", "Traduction en russe réalisée par Claude, une IA d'Anthropic. Des imprécisions sont possibles ; le même bouton rétablit l'original."], "en": ["Translate into Russian", "Show original", "translation", "Russian translation by Claude, an AI from Anthropic. It may contain inaccuracies; the same button brings back the original."], "de": ["Ins Russische übersetzen", "Original anzeigen", "Übersetzung", "Russische Übersetzung von Claude, einer KI von Anthropic. Ungenauigkeiten sind möglich; dieselbe Schaltfläche zeigt wieder das Original."], "sk": ["Preložiť do ruštiny", "Zobraziť originál", "preklad", "Preklad do ruštiny urobil Claude, AI od Anthropic. Môže obsahovať nepresnosti; tým istým tlačidlom sa vrátite k originálu."], "ro": ["Traduce în rusă", "Arată originalul", "traducere", "Traducere în rusă realizată de Claude, o IA de la Anthropic. Pot exista inexactități; același buton readuce originalul."], "el": ["Μετάφραση στα ρωσικά", "Εμφάνιση πρωτοτύπου", "μετάφραση", "Μετάφραση στα ρωσικά από το Claude, ΤΝ της Anthropic. Ενδέχεται να υπάρχουν ανακρίβειες· το ίδιο κουμπί επαναφέρει το πρωτότυπο."], "ja": ["ロシア語に翻訳", "原文を表示", "翻訳", "ロシア語訳はAnthropicのAI「Claude」によるものです。不正確な場合があります。同じボタンで原文に戻せます。"]};for(const k in TRS)Object.assign(UI[k],{trOn:TRS[k][0],trOff:TRS[k][1],trB:TRS[k][2],trN:TRS[k][3]});
+const $=id=>document.getElementById(id);
+const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+const NS="http://www.w3.org/2000/svg";
+const sv=(t,a)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e};
+const ls={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+const LRE=LK.join("|");
+let locTr=ls.get("locTr")==="1",locSel=null,lang,index=null,date=null,cache={},rubSel=new Set(),evSel="",calMode=ls.get("calMode")||"week",wkStart=null,scope="lang",archive=null;
+const reduce=()=>matchMedia("(prefers-reduced-motion: reduce)").matches;
+const tpl=(s,n)=>s.replace("{n}",n);
+function fromHash(){const m=new RegExp("^#("+LRE+")(?:-(\\d{4}-\\d{2}-\\d{2}))?$").exec(location.hash);return m?{l:m[1],d:m[2]}:{}}
+function pick(){const h=fromHash();if(h.l)return h.l;const s=ls.get("lang");if(s&&LANGS[s])return s;const n=(navigator.language||"").slice(0,2);return LANGS[n]?n:"ru"}
+const fmt=(d,o,l)=>new Intl.DateTimeFormat(l||lang,{timeZone:"UTC",...o}).format(new Date(d+"T00:00:00Z"));
+const addDays=(d,n)=>{const t=new Date(d+"T00:00:00Z");t.setUTCDate(t.getUTCDate()+n);return t.toISOString().slice(0,10)};
+const monday=d=>{const w=new Date(d+"T00:00:00Z").getUTCDay();return addDays(d,-((w+6)%7))};
+function setHash(){try{history.replaceState(null,"","#"+lang+(index&&date!==index.latest?"-"+date:""))}catch(e){location.hash=lang}}
+const sorted=i=>(i.stories||[]).map((s,k)=>[s,k]).sort((a,b)=>ORDER.indexOf(a[0].rubric)-ORDER.indexOf(b[0].rubric)||a[1]-b[1]).map(x=>x[0]);
+const visible=s=>!rubSel.size||rubSel.has(s.rubric);
+
+function chrome(){
+  const u=UI[lang];document.documentElement.lang=lang;
+  $("name").textContent=u.name;$("tag").textContent=u.tag;$("frame").textContent=u.frame;$("foot").textContent=u.foot;
+  $("tocH").textContent=u.toc;$("upH").textContent=u.up;$("covH").textContent=u.cov;$("mxH").textContent=u.mx;$("chH").textContent=u.ch;$("calH").textContent=u.cal;
+  $("sbtnL").textContent=u.search;$("wbtnL").textContent=u.week;$("fbtnL").textContent=u.fav;$("cbtnL").textContent=u.compact;$("wbtn").setAttribute("aria-label",u.weekH);$("sbtn").title=u.sT;for(const id of ["wbtn","fbtn","cbtn"])$(id).title=$(id).getAttribute("aria-label");$("fbtn").setAttribute("aria-label",u.fav);$("cbtn").setAttribute("aria-label",u.compact);$("cbtn").setAttribute("aria-pressed",document.body.classList.contains("compact"));$("sbtn").setAttribute("aria-label",u.sT);$("srchT").textContent=u.sT;$("q").placeholder=u.sPh;$("q").setAttribute("aria-label",u.sT);
+  for(const b of document.querySelectorAll("[data-close]"))b.setAttribute("aria-label",u.close);
+  for(const b of $("scope").children){b.textContent=b.dataset.s==="lang"?u.sLang:u.sAll;b.setAttribute("aria-pressed",b.dataset.s===scope)}
+  for(const b of $("calMode").children){b.textContent=u[b.dataset.m];b.setAttribute("aria-pressed",b.dataset.m===calMode)}
+  $("wprev").setAttribute("aria-label",u.prev);$("wnext").setAttribute("aria-label",u.next);$("issue").setAttribute("aria-label",u.arch);
+  const ul=$("langs");ul.replaceChildren();
+  for(const k of LK){const li=el("li"),b=el("button");b.type="button";b.lang=k;b.append(el("span","full",LANGS[k]),el("span","code",k.toUpperCase()));b.setAttribute("aria-label",LANGS[k]);b.setAttribute("aria-pressed",k===lang);b.onclick=()=>{lang=k;locSel=k;ls.set("lang",k);setHash();draw();b.scrollIntoView({block:"nearest",inline:"nearest"})};li.append(b);ul.append(li)}
+  if(index){const s=$("issue");s.replaceChildren();for(const i of index.issues){const o=el("option",null,fmt(i.date,{dateStyle:"medium"})+" · "+u.no+i.number);o.value=i.date;s.append(o)}s.value=date}
+}
+
+function sources(list){const src=el("ul","src");for(const x of list||[]){const li=el("li"),a=el("a",null,x.n);a.href=x.u;a.target="_blank";a.rel="noopener";li.append(a);if(x.d){const t=el("time",null,fmt(x.d,{day:"numeric",month:"short"}));t.dateTime=x.d;li.append(t)}src.append(li)}return src}
+function dots(s){const d=el("span","dots");d.setAttribute("aria-hidden","true");for(const k of LK){const i=el("i",s.t[k]?"on":"");i.title=LANGS[k];d.append(i)}return d}
+function story(s,u,lead){
+  const c=s.t[lang];const a=el("article",(lead?"lead ":"")+(c?"":"gap"));a.id="s-"+s.id;
+  const k=el("div","kick");k.append(el("span","rub",u.r[s.rubric]||s.rubric));if(c&&s.event[lang])k.append(el("span",null,s.event[lang]));if(s.developing)k.append(el("span","live",u.live));
+  a.append(k);
+  if(c){const h=el("h3",null,c.h),p=el("p","sum",c.s);h.lang=p.lang=lang;a.append(h,p,sources(c.src))}
+  else{a.append(el("h3",null,s.event[lang]||s.id),el("p","sum",u.gap))}
+  if(s.diff&&(s.diff[lang]||s.diff.en)){const d=el("p","diff");d.append(el("b",null,u.diff),s.diff[lang]||s.diff.en);a.append(d)}
+  const m=el("div","meta-row");const n=LK.filter(x=>s.t[x]).length;
+  if(c)for(const b of qBadges(c.q))m.append(b);
+  const b=el("button","linkbtn",u.cmp);b.type="button";b.onclick=()=>openCompare(s);
+  const cnt=el("span",null,tpl(u.of,n));m.append(dots(s),cnt,b);
+  const th=threadItems(s.thread);if(th.length>1){const t=el("button","linkbtn",u.chron+" ("+th.length+")");t.type="button";t.onclick=()=>openChron(s);m.append(t)}
+  m.append(starBtn({d:date,id:s.id}));a.append(m);return a}
+function qBadges(q){return (q||[]).map(x=>{const t=UI[lang].q[x]||x;const e=el("span","qb",t);e.title=t;return e})}
+/* Favourites (this browser only) */
+const favKey=f=>f.d+"|"+(f.loc||"")+"|"+f.id;
+function favs(){try{return JSON.parse(ls.get("favs")||"[]")}catch(e){return []}}
+function starBtn(f){const b=el("button","star");b.type="button";const on=()=>favs().some(x=>favKey(x)===favKey(f));
+  b.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg>';
+  const set=()=>{const v=on();b.setAttribute("aria-pressed",v);b.setAttribute("aria-label",v?UI[lang].favDel:UI[lang].favAdd);b.title=b.getAttribute("aria-label")};set();
+  b.onclick=()=>{let l=favs();l=on()?l.filter(x=>favKey(x)!==favKey(f)):[f,...l];ls.set("favs",JSON.stringify(l.slice(0,200)));set()};return b}
+async function jump(d,id,loc,l){$("listD").open&&$("listD").close();if(l&&l!==lang){lang=l;ls.set("lang",l)}rubSel.clear();if(loc)locSel=loc;await go(d);setHash();
+  const t=$(loc?"l-"+loc+"-"+id:"s-"+id);if(t){t.scrollIntoView({behavior:reduce()?"auto":"smooth",block:"start"});t.classList.remove("flash");void t.offsetWidth;t.classList.add("flash")}}
+function openList(title,note,body){$("listT").textContent=title;$("listN").textContent=note||"";$("listN").hidden=!note;const b=$("listB");b.replaceChildren(body);const d=$("listD");try{d.showModal()}catch(e){d.setAttribute("open","")}b.parentElement.scrollTop=0}
+function itemBtn(date_,s,loc){const u=UI[lang];const b=el("button","go");b.type="button";const k=el("div","kick");k.append(el("span",null,fmt(date_,{day:"numeric",month:"short",year:"numeric"})),el("span","rub",u.r[s.rubric]||s.rubric));
+  let h,p,l=lang;if(loc){l=loc;h=s.h;p=s.s;k.append(el("span",null,LANGS[loc]))}else{const c=s.t[lang];h=c?c.h:(s.event[lang]||s.id);p=c?c.s:u.gap}
+  const H=el("h3",null,h),P=el("p",null,p);H.lang=P.lang=l;b.append(k,H,P);b.onclick=()=>jump(date_,s.id,loc,loc&&loc!==lang?loc:null);return b}
+async function openFavs(){const u=UI[lang];const l=favs();const ul=el("ul","ilist");
+  if(!l.length){openList(u.fav,u.favNone,ul);return}
+  await Promise.all([...new Set(l.map(x=>x.d))].map(d=>load(d).catch(()=>null)));
+  for(const f of l){const i=cache[f.d];if(!i)continue;const s=f.loc?((i.local||{})[f.loc]||[]).find(x=>x.id===f.id):(i.stories||[]).find(x=>x.id===f.id);if(!s)continue;const li=el("li");li.append(itemBtn(f.d,s,f.loc));ul.append(li)}
+  openList(u.fav,"",ul)}
+/* Threads */
+function threadItems(t){if(!t||!archive)return [];const out=[];for(const a of archive)for(const s of a.i.stories||[])if(s.thread===t)out.push({d:a.date,s});return out.sort((x,y)=>y.d.localeCompare(x.d))}
+function openChron(s){const u=UI[lang];const ul=el("ul","ilist");for(const x of threadItems(s.thread)){const li=el("li");li.append(itemBtn(x.d,x.s));ul.append(li)}openList(u.chron+": "+(s.event[lang]||s.id),u.chronN,ul)}
+/* Week in 5 minutes */
+async function openWeek(){const u=UI[lang];await loadArchive();const end=index.latest,start=addDays(end,-6);const box=el("div");
+  const items=[];for(const a of archive)if(a.date>=start&&a.date<=end)for(const s of a.i.stories||[])items.push({d:a.date,s});
+  const g=new Map();for(const x of items){const k=x.s.thread||x.s.id;if(!g.has(k))g.set(k,[]);g.get(k).push(x)}
+  const days=new Set(items.map(x=>x.d)).size;
+  const top=[...g.values()].map(l=>l.sort((a,b)=>b.d.localeCompare(a.d))).sort((a,b)=>b.length-a.length||LK.filter(k=>b[0].s.t[k]).length-LK.filter(k=>a[0].s.t[k]).length).slice(0,8);
+  if(!items.length){openList(u.weekH,u.weekNone,box);return}
+  for(const l of top){const sec=el("section","wk");const last=l[0].s;sec.append(el("div","kick"));sec.firstChild.append(el("span","rub",u.r[last.rubric]||last.rubric));
+    sec.append(el("h3",null,last.event[lang]||last.id));const c=l.find(x=>x.s.t[lang]);if(c){const p=el("p","sum",c.s.t[lang].s);p.lang=lang;sec.append(p)}
+    const ul=el("ul","ilist");for(const x of l){const li=el("li"),b=el("button","go");b.type="button";const tm=el("time",null,fmt(x.d,{day:"numeric",month:"short"}));const cc=x.s.t[lang];const h=el("span",null,cc?cc.h:u.gap);h.lang=lang;b.append(tm,h);b.onclick=()=>jump(x.d,x.s.id);li.append(b);ul.append(li)}
+    sec.append(ul);box.append(sec)}
+  openList(u.weekH,u.weekN+(days<3?" "+u.weekNone:""),box)}
+/* Trends */
+let trP=+(ls.get("trP")||7);
+function trends(){const u=UI[lang];const sec=$("trSec");if(!archive||!archive.length){sec.hidden=true;return}sec.hidden=false;
+  $("trH").textContent=u.trends;for(const b of $("trP").children){b.textContent=u["d"+b.dataset.p];b.setAttribute("aria-pressed",+b.dataset.p===trP);b.onclick=()=>{trP=+b.dataset.p;ls.set("trP",String(trP));trends()}}
+  const end=index.latest,start=addDays(end,-(trP-1));const A=archive.filter(a=>a.date>=start&&a.date<=end);const st=A.flatMap(a=>a.i.stories||[]);
+  const box=$("trC");box.replaceChildren();
+  box.append(barsChart({kind:"bars",split:99,unit:"n",title:u.tRub,note:u.tRubN,rows:ORDER.filter(r=>r!=="infographic").map(r=>[u.r[r],st.filter(s=>s.rubric===r).length]).filter(r=>r[1]>0)}));
+  box.append(barsChart({kind:"bars",split:99,unit:"%",title:u.tGap,note:u.tGapN,rows:LK.map(k=>[LANGS[k],st.length?Math.round(st.filter(s=>!s.t[k]).length/st.length*1000)/10:0])}));
+  const cnt=new Map();const add=n=>cnt.set(n,(cnt.get(n)||0)+1);for(const s of st)for(const k of LK)for(const x of (s.t[k]?.src||[]))add(x.n);for(const a of A)for(const k in (a.i.local||{}))for(const it of a.i.local[k])for(const x of it.src||[])add(x.n);
+  box.append(barsChart({kind:"bars",split:99,unit:"n",title:u.tSrc,note:u.tSrcN,rows:[...cnt.entries()].sort((a,b)=>b[1]-a[1]).slice(0,10)}));
+  $("attH").textContent=u.att;$("attN").textContent=u.attN;const t=$("att");t.replaceChildren();
+  const regs=Object.keys(u.reg).filter(r=>st.some(s=>s.region===r));$("attF").hidden=!regs.length;
+  const hr=el("tr");hr.append(el("th",null,u.region));for(const k of LK){const h=el("th",null,k.toUpperCase());h.title=LANGS[k];h.scope="col";hr.append(h)}const th=el("thead");th.append(hr);const tb=el("tbody");
+  for(const r of regs){const rs=st.filter(s=>s.region===r);const tr=el("tr");const h=el("th",null,u.reg[r]+" · "+rs.length);h.scope="row";tr.append(h);
+    for(const k of LK){const v=Math.round(rs.filter(s=>s.t[k]).length/rs.length*100);const td=el("td",null,v+"%");td.style.background=`color-mix(in oklab, var(--ink) ${Math.round(v*.8)}%, var(--paper))`;td.style.color=v>55?"var(--paper)":"var(--ink)";td.title=LANGS[k]+" · "+u.reg[r]+": "+v+"%";tr.append(td)}tb.append(tr)}
+  t.append(th,tb)}
+
+/* Charts */
+const nf=(v,unit,o={})=>{const f=new Intl.NumberFormat(lang,{maximumFractionDigits:2,...o});
+  if(unit==="%")return f.format(v)+"%";if(unit==="k")return new Intl.NumberFormat(lang).format(Math.round(v*1000));if(unit==="$")return "$"+f.format(v);return f.format(v)};
+const lab=x=>x==null?"":typeof x==="string"?x:(x[lang]||x.en||Object.values(x)[0]);
+function figure(title,note,src){const f=el("figure");f.append(el("figcaption",null,title));if(note)f.append(el("p","note",note));return f}
+function barsChart(c){
+  const f=figure(lab(c.title),lab(c.note));const box=el("div","chart");const max=Math.max(...c.rows.map(r=>Math.abs(r[1])))||1;const split=c.split??3;
+  c.rows.forEach((r,i)=>{const row=el("div","row"+(c.kind==="bars"&&i>=split?" b":""));const tr=el("div","track"),fi=el("div","fill");fi.style.width=(Math.abs(r[1])/max*100)+"%";tr.append(fi);
+    const v=nf(r[1],c.unit);row.title=lab(r[0])+": "+v;row.append(el("span","lb",lab(r[0])),tr,el("span","val",v));box.append(row)});
+  f.append(box);if(c.src)f.append(sources(c.src));return f}
+function divChart(c){
+  const f=figure(lab(c.title),lab(c.note));const box=el("div","chart div");const max=Math.max(...c.rows.map(r=>Math.abs(r[1])))||1;
+  for(const r of c.rows){const row=el("div","row");const tr=el("div","track"),fi=el("div","fill"+(r[1]<0?" neg":""));const w=Math.abs(r[1])/max*50;fi.style.width=w+"%";fi.style.left=(r[1]<0?50-w:50)+"%";tr.append(fi);
+    const v=(r[1]>0?"+":"")+nf(r[1],c.unit);row.title=lab(r[0])+": "+v;row.append(el("span","lb",lab(r[0])),tr,el("span","val",v));box.append(row)}
+  f.append(box);if(c.src)f.append(sources(c.src));return f}
+const SER=["var(--s1)","var(--s2)","var(--s3)","var(--s4)"];
+function shareChart(c){
+  const f=figure(lab(c.title),lab(c.note));const tot=c.rows.reduce((a,r)=>a+r[1],0)||1;const bar=el("div","share");bar.setAttribute("role","img");
+  const lg=el("ul","legend");
+  c.rows.slice(0,5).forEach((r,i)=>{const col=i<4?SER[i]:"var(--muted)";const s=el("span");s.style.flex=String(r[1]);s.style.background=col;const pc=new Intl.NumberFormat(lang,{maximumFractionDigits:1}).format(r[1]/tot*100)+"%";s.title=lab(r[0])+": "+pc;bar.append(s);
+    const li=el("li"),sw=el("i");sw.style.background=col;li.append(sw,el("span",null,lab(r[0])),el("b",null,nf(r[1],c.unit)+(c.unit==="%"?"":" · "+pc)));lg.append(li)});
+  bar.setAttribute("aria-label",lab(c.title));f.append(bar,lg);if(c.src)f.append(sources(c.src));return f}
+function niceTicks(lo,hi,n=4){const span=hi-lo||1;const st=Math.pow(10,Math.floor(Math.log10(span/n)));const m=[1,2,2.5,5,10].find(x=>span/(x*st)<=n)*st;const a=Math.floor(lo/m)*m,b=Math.ceil(hi/m)*m;const t=[];for(let v=a;v<=b+m/2;v+=m)t.push(+v.toFixed(10));return t}
+function lineChart(c){
+  const f=figure(lab(c.title),lab(c.note));const wrap=el("div","lc");const W=520,H=220,L=44,R=86,T=12,B=28;
+  const vals=c.series.flatMap(s=>s.values).filter(v=>v!=null);let lo=Math.min(...vals),hi=Math.max(...vals);if(c.zero!==false)lo=Math.min(0,lo);
+  const ticks=niceTicks(lo,hi);lo=ticks[0];hi=ticks[ticks.length-1];const n=c.x.length;
+  const X=i=>L+(n<2?(W-L-R)/2:i*(W-L-R)/(n-1)),Y=v=>T+(H-T-B)*(1-(v-lo)/((hi-lo)||1));
+  const svg=sv("svg",{viewBox:`0 0 ${W} ${H}`,role:"img","aria-label":lab(c.title)});
+  for(const t of ticks){svg.append(sv("line",{x1:L,x2:W-R,y1:Y(t),y2:Y(t),stroke:"var(--hair)","stroke-width":t===0?1.5:1}));const tx=sv("text",{x:L-6,y:Y(t)+4,"text-anchor":"end"});tx.textContent=nf(t,c.unit==="k"?"n":c.unit,{notation:"compact"});svg.append(tx)}
+  const every=Math.ceil(n/6);c.x.forEach((x,i)=>{if(i%every&&i!==n-1)return;const tx=sv("text",{x:X(i),y:H-8,"text-anchor":"middle"});tx.textContent=lab(x);svg.append(tx)});
+  const ends=[];
+  c.series.slice(0,4).forEach((s,k)=>{let d="";s.values.forEach((v,i)=>{if(v==null)return;d+=(d&&s.values[i-1]!=null?"L":"M")+X(i)+" "+Y(v)});
+    svg.append(sv("path",{d,fill:"none",stroke:SER[k],"stroke-width":2,"stroke-linejoin":"round","stroke-linecap":"round"}));
+    s.values.forEach((v,i)=>{if(v!=null&&n<=12)svg.append(sv("circle",{cx:X(i),cy:Y(v),r:3.5,fill:SER[k],stroke:"var(--paper)","stroke-width":2}))});
+    let li=s.values.length-1;while(li>=0&&s.values[li]==null)li--;if(li>=0)ends.push({k,y:Y(s.values[li]),t:lab(s.name)})});
+  ends.sort((a,b)=>a.y-b.y);for(let i=1;i<ends.length;i++)if(ends[i].y-ends[i-1].y<13)ends[i].y=ends[i-1].y+13;
+  for(const e of ends){const tx=sv("text",{x:W-R+8,y:e.y+4});tx.textContent=e.t;tx.style.fill="var(--ink2)";svg.append(tx)}
+  const cross=sv("line",{y1:T,y2:H-B,stroke:"var(--muted)","stroke-width":1,visibility:"hidden"});svg.append(cross);
+  const tip=el("div","tip");tip.hidden=true;
+  const hit=sv("rect",{x:L,y:T,width:W-L-R,height:H-T-B,fill:"transparent"});svg.append(hit);
+  const move=ev=>{const r=svg.getBoundingClientRect();const px=(ev.clientX-r.left)*W/r.width;const i=Math.max(0,Math.min(n-1,Math.round(n<2?0:(px-L)/((W-L-R)/(n-1)))));
+    cross.setAttribute("x1",X(i));cross.setAttribute("x2",X(i));cross.setAttribute("visibility","visible");
+    tip.replaceChildren(el("b",null,lab(c.x[i])));c.series.slice(0,4).forEach((s,k)=>{const d=el("div"),sw=el("i");sw.style.background=SER[k];d.append(sw,lab(s.name)+": "+(s.values[i]==null?"—":nf(s.values[i],c.unit)));tip.append(d)});
+    tip.hidden=false;tip.style.left=(X(i)/W*100)+"%";tip.style.top=(T/H*100)+"%"};
+  hit.addEventListener("pointermove",move);hit.addEventListener("pointerdown",move);hit.addEventListener("pointerleave",()=>{tip.hidden=true;cross.setAttribute("visibility","hidden")});
+  wrap.append(svg,tip);f.append(wrap);
+  if(c.series.length>1){const lg=el("ul","legend");c.series.slice(0,4).forEach((s,k)=>{const li=el("li"),sw=el("i");sw.style.background=SER[k];sw.style.height="3px";li.append(sw,el("span",null,lab(s.name)),el("b"));lg.append(li)});f.append(lg)}
+  if(c.src)f.append(sources(c.src));return f}
+function chart(c){if(c.kind==="line")return lineChart(c);if(c.kind==="share")return shareChart(c);if(c.kind==="diverging")return divChart(c);return barsChart(c)}
+
+/* Coverage map + matrix */
+/* Real world map: Natural Earth outlines from the ECharts 4 world map script (Apache-2.0), loaded as a script; tile map is the fallback */
+const WORLD_SRC=[window.__WORLD_JS,"https://cdn.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js","https://unpkg.com/echarts@4.9.0/map/js/world.js"].filter(Boolean);
+const NAMES={"Russia":["ru"],"Russian Federation":["ru"],"Belarus":["ru"],"France":["fr"],"Belgium":["fr"],"Luxembourg":["fr"],"Canada":["en","fr"],"United States":["en"],"United States of America":["en"],"United Kingdom":["en"],"Ireland":["en"],"Malta":["en"],"Germany":["de"],"Austria":["de"],"Switzerland":["de","fr"],"Liechtenstein":["de"],"Slovakia":["sk"],"Romania":["ro"],"Moldova":["ro"],"Greece":["el"],"Cyprus":["el"],"Japan":["ja"]};
+const LBL={ru:[96,62],fr:[2.4,46.6],en:[-99,39.5],de:[10.3,51.2],sk:[19.6,48.75],ro:[24.9,45.9],el:[22.3,39.4],ja:[138.5,36.4]};
+const VIEWS={world:{lon:[-128,152],lat:[-4,74],labels:["ru","en","ja"]},europe:{lon:[-11,43],lat:[33.6,61.6],labels:LK}};
+let WORLD=null,worldState="idle",mapZoom=ls.get("mapZoom")||"world";
+const RAD=Math.PI/180,PR=(lon,lat)=>[lon*RAD*100,-125*Math.log(Math.tan(Math.PI/4+0.4*Math.max(-85,Math.min(85,lat))*RAD))];
+function decRing(str,off,sc){const out=[];let px=off[0],py=off[1];for(let k=0;k+1<str.length;k+=2){let x=str.charCodeAt(k)-64,y=str.charCodeAt(k+1)-64;x=(x>>1)^(-(x&1));y=(y>>1)^(-(y&1));x+=px;y+=py;px=x;py=y;out.push([x/sc,y/sc])}return out}
+function ringPath(pts){let d="",lx=null,ly=null;for(const [lo,la] of pts){const [x,y]=PR(lo,la);if(lx!==null&&Math.abs(x-lx)<.06&&Math.abs(y-ly)<.06)continue;d+=(d?"L":"M")+x.toFixed(2)+" "+y.toFixed(2);lx=x;ly=y}return d?d+"Z":""}
+function prepWorld(g){const sc=g.UTF8Scale||1024,out=[];
+  for(const f of g.features||[]){const geo=f.geometry;if(!geo)continue;const eo=geo.encodeOffsets||[];let polys=[];
+    if(geo.type==="Polygon")polys=[geo.coordinates.map((r,i)=>typeof r==="string"?decRing(r,eo[i],sc):r)];
+    else if(geo.type==="MultiPolygon")polys=geo.coordinates.map((p,j)=>p.map((r,i)=>typeof r==="string"?decRing(r,eo[j][i],sc):r));
+    let d="";for(const p of polys)for(const r of p)d+=ringPath(r);const name=(f.properties||{}).name||"";if(d)out.push({name,langs:NAMES[name]||null,d})}
+  if(out.length<20)throw new Error("map");return out}
+function loadWorld(){if(worldState!=="idle")return;worldState="loading";
+  const prev=window.echarts;window.echarts={registerMap:(n,g)=>{try{WORLD=prepWorld(g)}catch(e){WORLD=null}}};
+  const next=k=>{if(k>=WORLD_SRC.length){worldState="failed";window.echarts=prev;return}
+    const sc=document.createElement("script");sc.src=WORLD_SRC[k];sc.async=true;
+    sc.onload=()=>{if(WORLD){worldState="ready";window.echarts=prev;if(date&&cache[date])mapDraw(cache[date])}else next(k+1)};
+    sc.onerror=()=>next(k+1);document.head.append(sc)};
+  next(0)}
+for(const b of $("zoom").children)b.onclick=()=>{mapZoom=b.dataset.z;ls.set("mapZoom",mapZoom);if(cache[date])mapDraw(cache[date])};
+function mapDraw(i){
+  const z=$("zoom");z.hidden=!WORLD;for(const b of z.children){b.textContent=UI[lang][b.dataset.z==="world"?"mW":"mE"];b.setAttribute("aria-pressed",b.dataset.z===mapZoom)}
+  if(WORLD)worldDraw(i);else{tileDraw(i);loadWorld()}}
+function worldDraw(i){
+  const u=UI[lang];const svg=$("map");svg.replaceChildren();const v=VIEWS[mapZoom]||VIEWS.world;
+  const [x0,y0]=PR(v.lon[0],v.lat[1]),[x1,y1]=PR(v.lon[1],v.lat[0]);const W=x1-x0,H=y1-y0;svg.setAttribute("viewBox",`${x0} ${y0} ${W} ${H}`);
+  const st=sorted(i);const n=st.length||1;const ev=evSel&&st.find(s=>s.id===evSel);const cnt={};for(const k of LK)cnt[k]=st.filter(s=>s.t[k]).length;
+  const mn=Math.min(...LK.map(k=>cnt[k])),mxc=Math.max(...LK.map(k=>cnt[k]));const shade=k=>{if(ev)return ev.t[k]?"var(--ink)":"url(#whatch)";return `color-mix(in oklab, var(--ink) ${Math.round(28+(mxc>mn?(cnt[k]-mn)/(mxc-mn):1)*67)}%, var(--paper))`};
+  const defs=sv("defs");const hs=W/160;const hp=sv("pattern",{id:"whatch",width:hs,height:hs,patternUnits:"userSpaceOnUse",patternTransform:"rotate(45)"});hp.append(sv("rect",{width:hs,height:hs,fill:"var(--paper)"}),sv("rect",{width:hs*.3,height:hs,fill:"var(--muted)"}));defs.append(hp);svg.append(defs);
+  svg.append(sv("rect",{x:x0,y:y0,width:W,height:H,fill:"var(--paper)"}));
+  const gr=sv("g",{fill:"none",stroke:"var(--hair)","stroke-width":.6,"vector-effect":"non-scaling-stroke"});
+  for(let la=0;la<=75;la+=15){const y=PR(0,la)[1];const l=sv("line",{x1:x0,x2:x1,y1:y,y2:y,"vector-effect":"non-scaling-stroke","stroke-dasharray":"2 3"});gr.append(l)}
+  for(let lo=-180;lo<=180;lo+=30){const x=PR(lo,0)[0];gr.append(sv("line",{x1:x,x2:x,y1:y0,y2:y1,"vector-effect":"non-scaling-stroke","stroke-dasharray":"2 3"}))}
+  svg.append(gr);
+  let pid=0;
+  for(const c of WORLD){let fill="var(--wash)",stroke="var(--hair)",sw=.5;
+    if(c.langs){stroke="var(--ink)";sw=.7;if(c.langs.length===1)fill=shade(c.langs[0]);else{const id="mx"+(pid++),s2=W/120;const pt=sv("pattern",{id,width:s2,height:s2,patternUnits:"userSpaceOnUse",patternTransform:"rotate(45)"});pt.append(sv("rect",{width:s2/2,height:s2,fill:shade(c.langs[0])}),sv("rect",{x:s2/2,width:s2/2,height:s2,fill:shade(c.langs[1])}));defs.append(pt);fill=`url(#${id})`}}
+    const path=sv("path",{d:c.d,fill,stroke,"stroke-width":sw,"vector-effect":"non-scaling-stroke","stroke-linejoin":"round"});
+    if(c.langs){const t=sv("title");t.textContent=c.name+" · "+c.langs.map(k=>LANGS[k]+" — "+(ev?(ev.t[k]?u.yes:u.no2):cnt[k]+"/"+n)).join("; ");path.append(t)}
+    svg.append(path)}
+  const fs=W/(mapZoom==="world"?62:48);
+  for(const k of v.labels){const [x,y]=PR(LBL[k][0],LBL[k][1]);const tx=sv("text",{x,y,"text-anchor":"middle","dominant-baseline":"middle"});tx.textContent=k.toUpperCase()+(ev?(ev.t[k]?" ■":" □"):" "+cnt[k]+"/"+n);
+    tx.setAttribute("style",`font:700 ${fs}px var(--label);fill:var(--ink);stroke:var(--paper);stroke-width:${fs/4}px;paint-order:stroke;stroke-linejoin:round`);svg.append(tx)}
+  svg.setAttribute("aria-label",u.cov+": "+LK.map(k=>LANGS[k]+" "+(ev?(ev.t[k]?u.yes:u.no2):cnt[k]+"/"+n)).join(", "));
+  mapLegend(u,ev,cnt,n,shade)}
+function mapLegend(u,ev,cnt,n,shade){const lg=$("mapleg");lg.replaceChildren();
+  if(ev){for(const [cls,t] of [["on",u.yes],["off",u.no2]]){const s=el("span"),i=el("i");i.style.background=cls==="on"?"var(--ink)":"repeating-linear-gradient(45deg,var(--paper) 0 2px,var(--muted) 2px 3px)";s.append(i,t);lg.append(s)}lg.append(el("span",null,LK.map(k=>k.toUpperCase()+(ev.t[k]?" ■":" □")).join("  ")))}
+  else{for(const k of LK){const s=el("span"),i=el("i");i.style.background=shade(k).startsWith("url")?"var(--wash)":shade(k);s.append(i,k.toUpperCase()+" "+cnt[k]+"/"+n);lg.append(s)}}
+  $("mapnote").textContent=ev?u.mapEv:u.mapAll}
+function tileDraw(i){
+  const u=UI[lang];const svg=$("map");svg.replaceChildren();const S=30,G=3,P=S+G,W=14*P+4,H=9*P+4;svg.setAttribute("viewBox",`0 0 ${W} ${H}`);
+  const st=sorted(i);const n=st.length||1;const ev=evSel&&st.find(s=>s.id===evSel);
+  const cnt={};for(const k of LK)cnt[k]=st.filter(s=>s.t[k]).length;
+  const defs=sv("defs");const pat=sv("pattern",{id:"hatch",width:5,height:5,patternUnits:"userSpaceOnUse",patternTransform:"rotate(45)"});pat.append(sv("rect",{width:5,height:5,fill:"var(--paper)"}),sv("line",{x1:0,y1:0,x2:0,y2:5,stroke:"var(--muted)","stroke-width":1.4}));defs.append(pat);svg.append(defs);
+  const mn=Math.min(...LK.map(k=>cnt[k])),mxc=Math.max(...LK.map(k=>cnt[k]));const shade=k=>{if(ev)return ev.t[k]?"var(--ink)":"url(#hatch)";return `color-mix(in oklab, var(--ink) ${Math.round(28+(mxc>mn?(cnt[k]-mn)/(mxc-mn):1)*67)}%, var(--paper))`};
+  const dark=k=>ev?!!ev.t[k]:(mxc>mn?(cnt[k]-mn)/(mxc-mn):1)>.35;
+  svg.append(sv("line",{x1:1.6*P,y1:4,x2:1.6*P,y2:H-4,class:"sep"}),sv("line",{x1:12.6*P,y1:4,x2:12.6*P,y2:H-4,class:"sep"}));
+  const tile=(iso,x,y,w,h,langs)=>{const g=sv("g");const X=x*P+2,Y=y*P+2,Wd=w*P-G,Hd=h*P-G;
+    if(!langs){g.append(sv("rect",{x:X,y:Y,width:Wd,height:Hd,fill:"var(--wash)",stroke:"var(--hair)"}))}
+    else if(langs.length===1){g.append(sv("rect",{x:X,y:Y,width:Wd,height:Hd,fill:shade(langs[0]),stroke:"var(--ink)","stroke-width":.8}))}
+    else{g.append(sv("path",{d:`M${X} ${Y}h${Wd}L${X} ${Y+Hd}z`,fill:shade(langs[0])}),sv("path",{d:`M${X+Wd} ${Y}v${Hd}h${-Wd}z`,fill:shade(langs[1])}),sv("rect",{x:X,y:Y,width:Wd,height:Hd,fill:"none",stroke:"var(--ink)","stroke-width":.8}))}
+    const tx=sv("text",{x:X+4,y:Y+11});tx.textContent=iso;tx.style.fill=langs&&dark(langs[0])?"var(--paper)":"var(--muted)";g.append(tx);
+    if(langs){const t=sv("title");t.textContent=iso+" · "+langs.map(k=>LANGS[k]+(ev?" — "+(ev.t[k]?u.yes:u.no2):" — "+cnt[k]+"/"+n)).join("; ");g.append(t);if(w>1){const big=sv("text",{x:X+Wd/2,y:Y+Hd/2+4,"text-anchor":"middle"});big.textContent=langs.map(k=>k.toUpperCase()+(ev?"":" "+cnt[k]+"/"+n)).join(" ");big.style.fill=dark(langs[0])?"var(--paper)":"var(--ink)";big.style.font="700 11px var(--label)";g.append(big)}}
+    svg.append(g)};
+  tile("RU",RU_BLOCK.x,RU_BLOCK.y,RU_BLOCK.w,RU_BLOCK.h,["ru"]);
+  for(const t of TILES)tile(t[0],t[1],t[2],1,1,t[3]);
+  svg.setAttribute("aria-label",u.cov+": "+LK.map(k=>LANGS[k]+" "+(ev?(ev.t[k]?u.yes:u.no2):cnt[k]+"/"+n)).join(", "));
+  const lg=$("mapleg");lg.replaceChildren();
+  if(ev){for(const [cls,t] of [["on",u.yes],["off",u.no2]]){const s=el("span"),i=el("i");i.style.background=cls==="on"?"var(--ink)":"repeating-linear-gradient(45deg,var(--paper) 0 2px,var(--muted) 2px 3px)";s.append(i,t);lg.append(s)}
+    lg.append(el("span",null,LK.map(k=>k.toUpperCase()+(ev.t[k]?" ■":" □")).join("  ")))}
+  else{for(const k of LK){const s=el("span"),i=el("i");i.style.background=shade(k);s.append(i,k.toUpperCase()+" "+cnt[k]+"/"+n);lg.append(s)}}
+  $("mapnote").textContent=ev?u.mapEv:u.mapAll}
+function coverage(i){
+  const u=UI[lang];const st=sorted(i).filter(visible);const sel=$("evsel");sel.replaceChildren();sel.setAttribute("aria-label",u.cov);
+  const o0=el("option",null,u.allEv);o0.value="";sel.append(o0);for(const s of sorted(i)){const o=el("option",null,s.event[lang]||s.id);o.value=s.id;sel.append(o)}
+  if(evSel&&!sorted(i).some(s=>s.id===evSel))evSel="";sel.value=evSel;sel.onchange=()=>{evSel=sel.value;coverage(i)};
+  const t=$("mx");t.replaceChildren();const th=el("thead"),hr=el("tr");hr.append(el("th"));for(const k of LK){const h=el("th",null,k.toUpperCase());h.scope="col";h.title=LANGS[k];hr.append(h)}th.append(hr);
+  const tb=el("tbody");
+  for(const s of st){const tr=el("tr",s.id===evSel?"sel":"");const h=el("th");h.scope="row";const b=el("button",null,s.event[lang]||s.id);b.type="button";b.onclick=()=>{evSel=evSel===s.id?"":s.id;coverage(i)};h.append(b);tr.append(h);
+    for(const k of LK){const td=el("td"),c=el("button",s.t[k]?"on":"off");c.type="button";c.setAttribute("aria-label",(s.event[lang]||s.id)+" · "+LANGS[k]+": "+(s.t[k]?u.yes:u.no2));c.title=LANGS[k]+": "+(s.t[k]?u.yes:u.no2);c.onclick=()=>openCompare(s,k);td.append(c);tr.append(td)}
+    tb.append(tr)}
+  const tf=el("tfoot"),fr=el("tr");fr.append(el("td",null,u.tot));fr.firstChild.style.textAlign="left";for(const k of LK)fr.append(el("td",null,String(st.filter(s=>s.t[k]).length)));tf.append(fr);
+  t.append(th,tb,tf);mapDraw(i)}
+
+/* Compare dialog */
+function openCompare(s,focus){
+  const u=UI[lang];$("cmpK").replaceChildren(el("span","rub",u.r[s.rubric]||s.rubric));if(s.developing)$("cmpK").append(el("span","live",u.live));
+  $("cmpT").textContent=s.event[lang]||s.id;$("cmpN").textContent=u.cmpN+" "+tpl(u.of,LK.filter(k=>s.t[k]).length)+".";
+  const g=$("cmpG");g.replaceChildren();const order=[lang,...LK.filter(k=>k!==lang)];
+  for(const k of order){const c=s.t[k];const sec=el("section",c?"":"gap");sec.lang=k;sec.id="c-"+k;sec.append(el("div","ln",LANGS[k]));
+    if(c){sec.append(el("h3",null,c.h),el("p",null,c.s),sources(c.src))}else{sec.append(el("h3",null,s.event[k]||""),el("p",null,UI[k].gap))}g.append(sec)}
+  const d=$("cmpD");try{d.showModal()}catch(e){d.setAttribute("open","")}
+  const target=focus&&$("c-"+focus);if(target){target.scrollIntoView({block:"nearest"});target.classList.add("flash")}else $("cmpD").querySelector(".dbody").scrollTop=0}
+for(const d of document.querySelectorAll("dialog")){d.addEventListener("click",e=>{if(e.target===d)d.close()});for(const b of d.querySelectorAll("[data-close]"))b.onclick=()=>d.close()}
+
+/* Calendar */
+function calDraw(i){
+  const u=UI[lang];const ev=(i.calendar||[]).slice().sort((a,b)=>a.date.localeCompare(b.date));const v=$("calView");v.replaceChildren();
+  const nav=$("wknav");nav.hidden=calMode!=="week"||!ev.length;
+  if(!ev.length){v.append(el("p","empty",u.wNone));return}
+  if(calMode==="list"){const ol=el("ol","calfull");for(const e of ev){const li=el("li");const tm=el("time",null,rng(e));tm.dateTime=e.date;li.append(tm,el("span",null,lab(e.t)));ol.append(li)}v.append(ol);return}
+  const first=monday(ev[0].date),last=monday(ev[ev.length-1].end||ev[ev.length-1].date);
+  if(!wkStart||wkStart<first||wkStart>last)wkStart=monday(ev.find(e=>(e.end||e.date)>=i.date)?.date||ev[0].date);
+  $("wprev").disabled=wkStart<=first;$("wnext").disabled=wkStart>=last;
+  $("wlabel").textContent=fmt(wkStart,{day:"numeric",month:"short"})+" – "+fmt(addDays(wkStart,6),{day:"numeric",month:"short",year:"numeric"});
+  const wk=el("div","week");let any=false;
+  for(let d=0;d<7;d++){const day=addDays(wkStart,d);const box=el("div","day"+(d>4?" we":"")+(day===i.date?" today":""));
+    const h=el("h4");h.append(el("span",null,fmt(day,{weekday:"short"})),el("b",null,fmt(day,{day:"numeric"})));box.append(h);
+    const list=el("div");list.style.display="grid";list.style.gap="6px";
+    for(const e of ev){const end=e.end||e.date;if(day<e.date||day>end)continue;any=true;const it=el("div","ev"+(day>e.date?" cont":""),lab(e.t));if(e.end)it.title=rng(e);list.append(it)}
+    if(!list.childNodes.length)list.append(el("span","empty","—"));box.append(list);wk.append(box)}
+  v.append(wk);if(!any)v.append(el("p","empty",u.wNone))}
+function rng(e){if(!e.end)return fmt(e.date,{day:"numeric",month:"short"});return (e.date.slice(5,7)===e.end.slice(5,7)?fmt(e.date,{day:"numeric"}):fmt(e.date,{day:"numeric",month:"short"}))+"–"+fmt(e.end,{day:"numeric",month:"short"})}
+$("wprev").onclick=()=>{wkStart=addDays(wkStart,-7);calDraw(cache[date])};
+$("wnext").onclick=()=>{wkStart=addDays(wkStart,7);calDraw(cache[date])};
+for(const b of $("calMode").children)b.onclick=()=>{calMode=b.dataset.m;ls.set("calMode",calMode);chrome();calDraw(cache[date])};
+
+/* Derived charts from the archive */
+async function loadArchive(){if(archive)return archive;const ds=(index?.issues||[]).slice(0,90);await Promise.all(ds.map(x=>load(x.date).catch(()=>null)));archive=ds.filter(x=>cache[x.date]).map(x=>({date:x.date,number:x.number,i:cache[x.date]}));return archive}
+function derived(i,box){
+  const u=UI[lang];const st=sorted(i);const n=st.length;
+  box.append(barsChart({kind:"bars",split:99,unit:"n",title:u.covC,note:tpl(u.covCN,n),rows:LK.map(k=>[LANGS[k],st.filter(s=>s.t[k]).length])}));
+  if(archive&&archive.length>1){const a=archive.slice().sort((x,y)=>x.date.localeCompare(y.date));
+    box.append(lineChart({kind:"line",unit:"n",title:u.trC,note:u.trCN,x:a.map(x=>fmt(x.date,{day:"numeric",month:"short"})),series:[{name:u.tr1,values:a.map(x=>(x.i.stories||[]).length)},{name:u.tr2,values:a.map(x=>(x.i.stories||[]).reduce((g,s)=>g+LK.filter(k=>!s.t[k]).length,0))}]}))}}
+function chartsDraw(i){const box=$("charts");box.replaceChildren();const show=!rubSel.size||rubSel.has("infographic");if(show)for(const c of i.charts||[])box.append(chart(c));derived(i,box)}
+
+/* Search */
+const norm=s=>(s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+let sTimer;
+async function runSearch(){
+  const u=UI[lang];const q=norm($("q").value.trim());const out=$("sres");out.replaceChildren();
+  if(q.length<2){$("scount").textContent=u.sHint;return}
+  if(!archive){$("scount").textContent=u.sLoad;await loadArchive()}
+  const terms=q.split(/\s+/);const res=[];
+  for(const a of archive.slice().sort((x,y)=>y.date.localeCompare(x.date)))for(const s of a.i.stories||[])for(const k of (scope==="lang"?[lang]:[lang,...LK.filter(x=>x!==lang)])){const c=s.t[k];if(!c)continue;
+    const hay=norm([c.h,c.s,s.event[k],(c.src||[]).map(x=>x.n).join(" ")].join(" "));if(terms.every(t=>hay.includes(t))){res.push({a,s,k,c});if(scope==="all")break}}
+  for(const a of archive)for(const k of (scope==="lang"?[lang]:LK))for(const it of ((a.i.local||{})[k]||[])){const hay=norm([it.h,it.s,(it.src||[]).map(x=>x.n).join(" ")].join(" "));if(terms.every(t=>hay.includes(t)))res.push({a,s:{id:it.id,rubric:it.rubric,loc:k},k,c:it})}
+  res.sort((x,y)=>y.a.date.localeCompare(x.a.date));
+  $("scount").textContent=res.length?tpl(u.sFound,res.length):u.sNone;
+  for(const r of res.slice(0,80)){const li=el("li"),b=el("button");b.type="button";
+    const k=el("div","kick");k.append(el("span",null,fmt(r.a.date,{day:"numeric",month:"short",year:"numeric"})),el("span","rub",u.r[r.s.rubric]||r.s.rubric));if(r.k!==lang)k.append(el("span",null,LANGS[r.k]));
+    const h=el("h3",null,r.c.h),p=el("p",null,r.c.s);h.lang=p.lang=r.k;b.append(k,h,p);
+    b.onclick=async()=>{$("srchD").close();if(r.k!==lang){lang=r.k;ls.set("lang",lang)}rubSel.clear();if(r.s.loc)locSel=r.s.loc;await go(r.a.date);setHash();const t=$(r.s.loc?"l-"+r.s.loc+"-"+r.s.id:"s-"+r.s.id);if(t){t.scrollIntoView({behavior:reduce()?"auto":"smooth",block:"start"});t.classList.remove("flash");void t.offsetWidth;t.classList.add("flash")}};
+    li.append(b);out.append(li)}}
+$("q").addEventListener("input",()=>{clearTimeout(sTimer);sTimer=setTimeout(runSearch,160)});
+for(const b of $("scope").children)b.onclick=()=>{scope=b.dataset.s;chrome();runSearch()};
+$("wbtn").onclick=()=>openWeek();$("fbtn").onclick=()=>openFavs();
+if(ls.get("compact")==="1")document.body.classList.add("compact");
+$("cbtn").onclick=()=>{const v=document.body.classList.toggle("compact");ls.set("compact",v?"1":"0");$("cbtn").setAttribute("aria-pressed",v)};
+$("sbtn").onclick=()=>{const d=$("srchD");try{d.showModal()}catch(e){d.setAttribute("open","")}$("q").focus();runSearch()};
+
+/* Issue */
+function issue(d){
+  const i=cache[d];const u=UI[lang];
+  $("edition").textContent=u.ed+" · "+u.no+i.number;
+  $("dl").textContent=fmt(d,{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+  const st=sorted(i);
+  const nav=$("rubs");nav.replaceChildren();nav.setAttribute("aria-label",u.all);
+  const allLi=el("li"),allB=el("button",null,u.all);allB.type="button";allB.setAttribute("aria-pressed",!rubSel.size);allB.onclick=()=>{rubSel.clear();draw()};allLi.append(allB);nav.append(allLi);
+  for(const r of ORDER){const n=r==="infographic"?(i.charts||[]).length:st.filter(s=>s.rubric===r).length+((i.local||{})[lang]||[]).filter(s=>s.rubric===r).length;if(!n)continue;
+    const li=el("li"),b=el("button",null,u.r[r]);b.type="button";b.append(el("span",null,String(n)));b.setAttribute("aria-pressed",rubSel.has(r));
+    b.onclick=()=>{rubSel.has(r)?rubSel.delete(r):rubSel.add(r);draw()};li.append(b);nav.append(li)}
+  const box=$("stories");box.replaceChildren();const vis=st.filter(visible);
+  if(!vis.length){box.append(el("p","state",rubSel.size===1&&rubSel.has("infographic")?"":u.none))}
+  else{const bl=vis.filter(s=>s.t[lang]).slice(0,5);if(bl.length>2){const bx=el("section","brief");bx.append(el("h2",null,u.brief));const ol=el("ol");
+      for(const s of bl){const li=el("li"),a=el("a");a.href="#s-"+s.id;const txt=s.t[lang].s;const m=/^[\s\S]*?[.!?。…](?=[\s»”"」)]|$)/.exec(txt);a.textContent=m?m[0]:txt;a.lang=lang;a.onclick=e=>{e.preventDefault();const t=$("s-"+s.id);t.scrollIntoView({behavior:reduce()?"auto":"smooth"});t.classList.remove("flash");void t.offsetWidth;t.classList.add("flash")};li.append(el("b",null,u.r[s.rubric]),a);ol.append(li)}
+      bx.append(ol);box.append(bx)}
+    box.append(story(vis[0],u,true));const cols=el("div","cols");for(const s of vis.slice(1))cols.append(story(s,u,false));box.append(cols)}
+  const toc=$("toc");toc.replaceChildren();
+  for(const s of vis){const li=el("li"),a=el("a",s.t[lang]?null:"g",s.t[lang]?s.t[lang].h:(s.event[lang]||s.id));a.href="#s-"+s.id;a.onclick=e=>{e.preventDefault();const t=$("s-"+s.id);t.scrollIntoView({behavior:reduce()?"auto":"smooth"});t.classList.remove("flash");void t.offsetWidth;t.classList.add("flash")};li.append(a);toc.append(li)}
+  const up=$("up");up.replaceChildren();const cal=(i.calendar||[]).slice().sort((a,b)=>a.date.localeCompare(b.date));$("upBox").hidden=!cal.length;
+  for(const e of cal.slice(0,5)){const li=el("li"),tm=el("time",null,rng(e));tm.dateTime=e.date;li.append(tm,el("span",null,lab(e.t)));up.append(li)}
+  localDraw(i);coverage(i);chartsDraw(i);trends();calDraw(i)}
+function localDraw(i){
+  const u=UI[lang];const L=i.local||{};$("locSec").hidden=!Object.keys(L).length;if($("locSec").hidden)return;
+  $("locH").textContent=u.loc;$("locNote").textContent=u.locN;
+  let names;try{names=new Intl.DisplayNames([lang],{type:"region"})}catch(e){names={of:c=>c}}
+  if(!locSel||!LANGS[locSel])locSel=lang;
+  const tabs=$("ctabs");tabs.replaceChildren();
+  for(const k of LK){const li=el("li"),b=el("button",null,names.of(COUNTRY[k]));b.type="button";b.setAttribute("aria-pressed",k===locSel);b.append(el("span",null,String((L[k]||[]).length)));b.onclick=()=>{locSel=k;localDraw(i)};li.append(b);tabs.append(li)}
+  $("locC").textContent=names.of(COUNTRY[locSel]);$("locBy").textContent=LANGS[locSel]+" · "+u.locBy;
+  const canTr=locSel!=="ru"&&(L[locSel]||[]).some(x=>x.tr&&x.tr.ru);const useTr=canTr&&locTr;const tb=$("trBtn");tb.hidden=!canTr;$("trNote").hidden=!useTr;$("trNote").textContent=u.trN;
+  tb.textContent=useTr?u.trOff:u.trOn;tb.setAttribute("aria-pressed",useTr);tb.onclick=()=>{locTr=!useTr;ls.set("locTr",locTr?"1":"0");localDraw(i)};
+  const box=$("loc");box.replaceChildren();const items=(L[locSel]||[]).filter(visible).slice().sort((a,b)=>ORDER.indexOf(a.rubric)-ORDER.indexOf(b.rubric));
+  if(!items.length){box.append(el("p","empty",(L[locSel]||[]).length?u.none:u.locNone));return}
+  for(const it of items){const a=el("article");a.id="l-"+locSel+"-"+it.id;const k=el("div","kick");k.append(el("span","rub",u.r[it.rubric]||it.rubric));if(it.developing)k.append(el("span","live",u.live));
+    const tr=useTr&&it.tr&&it.tr.ru;const h=el("h3",null,tr?tr.h:it.h),p=el("p","sum",tr?tr.s:it.s);h.lang=p.lang=tr?"ru":locSel;if(tr)h.title=it.h;a.append(k,h,p,sources(it.src));
+    const m=el("div","meta-row");if(tr){const b=el("span","qb",u.trB);b.title=it.h;m.append(b)}for(const b of qBadges(it.q))m.append(b);m.append(starBtn({d:date,id:it.id,loc:locSel}));a.append(m);box.append(a)}}
+function message(t){$("stories").replaceChildren(el("p","state",t))}
+async function load(d){if(!cache[d]){const r=await fetch("issues/"+d+".json",{cache:"no-cache"});if(!r.ok)throw 0;cache[d]=await r.json()}}
+function draw(){chrome();if(date&&cache[date])issue(date)}
+async function go(d){if(d!==date){wkStart=null;evSel=""}date=d;chrome();if(!cache[d])message(UI[lang].load);try{await load(d);draw()}catch(e){message(UI[lang].err)}}
+$("issue").onchange=e=>{go(e.target.value).then(setHash)};
+addEventListener("hashchange",()=>{const h=fromHash();if(h.l)lang=h.l;go(h.d||(index&&index.latest)||date)});
+(async()=>{lang=pick();chrome();message(UI[lang].load);
+  try{const r=await fetch("issues/index.json",{cache:"no-cache"});if(!r.ok)throw 0;index=await r.json();index.issues.sort((a,b)=>b.date.localeCompare(a.date));
+    const h=fromHash();await go(h.d&&index.issues.some(i=>i.date===h.d)?h.d:index.latest);
+    await loadArchive();if(cache[date])draw()}
+  catch(e){message(UI[lang].err)}
+})();
+</script>
+
+</body></html>
